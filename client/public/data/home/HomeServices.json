@@ -1,0 +1,23 @@
+[
+    {
+        "service_id": "1",
+        "service_image" : "/assets/home/HomeService1.png",
+        "service_title" : "Power Consultancy",
+        "service_description" : "The team of PPS Energy Solutions comprises of experienced and skilled members who have been serving in the power sector for the last 30 years by providing innovative solutions across the entire power spectrum Power Distribution."
+
+    },
+
+    {
+        "service_id" : "2",
+        "service_image" : "/assets/home/HomeService2.png",
+        "service_title" : "Energy Audit", 
+        "service_description" : "The essential foundation required to identify energy-saving opportunities is to analyse the current situation. The energy audit is designed to determine why, when, where and how energy is used in the industry."
+    }, 
+
+    {
+        "service_id" : "3",
+        "service_image" : "/assets/home/HomeService3.png",
+        "service_title" : "MEP",
+        "service_description" : "We as company best in providing world-class MEP Consultancy Services. Design, Detail, Engineering, Procurement, MEP and allied services under one roof. We have expertise in the MEP projects."
+    }
+]

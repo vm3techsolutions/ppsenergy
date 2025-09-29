@@ -1,0 +1,23 @@
+[
+    {
+        "article_id": "1",
+        "article_image" : "/assets/home/HomeRecentArticle.png",
+        "article_title" : "Lorem Genrator",
+        "article_description" : "This handy tool helps you create dummy text for all your layoThis handy tool helps you create dummy text for all your layout needs. We are gradually adding new, This handy tool helps you create dummy text for all your layout needs. We are gradually adding new, ut needs. We are gradually adding new, This handy tool helps you create dummy text for all your layout needs. We are gradually adding new, "
+
+    },
+
+    {
+        "article_id" : "2",
+        "article_image" : "/assets/home/HomeRecentArticle.png",
+        "article_title" : "Lorem Genrator", 
+        "article_description" : "This handy tool helps you create dummy text for all your layoThis handy tool helps you create dummy text for all your layout needs. We are gradually adding new, This handy tool helps you create dummy text for all your layout needs. We are gradually adding new, ut needs. We are gradually adding new, This handy tool helps you create dummy text for all your layout needs. We are gradually adding new, "
+    }, 
+
+    {
+        "article_id" : "3",
+        "article_image" : "/assets/home/HomeRecentArticle.png",
+        "article_title" : "Lorem Genrator",
+        "article_description" : "This handy tool helps you create dummy text for all your layoThis handy tool helps you create dummy text for all your layout needs. We are gradually adding new, This handy tool helps you create dummy text for all your layout needs. We are gradually adding new, ut needs. We are gradually adding new, This handy tool helps you create dummy text for all your layout needs. We are gradually adding new, "
+    }
+]
