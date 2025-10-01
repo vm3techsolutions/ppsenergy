@@ -31,7 +31,7 @@ export default function HowWeWork() {
         <div className='flex flex-col justify-center ml-25 mt-6'>
 
             <div className="flex items-center mb-7">
-            <span className=" border border-green-500 mr-5 w-[70px] h-[70px] flex items-center justify-center text-[#889F2D] text-[40px] ">01</span>
+            <span className=" border  border-green-500 mr-5 w-[70px] h-[70px] flex items-center justify-center text-[#889F2D] text-[40px] ">01</span>
             <h2 className="title">Understanding Your Needs</h2>
             </div>
 

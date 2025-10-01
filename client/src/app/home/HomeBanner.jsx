@@ -9,10 +9,10 @@ export default function HomeBanner() {
       style={{ backgroundImage: "url('/assets/home/HomeBannerImage.png')" }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-[#567D46]/50 to-transparent"></div>
+      <div className="absolute"></div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-3xl px-6 sm:px-4 md:px-8">
+      <div className="section relative z-10 max-w-3xl px-6 sm:px-4 md:px-8">
         <h1
           className="
             heading text-white 
@@ -32,7 +32,7 @@ export default function HomeBanner() {
             className="
               button 
               text-base sm:text-sm md:text-base 
-              px-8 sm:px-5 py-3 sm:py-2 mt-6 
+              px-8 sm:px-5 py-3 sm:py-2 mt-8 
               rounded-lg shadow-md 
               hover:bg-green-600 transition
             "

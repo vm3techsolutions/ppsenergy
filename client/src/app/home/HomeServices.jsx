@@ -27,11 +27,11 @@ export default function HomeServices() {
       </div>
 
       {/* Services Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6  mt-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10  mt-6">
         {homeServices.map((item) => (
           <div
             key={item.service_id}
-            className=" text-white rounded-[10px] shadow-md overflow-hidden"
+            className=" text-white rounded-b-[10px] shadow-lg overflow-hidden"
           >
             <div className="group overflow-hidden">
               <Image
@@ -39,7 +39,7 @@ export default function HomeServices() {
                 alt={item.service_title}
                 width={800}
                 height={500}
-                className="w-full h-56 object-cover p-0 transition-transform duration-300 ease-in-out group-hover:scale-110"
+                className="w-full h-[250px] object-cover p-0 transition-transform duration-300 ease-in-out group-hover:scale-110"
               />
             </div>
 

@@ -25,11 +25,11 @@ export default function RecentArticles() {
       </div>
 
        {/* Recent Articles Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6  mt-6 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10  mt-10 ">
         {homeRecentArticles.map((item) => (
           <div
             key={item.article_id}
-            className=" text-white rounded-[10px] shadow-md overflow-hidden"
+            className=" text-white rounded-b-[10px] shadow-md overflow-hidden"
           >
             <div className="group overflow-hidden">
               <Image
@@ -37,11 +37,11 @@ export default function RecentArticles() {
                 alt={item.article_title}
                 width={800}
                 height={500}
-                className="w-full h-65 object-cover p-5 transition-transform duration-300 ease-in-out group-hover:scale-110"
+                className="w-full h-65 object-cover shadow-lg p-7 transition-transform duration-300 ease-in-out group-hover:scale-110 "
               />
             </div>
 
-            <div className="px-5 py-2 text-left">
+            <div className="px-7 py-2 text-left">
               <h3 className="title text-[#889F2D] mb-3 mr-5">{item.article_title}</h3>
               <p className="content text-[#3D3D3D] mb-5">{item.article_description}</p>
               <Link href="/home">

@@ -13,19 +13,19 @@ export default function Testimonials() {
       name: "Reva P.",
       role: "Plant Head, Manufacturing Industry",
       text: "PPS Energy’s audit helped us cut energy costs by 18% while improving overall efficiency. A truly reliable partner.",
-      img: "/assets/home/Avtar.png",
+      img: "/assets/home/TestimonialIcon.png",
     },
     {
       name: "Amit K.",
       role: "Operations Manager, Textile Industry",
       text: "Their solutions boosted our energy savings significantly and streamlined operations.",
-      img: "/assets/home/Avtar.png",
+      img: "/assets/home/TestimonialIcon.png",
     },
     {
       name: "Sonal M.",
       role: "Director, FMCG Sector",
       text: "We reduced costs by 22% with PPS Energy’s audit. Highly recommend their services!",
-      img: "/assets/home/Avtar.png",
+      img: "/assets/home/TestimonialIcon.png",
     },
   ];
 
@@ -81,7 +81,7 @@ export default function Testimonials() {
                         <img
                     src={t.img}
                     alt={t.name}
-                    className="w-16 h-16 rounded-full border-2 border-gray-200 shadow-sm mt-4"
+                    className="w-25 h-25 rounded-full "
                   />
                     </div>
                        

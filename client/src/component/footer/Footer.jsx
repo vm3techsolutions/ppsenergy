@@ -8,9 +8,9 @@ export default function Footer() {
   return (
     <section className=" flex flex-col bg-[#000000] ">
 
-<div className='flex pt-[20px] pb-[50px] px-[50px]'>
+<div className='flex pt-[20px] pb-[50px] px-[50px] sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:px-10 lg:px-16'>
 {/* Column 1 */}
-      <div className="flex flex-col justify-evenly w-1/4 mr-20">
+      <div className="flex flex-col justify-evenly w-1/4 mr-20 md:w-1/2 lg:w-1/4 md:mr-10 lg:mr-20">
 
         <Link href="/">
         <Image
@@ -97,3 +97,4 @@ export default function Footer() {
     
   )
 }
+
