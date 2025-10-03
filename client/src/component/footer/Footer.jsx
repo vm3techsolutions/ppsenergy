@@ -90,8 +90,9 @@ export default function Footer() {
       
 </div>
 
-<div className='text-center text-[#ffffff] bg-[#7B0000] content-section py-5'>
-  <p className='py-2'>Designed & Development By: VM3 Tech Solutions LLP</p>
+<div className='text-center text-[#ffffff] bg-[#7B0000] content-section py-1'>
+  <p className='py-2'>Designed & Development By: <Link href="https://vm3techsolution.com/plans/?v=212bd1cfe3fb"
+   target="_blank">VM3 Tech Solutions LLP</Link> </p>
 </div>
     </section> 
     

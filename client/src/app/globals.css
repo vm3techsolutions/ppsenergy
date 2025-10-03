@@ -22,23 +22,24 @@
 
 .content {
   font-family: var(--font-roboto), sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 18px;
   padding: 5px 0 5px 0;
+  line-height: 28px;
 }
 
 .content-section{
     font-family: var(--font-roboto), sans-serif;
   font-weight: 400;
   font-size: 16x;
-  padding: 5px 0 5px 0;
+  /* padding: 5px 0 5px 0; */
 }
 
 .title {
   font-family: var(--font-roboto), sans-serif;
   font-weight: 500;
   font-size: 24px;
-  padding: 5px 0 5px 0;
+  /* padding: 5px 0 5px 0; */
 }
 
 .dual-section-heading{
@@ -52,6 +53,13 @@
   font-family: var(--font-montserrat), sans-serif;
   font-weight: 700; 
   font-size: 35px;
+  padding: 5px 0 5px 0;
+}
+
+.testimonial-text{
+  font-family: var(--font-roboto), sans-serif;
+  font-weight: 400; 
+  font-size: 24px;
   padding: 5px 0 5px 0;
 }
 

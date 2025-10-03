@@ -2,8 +2,6 @@
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
-import Image from "next/image";
-
 import "swiper/css";
 import "swiper/css/pagination";
 
@@ -30,90 +28,64 @@ export default function Testimonials() {
   ];
 
   return (
-    <section className="relative bg-gray-50 py-20 overflow-hidden">
-      {/* Top Curve */}
-      <svg
-        className="absolute top-0 left-0 w-full"
-        viewBox="0 0 1440 150"
-        xmlns="http://www.w3.org/2000/svg"
+
+    <section className="py-[75px]">
+  {/* Section Title */}
+  <div className="text-center px-4 sm:px-6 lg:px-20">
+    <h3 className="title text-[#889F2D]">Testimonials</h3>
+    <h2 className="center-section-heading">
+      Voices of trust, Stories of Transformation
+    </h2>
+  </div>
+
+  {/* Full Background Wrapper */}
+  <div
+    className="relative flex items-center justify-center bg-no-repeat bg-cover bg-center w-full sm:h-[650px] md:h-[500px] lg:h-[650px] mt-[-50px]"
+    style={{ backgroundImage: "url('/assets/home/TestimonialsBG.png')" }}
+  >
+    {/* Inner Content Container (keeps text centered & padded) */}
+    <div className="w-full px-4 sm:px-6 md:px-12 lg:px-20">
+      <Swiper
+        modules={[Pagination, Autoplay]}
+        pagination={{ clickable: true }}
+        autoplay={{ delay: 3500 }}
+        loop={true}
+        slidesPerView={1}
+        className="flex flex-col text-center items-center justify-center"
       >
-        <path
-          d="M0,80 C480,150 960,0 1440,80 L1440,0 L0,0 Z"
-          fill="#fff"
-        />
-      </svg>
-
-      {/* Bottom Curve */}
-      <svg
-        className="absolute bottom-0 left-0 w-full"
-        viewBox="0 0 1440 150"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M0,0 C480,150 960,0 1440,100 L1440,150 L0,150 Z"
-          fill="#fff"
-        />
-      </svg>
-
-      {/* Content */}
-      <div className="relative z-10 text-center">
-        <h3 className="title text-[#889F2D]">Testimonials</h3>
-        <h2 className="center-section-heading">
-          COMPREHENSIVE ENERGY STRATEGIES
-        </h2>
-
-        <Swiper
-          modules={[Pagination, Autoplay]}
-          pagination={{ clickable: true }}
-          autoplay={{ delay: 3500 }}
-          loop={true}
-          slidesPerView={1}
-          className="max-w-full"
-        >
-          {testimonials.map((t, index) => (
-            <SwiperSlide key={index}>
-
-              <div className="flex flex-col section mt-15 mb-10 pl-[50px] pr-[50px]" >
-
-                {/* Avatar */}
-                <div className="flex justify-center mb-4">
-                    <div>
-                        <img
-                    src={t.img}
-                    alt={t.name}
-                    className="w-25 h-25 rounded-full "
-                  />
-                    </div>
-                       
-
-                  <div className="flex flex-col justify-center text-start ml-6">
-                <h3 className="title text-[#7B0000] ">{t.name}</h3>
-                <p className="content text-center">{t.role}</p>
-
-                  </div>
-                  <div>
-                     <span className=" text-[#889F2D] text-8xl font-serif ml-3">
-                 ❞
-                </span>
-                  </div>
-                
+        {testimonials.map((t, index) => (
+          <SwiperSlide key={index}>
+            <div className="flex flex-col items-center mb-8">
+              {/* Avatar + Name + Quote */}
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 mb-6">
+                <img
+                  src={t.img}
+                  alt={t.name}
+                  className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-full "
+                />
+                <div className="flex flex-col text-center sm:text-left">
+                  <h3 className="text-[#7B0000] font-semibold text-lg sm:text-xl md:text-2xl dual-section-heading">
+                    {t.name}
+                  </h3>
+                  <p className="text-gray-600 text-sm sm:text-base title">{t.role}</p>
                 </div>
-                
-                <div>
-                    {/* Testimonial Text */}
-                <p className="text-gray-700 content mb-1 ">
+                <span className="text-[#889F2D] text-5xl sm:text-6xl md:text-7xl font-serif hidden sm:block">
+                  ❞
+                </span>
+              </div>
+
+              {/* Testimonial Text */}
+              <div className="max-w-md sm:max-w-2xl">
+                <p className="text-gray-700 sm:text-base md:text-lg leading-relaxed">
                   {t.text}
                 </p>
-
-                </div>
-
-              
-               
               </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </div>
-    </section>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </div>
+  </div>
+</section>
   );
 }

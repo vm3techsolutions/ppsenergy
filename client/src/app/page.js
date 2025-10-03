@@ -11,6 +11,7 @@ import Testimonials from './home/Testimonials';
 import RecentArticles from './home/RecentArticles';
 import OurClient from './home/OurClient';
 import RequestAQuote from './home/RequestAQuote';
+// import Test from './home/Test';
 
 
 
@@ -25,7 +26,8 @@ export default function Home() {
     <HowWeWork/>
     <WhyChooseUs/>
     <ProjectHighlights/>
-    <Testimonials/>
+   <Testimonials/>
+   {/* <Test/> */}
     <OurClient/>
     <RecentArticles/>
     <RequestAQuote/>
