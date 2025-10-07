@@ -8,9 +8,9 @@ export default function Footer() {
   return (
     <section className=" flex flex-col bg-[#000000] ">
 
-<div className='flex pt-[20px] pb-[50px] px-[50px] sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:px-10 lg:px-16'>
+<div className='  grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-4 gap-10  mt-6 text-center lg:text-left px-[80px] pb-[35px] pt-[20px]'>
 {/* Column 1 */}
-      <div className="flex flex-col justify-evenly w-1/4 mr-20 md:w-1/2 lg:w-1/4 md:mr-10 lg:mr-20">
+      <div className="flex flex-col justify-evenly md:mr-10 lg:mr-20 items-center lg:items-start">
 
         <Link href="/">
         <Image
@@ -26,7 +26,7 @@ export default function Footer() {
       </div>
 
 {/* Column 2 */}
-      <div className="flex flex-col  w-1/4 ">
+      <div className="flex flex-col  ">
         <h3 className="text-[#ffffff]  title">Quick Links</h3>
         <ul className="list-none  text-white text-base space-y-2 mt-4">
         <li>Project</li>
@@ -39,7 +39,7 @@ export default function Footer() {
       </div>
 
 {/* Column 3 */}
-      <div className="flex flex-col w-1/4 ">
+      <div className="flex flex-col  ">
         <h3 className="text-[#ffffff] title">Other Links</h3>
         <ul className="list-none  text-white text-base space-y-2 mt-4"> 
         <li>Privacy Policy</li>
@@ -48,27 +48,27 @@ export default function Footer() {
       </div>
 
 {/* Column 4 */}
-      <div className='flex flex-col w-1/4 justify-between '>
-        <div className=' text-[#ffffff]  mb-6'>
+      <div className='flex flex-col  justify-between '>
+        <div className=' text-[#ffffff]  mb-6 pl-[20px] pr-[20px] lg:pl-[0px] lg:pr-[0px]'>
            <h3 className="text-[#ffffff] title">Get In Touch</h3>
 
-          <div className='flex gap-4 mb-2 mt-4'>
-            <span>Address:</span>
-            <p>We are one of the accredited and empanelled energy auditing firms, Address: Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <div className='flex gap-4 mb-4 mt-4'>
+            
+            <p>Address: Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
 
-           <div className='flex gap-4 mb-2 mt-2'>
-          <p>Phone:</p>
-          <p>+91 12345 12345</p>
+           <div className=' mb-4 mt-2'>
+          <p>Phone: +91 12345 12345</p>
+      
           </div>
 
-           <div className='flex gap-4 mb-2 mt-2'>
-            <p>Email:</p>
-            <p>salesppsenergy@gmail.com</p>
+           <div className=' mb-4 mt-2 '>
+            <p>Email: salesppsenergy@gmail.com</p>
+      
           </div>
         </div>
 
-        <div className="flex items-center gap-4  text-[#000000] text-2xl">
+        <div className="flex  gap-4  text-[#000000] text-2xl text-center justify-center lg:justify-start ">
           <div className='border border-gray-300 rounded-[5px] p-1.5'>  <Link href="#"><FaFacebookF className=" rounded-full bg-[#ffffff]  p-1" /></Link>
           </div>
           
@@ -90,7 +90,7 @@ export default function Footer() {
       
 </div>
 
-<div className='text-center text-[#ffffff] bg-[#7B0000] content-section py-1'>
+<div className='text-center text-[#ffffff] bg-[#7B0000] py-1 '>
   <p className='py-2'>Designed & Development By: <Link href="https://vm3techsolution.com/plans/?v=212bd1cfe3fb"
    target="_blank">VM3 Tech Solutions LLP</Link> </p>
 </div>
