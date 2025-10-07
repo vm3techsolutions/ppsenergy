@@ -16,7 +16,7 @@ export default function RecentArticles() {
 
   return (
    <section className='common-section flex flex-col justify-center'>
-    <div className="text-center mb-4">
+    <div className="text-center mb-10">
         <h3 className="title text-[#889F2D]">Recent Articles</h3>
         <h2 className="center-section-heading">
            THOUGHT LEADERSHIP AND KNOWLEDGE FOR A <br/>SUSTAINABLE FUTURE
@@ -25,29 +25,31 @@ export default function RecentArticles() {
       </div>
 
        {/* Recent Articles Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10  mt-6 ">
+       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-evenly items-stretch">
         {homeRecentArticles.map((item) => (
           <div
             key={item.article_id}
-            className=" text-white rounded-b-[10px] shadow-md overflow-hidden"
+            className=" flex flex-col text-white rounded-b-[10px] shadow-lg overflow-hidden bg-white"
           >
-            <div className="group overflow-hidden">
+            <div className="group overflow-hidden p-5">
               <Image
                 src={item.article_image}
                 alt={item.article_title}
                 width={800}
                 height={500}
-                className="w-full h-65 object-cover shadow-lg p-7 transition-transform duration-300 ease-in-out group-hover:scale-110 "
-              />
+                className="w-full h-[250px] object-cover transition-transform duration-300 ease-in-out group-hover:scale-110 " />
             </div>
 
-            <div className="px-7 py-2 text-left">
+            <div className="flex flex-col flex-grow px-4 py-4 text-left">
               <h3 className="title text-[#889F2D] mb-3 mr-5">{item.article_title}</h3>
               <p className="content text-[#3D3D3D] mb-5">{item.article_description}</p>
               <Link href="/home">
-                <button className="button  sm:text-sm md:text-base px-8 sm:px-5 py-3 sm:py-2 rounded-lg shadow-md hover:bg-white-600 transition mt-3 mb-4">
+               <div className="mt-auto">
+                <button className="button mt-3">
                   Explore More
                 </button>
+               </div>
+                
               </Link>
             </div>
           </div>

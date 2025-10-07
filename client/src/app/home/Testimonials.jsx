@@ -29,9 +29,9 @@ export default function Testimonials() {
 
   return (
 
-    <section className="py-[75px]">
+    <section className="section-vertical-padding">
   {/* Section Title */}
-  <div className="text-center px-4 sm:px-6 lg:px-20">
+  <div className="text-center mb-10 ">
     <h3 className="title text-[#889F2D]">Testimonials</h3>
     <h2 className="center-section-heading">
       Voices of trust, Stories of Transformation
@@ -40,11 +40,11 @@ export default function Testimonials() {
 
   {/* Full Background Wrapper */}
   <div
-    className="relative flex items-center justify-center bg-no-repeat bg-cover bg-center w-full sm:h-[650px] md:h-[500px] lg:h-[650px] mt-[-50px]"
+    className="relative flex items-center justify-center bg-no-repeat bg-cover bg-center w-full h-[450px] md:h-[500px] lg:h-[700px] lg:mt-[-65px] mt-[-50px]"
     style={{ backgroundImage: "url('/assets/home/TestimonialsBG.png')" }}
   >
     {/* Inner Content Container (keeps text centered & padded) */}
-    <div className="w-full px-4 sm:px-6 md:px-12 lg:px-20">
+    <div className="w-full ">
       <Swiper
         modules={[Pagination, Autoplay]}
         pagination={{ clickable: true }}

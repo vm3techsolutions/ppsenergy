@@ -15,46 +15,47 @@ export default function HomeServices() {
 
   return (
     <section className="common-section flex flex-col justify-center">
-      <div className="text-center mb-4">
+      <div className="text-center mb-10">
         <h3 className="title text-[#889F2D]">Services</h3>
-        <h2 className="center-section-heading">
-          COMPREHENSIVE ENERGY STRATEGIES
-        </h2>
-        <p className="content text-[#3D3D3D]">
-          Comprehensive energy strategies are totally customized for your
-          efficiency and business growth
-        </p>
+        <h2 className="center-section-heading">COMPREHENSIVE ENERGY STRATEGIES</h2>
+        <p className="content text-[#3D3D3D]">Comprehensive energy strategies are totally customized for your efficiency and business growth</p>
       </div>
 
       {/* Services Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10  mt-6">
-        {homeServices.map((item) => (
-          <div
-            key={item.service_id}
-            className=" text-white rounded-b-[10px] shadow-lg overflow-hidden"
-          >
-            <div className="group overflow-hidden">
-              <Image
-                src={item.service_image}
-                alt={item.service_title}
-                width={800}
-                height={500}
-                className="w-full h-[250px] object-cover p-0 transition-transform duration-300 ease-in-out group-hover:scale-110"
-              />
-            </div>
 
-            <div className="px-4 py-2 text-left">
-              <h3 className="title text-[#889F2D] mb-3  border-b-1 mr-5">{item.service_title}</h3>
-              <p className="content text-[#3D3D3D] mb-5">{item.service_description}</p>
-              <Link href="/home">
-                <button className="button  sm:text-sm md:text-base px-8 sm:px-5 py-3 sm:py-2 rounded-lg shadow-md hover:bg-green-600 transition mt-3 mb-4">
-                  Explore More
-                </button>
-              </Link>
-            </div>
-          </div>
-        ))}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-evenly items-stretch">
+      {homeServices.map((item) => (
+      <div
+      key={item.service_id}
+      className="flex flex-col text-white rounded-b-[10px] shadow-lg overflow-hidden bg-white">
+      {/* Image */}
+      <div className="group overflow-hidden">
+        <Image
+          src={item.service_image}
+          alt={item.service_title}
+          width={800}
+          height={500}
+          className="w-full h-[250px] object-cover transition-transform duration-300 ease-in-out group-hover:scale-110"/>
       </div>
+
+      {/* Content */}
+      <div className="flex flex-col flex-grow px-4 py-4 text-left">
+        <h3 className="title text-[#889F2D] mb-3 border-b border-[#889F2D] pb-2">
+          {item.service_title}</h3>
+        <p className="content text-[#3D3D3D] mb-5 flex-grow">
+          {item.service_description}</p>
+
+        {/* Button (aligned bottom) */}
+        <div className="mt-auto">
+          <Link href="/home">
+            <button className="button mt-3">Read More</button>
+          </Link>
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
+
     </section>
   );
 }

@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function WhyChooseUs() {
   return (
     <section className='common-section flex flex-col justify-center'>
-        <div className="text-center mb-4">
+        <div className="text-center mb-10">
         <h3 className="title text-[#889F2D]">Why Choose Us</h3>
         <h2 className="center-section-heading">
            TRUSTED EXPERTISE, MEASURABLE IMPACT,  <br/>AND A GREENER TOMORROW
@@ -15,10 +15,9 @@ export default function WhyChooseUs() {
          <p className="content text-[#3D3D3D]">
           Right partner for your Energy Efficiency, Net Zero, and Sustainability Goals.
         </p>
-        
       </div>
 {/* Grid Boxes Designing */}
-       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10  mt-10 text-center gap-y-10 ">
+       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 text-center gap-y-10 ">
 
         <div  className= 'rounded-b-[10px] shadow-[2px_2px_10px_rgba(0,0,0,0.3)] overflow-hidden p-7 text-center group '>
         <Image
@@ -96,8 +95,8 @@ export default function WhyChooseUs() {
 
        <div className='flex justify-center mt-10'>
         <Link href="/home">
-                <button className="button  sm:text-sm md:text-base px-8 sm:px-5 py-3 sm:py-2 rounded-lg shadow-md hover:bg-green-600 transition mt-3 mb-4">
-                  Explore More
+                <button className="button mt-3 ">
+                 Know More
                 </button>
               </Link>
        </div>

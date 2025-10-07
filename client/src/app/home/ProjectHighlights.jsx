@@ -16,111 +16,72 @@ export default function ProjectHighlights() {
     "/assets/home/SliderImage1.png",
   ];
   return (
-    <section className=" flex flex-col justify-center">
-        <div className="common-section text-center ">
+    <section className=" flex flex-col justify-center section-vertical-padding">
+        <div className=" text-center mb-10  ">
         <h3 className="title text-[#889F2D]">Project Highlights</h3>
         <h2 className="center-section-heading">
-          Proven Results, Powering Businesses
+          PROVEN RESULTS, POWERING BUSINESSES
         </h2>
-       
       </div>
 
       {/* Courosal Design */}
-       <div className="w-full mt-[-25px]">
-     {/* <Swiper
-        effect="coverflow"
-        grabCursor={true}
-        centeredSlides={true}
-        slidesPerView={4}  
-        
-        coverflowEffect={{
-          rotate: 0,
-          stretch: 0,
-          depth: 150,
-          modifier: 1,
-          slideShadows: false,
-        }}
-        modules={[EffectCoverflow]}
-        className="w-full "
-      >
-        {images.map((src, index) => (
-          <SwiperSlide
-            key={index}
-            className="flex "
-          >
-            <Image
-              src={src}
-              alt={`slide-${index}`}
-              width={550}
-              height={450}
-              className="rounded-lg shadow-lg object-cover"
-            />
-          </SwiperSlide>
-        ))}
-
-        
-      </Swiper> */}
-      {/* <Swiper
-  effect="coverflow"
-  grabCursor={true}
-  centeredSlides={true}
-  slidesPerView={3}
-  loop={true}
-//   autoplay={{ delay: 2500, disableOnInteraction: false }}
-  coverflowEffect={{
-   
-    rotate: 0,
-    stretch: 1,
-    depth: 200,
-    modifier: 1,
-    slideShadows: false,
-  }}
-  modules={[EffectCoverflow, Autoplay]}
->
-  {images.map((src, i) => (
-    <SwiperSlide key={i} className=' rounded-[5px]'>
-      <Image src={src} width={500} height={400}  alt=""  className='border rounded-[5px]'/>
-    </SwiperSlide>
-  ))}
-</Swiper> */}
+       <div className="w-full ">
 
 <Swiper
   effect="coverflow"
   grabCursor={true}
   centeredSlides={true}
-  slidesPerView={3}
   loop={true}
-  spaceBetween={30} // 👈 gap in px between slides
+  spaceBetween={30} // gap between slides
+  slidesPerView={3} // default (desktop)
   coverflowEffect={{
     rotate: 0,
-    stretch: 0,  // keep stretch at 0 when using spaceBetween
+    stretch: 0,
     depth: 200,
     modifier: 1,
     slideShadows: false,
   }}
+  autoplay={{
+    delay: 2500,
+    disableOnInteraction: false,
+  }}
+  breakpoints={{
+    // 👇 Adjust the number of visible slides for different screens
+    0: {
+      slidesPerView: 1,   // Mobile
+      spaceBetween: 10,
+    },
+    640: {
+      slidesPerView: 2,   // Small tablets
+      spaceBetween: 20,
+    },
+    1024: {
+      slidesPerView: 3,   // Laptops/desktops
+      spaceBetween: 30,
+    },
+  }}
   modules={[EffectCoverflow, Autoplay]}
 >
   {images.map((src, i) => (
-    <SwiperSlide key={i} className="rounded-[5px] gap-20">
+    <SwiperSlide key={i} className="rounded-[5px]">
       <Image
         src={src}
         width={500}
         height={400}
         alt=""
-        className="border rounded-[5px] ml-10 mr-10"
+        className="border rounded-[5px] mx-auto"
       />
     </SwiperSlide>
   ))}
 </Swiper>
 
+
       {/* Button */}
-      <div className='flex justify-center pb-[50px]'>
+      <div className='flex justify-center'>
         <Link href="/home">
-                <button className="button mt-7 mb-4">
-                  Explore More
-                </button>
-              </Link>
-    </div>
+                <button className="button mt-5">Know More</button>
+        </Link>
+       </div>
       </div>
       
 
