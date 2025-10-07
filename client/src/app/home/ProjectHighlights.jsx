@@ -17,7 +17,7 @@ export default function ProjectHighlights() {
   ];
   return (
     <section className=" flex flex-col justify-center">
-        <div className="common-section text-center mb-4">
+        <div className="common-section text-center ">
         <h3 className="title text-[#889F2D]">Project Highlights</h3>
         <h2 className="center-section-heading">
           Proven Results, Powering Businesses
@@ -26,7 +26,7 @@ export default function ProjectHighlights() {
       </div>
 
       {/* Courosal Design */}
-       <div className="w-full ">
+       <div className="w-full mt-[-25px]">
      {/* <Swiper
         effect="coverflow"
         grabCursor={true}
@@ -116,7 +116,7 @@ export default function ProjectHighlights() {
       {/* Button */}
       <div className='flex justify-center pb-[50px]'>
         <Link href="/home">
-                <button className="button  sm:text-sm md:text-base px-8 sm:px-5 py-3 sm:py-2 rounded-lg shadow-md hover:bg-green-600 transition mt-7 mb-4">
+                <button className="button mt-7 mb-4">
                   Explore More
                 </button>
               </Link>

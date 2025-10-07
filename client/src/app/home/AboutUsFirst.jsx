@@ -21,7 +21,7 @@ export default function AboutUsFirst() {
         </div>
 
         {/* Icons Section */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 ml-70 mr-70 ">
+        <div className="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-3 mt-6 lg:ml-70 lg:mr-70 ">
           <div>
             {/* <MdSunny className="text-center text-8xl w-full text-[#7B0000]" /> */}
             <Image

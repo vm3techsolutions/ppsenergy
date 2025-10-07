@@ -31,32 +31,32 @@ export default function HowWeWork() {
         <div className='flex flex-col justify-center ml-25 mt-6'>
 
             <div className="flex items-center mb-7">
-            <span className=" border  border-green-500 mr-5 w-[70px] h-[70px] flex items-center justify-center text-[#889F2D] text-[40px] ">01</span>
+            <span className=" border-[2px] border-[#889F2D]-700 mr-5 w-[70px] h-[70px] flex items-center justify-center text-[#889F2D] text-[40px] ">01</span>
             <h2 className="title">Understanding Your Needs</h2>
             </div>
 
             <div className='flex  items-center mb-7'>
-            <span className='border border-green-500 mr-5 w-[70px] h-[70px] flex items-center justify-center text-[#889F2D] text-[40px] '>02</span>
+            <span className='border-[2px] border-[#889F2D]-700 mr-5 w-[70px] h-[70px] flex items-center justify-center text-[#889F2D] text-[40px] '>02</span>
             <h2 className='title' >Energy Assessment & Audit</h2>
             </div>
 
             <div className='flex items-center mb-7'>
-            <span className='border border-green-500 mr-5 w-[70px] h-[70px] flex items-center justify-center text-[#889F2D] text-[40px] '>03</span>
+            <span className='border-[2px] border-[#889F2D]-700 mr-5 w-[70px] h-[70px] flex items-center justify-center text-[#889F2D] text-[40px] '>03</span>
             <h2 className='title '>Tailored Solutions Design</h2>
             </div>
 
             <div className='flex items-center mb-7'>
-            <span className='border border-green-500 mr-5 w-[70px] h-[70px] flex items-center justify-center text-[#889F2D] text-[40px] '>04</span>
+            <span className='border-[2px] border-[#889F2D]-700 mr-5 w-[70px] h-[70px]  flex items-center justify-center text-[#889F2D] text-[40px] '>04</span>
             <h2 className='title '>Implementation With Precision</h2>
             </div>
 
             <div className='flex items-center mb-7'>
-            <span className='border border-green-500 mr-5 w-[70px] h-[70px] flex items-center justify-center text-[#889F2D] text-[40px] '>05</span>
+            <span className='border-[2px] border-[#889F2D]-700 mr-5 w-[70px] h-[70px] flex items-center justify-center text-[#889F2D] text-[40px] '>05</span>
             <h2 className='title'>Monitoring & Optimization</h2>
             </div>
 
             <div className='flex items-center mb-7'>
-            <span className='border border-green-500 mr-5 w-[70px] h-[70px] flex items-center justify-center text-[#889F2D] text-[40px] '>06</span>
+            <span className='border-[2px] border-[#889F2D]-700 mr-5 w-[70px] h-[70px] flex items-center justify-center text-[#889F2D] text-[40px] '>06</span>
             <h2 className='title '>Sustained Partnership</h2>
             </div>
            

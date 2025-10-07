@@ -25,7 +25,7 @@ export default function RecentArticles() {
       </div>
 
        {/* Recent Articles Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10  mt-10 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10  mt-6 ">
         {homeRecentArticles.map((item) => (
           <div
             key={item.article_id}
@@ -45,7 +45,7 @@ export default function RecentArticles() {
               <h3 className="title text-[#889F2D] mb-3 mr-5">{item.article_title}</h3>
               <p className="content text-[#3D3D3D] mb-5">{item.article_description}</p>
               <Link href="/home">
-                <button className="button  sm:text-sm md:text-base px-8 sm:px-5 py-3 sm:py-2 rounded-lg shadow-md hover:bg-green-600 transition mt-3 mb-4">
+                <button className="button  sm:text-sm md:text-base px-8 sm:px-5 py-3 sm:py-2 rounded-lg shadow-md hover:bg-white-600 transition mt-3 mb-4">
                   Explore More
                 </button>
               </Link>
