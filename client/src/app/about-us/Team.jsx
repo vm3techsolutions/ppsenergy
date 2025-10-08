@@ -16,7 +16,7 @@ export default function Team() {
 
 {/* Team */}
       {/* Team */}
-       <div className="grid grid-cols-4 sm:grid-cols-2 lg:grid-cols-4 gap-10  mt-10 ">
+       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10  mt-10 ">
 
         {/* Box-1 */}
         <div className='flex flex-col items-center shadow-[0px_4px_10px_rgba(0,0,0,0.3)] rounded-b-[10px] py-1 px-3 bg-[#ffffff] '>

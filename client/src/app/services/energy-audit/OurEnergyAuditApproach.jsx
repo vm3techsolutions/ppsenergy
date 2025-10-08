@@ -6,7 +6,7 @@ export default function OurEnergyAuditApproach() {
   return (
     <section className='common-section '>
 
-        <div className="text-center">
+        <div className="text-center mb-10">
         <h3 className="title text-[#889F2D]">Our Energy Audit Approach</h3>
         <h2 className="center-section-heading">
         ENERGY AUDITING APPROACH & METHODOLOGY
@@ -16,9 +16,9 @@ export default function OurEnergyAuditApproach() {
 
       {/* Second Section */}
 
-       <div className="grid grid-cols-2 sm:grid-cols-1 lg:grid-cols-2 gap-y-3   mt-10 ">
+       <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-y-3   ">
         {/* 1. Bullet Points */}
-        <div className='mr-[80px]'>
+        <div className='lg:mr-[80px]'>
         <div className=' bg-[#f7f7f7] rounded-l-[40px] rounded-[10px] flex items-center p-2 w-full pr-[25px] mb-6'>
           <p className='title bg-[#889F2D] rounded-full  w-[35px] h-[35px] text-center text-[#ffffff]  mr-6'>1</p>
           <h3 className="title text-[#3D3D3D] ">

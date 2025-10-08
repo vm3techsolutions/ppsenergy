@@ -5,18 +5,18 @@ import Image from 'next/image'
 export default function MisionVision() {
   return (
     <section className='py-[75px]'>
-        <div className="text-center mb-4 section ">
+        <div className="text-center mb-10 section ">
         <h3 className="title text-[#889F2D]">Our Mission & Vision</h3>
         <h2 className="center-section-heading">
           DRIVING PURPOSE, SHAPING FUTURE
         </h2>
       </div>
 
-      <div className="grid grid-cols-3 items-start gap-6 py-10">
+      <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-5">
 
       {/* Mission Box */}
    
-      <div className="bg-[#6C9D2E] text-white p-6 rounded-r-[120px] shadow-md flex flex-col items-center text-center  ">
+      <div className="bg-[#6C9D2E] text-white p-6 rounded-r-[120px] shadow-md flex flex-col items-center text-center h-fit ">
         <Image
           width={50}
           height={50}
@@ -39,13 +39,12 @@ export default function MisionVision() {
           alt="Team working"
           width={300}
           height={400}
-          className="rounded-[150px] shadow-lg object-cover"
-        />
+          className="rounded-[150px] shadow-lg object-cover "/>
       </div>
 
       {/* Vision Box */}
      
-      <div className="bg-[#6C9D2E] text-white p-6 rounded-l-[120px] shadow-md flex flex-col text-center mt-[300px] ">
+      <div className="bg-[#6C9D2E] text-white p-6 rounded-l-[120px] shadow-md flex flex-col text-center lg:mt-[300px] ">
         <Image
           width={50}
           height={50}
@@ -60,9 +59,6 @@ export default function MisionVision() {
         </p>
       </div>
       </div>
-
-
-
 
     </section>
   )

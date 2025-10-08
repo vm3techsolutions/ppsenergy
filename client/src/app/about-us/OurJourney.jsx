@@ -7,7 +7,7 @@ import { FaAngleDoubleRight } from "react-icons/fa";
 export default function OurJourney() {
   return (
     <section className=''>
-        <div className="text-center mb-4 section mt-[75px]">
+        <div className="text-center mb-10 section mt-[75px]">
         <h3 className="title text-[#889F2D]">Our Journey</h3>
         <h2 className="center-section-heading">
           EVERY MILESTONE IS A STEP TOWARDS A GREENER FUTURE
@@ -16,7 +16,7 @@ export default function OurJourney() {
       </div>
 
 {/* Journey Section */}
- <div className="grid grid-cols-4 sm:grid-cols-2 lg:grid-cols-2 gap-10  mt-10 pb-[75px]">
+ <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-10 ">
 
 {/* Image  */}
       <div className='relative width-full h-[550px] md:h-[600px] sm:h-[400px] object-cover mr-[30px]' 

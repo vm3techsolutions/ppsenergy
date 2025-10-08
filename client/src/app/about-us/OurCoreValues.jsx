@@ -3,7 +3,7 @@ import React from 'react'
 export default function OurCoreValues() {
   return (
     <section className=' flex flex-col items-center justify-center bg-[#7B0000] pt-[20px]' >
-        <div className="text-center mb-4 section">
+        <div className="text-center mb-10 section">
         <h3 className="title text-[#889F2D] ">Our Core Values</h3>
         <h2 className="center-section-heading text-[#ffffff]">
           THE PRINCIPLES THAT POWER US
@@ -14,7 +14,7 @@ export default function OurCoreValues() {
         </p>
       </div>
 
-         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-12  mt-10 section  gap-y-5 mb-15 ">
+         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-12  section  gap-y-5 mb-15 ">
           
             {/* Box-1 */}
             <div className='flex flex-col text-left '>

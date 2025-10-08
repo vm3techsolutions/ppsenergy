@@ -18,7 +18,7 @@ export default function EnergyAuditBenifits() {
       
             {/* 1st Box section */}
          
-             <div className='grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-1 gap-y-4 lg:gap-y-35 lg:mr-[50px]'>
+             <div className='grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-1 gap-y-4 lg:gap-y-35 lg:mr-[50px] gap-2'>
             {/* Box-1 */}
             <div className='flex flex-col text-left '>
             <p className='title bg-[#889F2D] rounded-full  w-[35px] h-[35px] text-center text-[#ffffff]  mr-6'>1</p>
@@ -47,7 +47,7 @@ export default function EnergyAuditBenifits() {
       
             {/* Vision Box */}
            
-            <div className='grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-1 gap-y-4 lg:gap-y-30 lg:ml-[50px]'>
+            <div className='grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-1 gap-y-4 lg:gap-y-30 lg:ml-[50px] gap-2'>
             {/* Box-2 */}
             <div className='flex flex-col text-left   items-start'>
            <p className='title bg-[#889F2D] rounded-full  w-[35px] h-[35px] text-center text-[#ffffff]  mr-6'>3</p>
