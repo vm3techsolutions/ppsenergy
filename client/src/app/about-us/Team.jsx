@@ -19,21 +19,21 @@ export default function Team() {
        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10  mt-10 ">
 
         {/* Box-1 */}
-        <div className='flex flex-col items-center shadow-[0px_4px_10px_rgba(0,0,0,0.3)] rounded-b-[10px] py-1 px-3 bg-[#ffffff] '>
+        <div className='flex flex-col items-center shadow-[0px_4px_10px_rgba(0,0,0,0.3)] rounded-b-[10px] py-1 px-3 bg-[#ffffff] group '>
          
              <Image
             width={260}
             height={205}
             src="/assets/aboutus/AboutUsTeam.png"
             alt="About Us"
-            className="w-full h-[225px] object-cover shadow-[0px_4px_4px_rgba(0,0,0,0.3)] mt-2 "/>
+            className="w-full h-[225px] object-cover shadow-[0px_4px_4px_rgba(0,0,0,0.3)] mt-2  transition-transform duration-300 ease-in-out group-hover:scale-110"/>
           
             <h3 className='title mt-4 text-[#7B0000]'>Name</h3>
 
             <p className='content'>CEO & Founder</p>
          
-            <div className='rounded-full  p-2  bg-[#7b0000] my-2.5'>
-            <Link href="#"><FaLinkedinIn className="  text-[#7b0000] p-1 text-2xl bg-[#ffffff] rounded-[2px] " /></Link>
+            <div className='rounded-full  p-2  bg-[#7b0000] my-2.5 group'>
+            <Link href="#"><FaLinkedinIn className="  text-[#7b0000] p-1 text-2xl bg-[#ffffff] rounded-[2px]  transition-transform duration-300 ease-in-out group-hover:scale-110" /></Link>
           </div>
 
         </div>
@@ -41,69 +41,69 @@ export default function Team() {
         <div>
 
           {/* Box-2 */}
-          <div className='flex flex-col items-center shadow-[0px_4px_10px_rgba(0,0,0,0.3)] rounded-b-[10px] py-1 px-3 bg-[#ffffff]  '>
+          <div className='flex flex-col items-center shadow-[0px_4px_10px_rgba(0,0,0,0.3)] rounded-b-[10px] py-1 px-3 bg-[#ffffff] group '>
          
              <Image
             width={260}
             height={205}
             src="/assets/aboutus/AboutUsTeam.png"
             alt="About Us"
-            className="w-full h-[225px] object-cover shadow-[0px_4px_4px_rgba(0,0,0,0.3)] mt-2 "/>
+            className="w-full h-[225px] object-cover shadow-[0px_4px_4px_rgba(0,0,0,0.3)] mt-2  transition-transform duration-300 ease-in-out group-hover:scale-110"/>
           
             <h3 className='title mt-4 text-[#7B0000]'>Name</h3>
 
             <p className='content'>CEO & Founder</p>
          
-            <div className='rounded-full  p-2  bg-[#7b0000] my-2.5'>
-            <Link href="#"><FaLinkedinIn className="  text-[#7b0000] p-1 text-2xl bg-[#ffffff] rounded-[2px]" /></Link>
+            <div className='rounded-full  p-2  bg-[#7b0000] my-2.5 group'>
+            <Link href="#"><FaLinkedinIn className="  text-[#7b0000] p-1 text-2xl bg-[#ffffff] rounded-[2px]  transition-transform duration-300 ease-in-out group-hover:scale-110" /></Link>
           </div>
 
         </div>
         </div>
 
 {/* Box-3 */}
-        <div>
-          <div className='flex flex-col items-center shadow-[0px_4px_10px_rgba(0,0,0,0.3)] rounded-b-[10px] py-1 px-3 bg-[#ffffff]'>
+       
+          <div className='flex flex-col items-center shadow-[0px_4px_10px_rgba(0,0,0,0.3)] rounded-b-[10px] py-1 px-3 bg-[#ffffff] group'>
          
              <Image
             width={260}
             height={205}
             src="/assets/aboutus/AboutUsTeam.png"
             alt="About Us"
-            className="w-full h-[225px] object-cover shadow-[0px_4px_4px_rgba(0,0,0,0.3)] mt-2 "/>
+            className="w-full h-[225px] object-cover shadow-[0px_4px_4px_rgba(0,0,0,0.3)] mt-2  transition-transform duration-300 ease-in-out group-hover:scale-110 "/>
           
             <h3 className='title mt-4 text-[#7B0000]'>Name</h3>
 
             <p className='content'>CEO & Founder</p>
          
-            <div className='rounded-full  p-2  bg-[#7b0000] my-2.5'>
-            <Link href="#"><FaLinkedinIn className="  text-[#7b0000] p-1 text-2xl bg-[#ffffff] rounded-[2px]" /></Link>
+            <div className='rounded-full  p-2  bg-[#7b0000] my-2.5 group'>
+            <Link href="#"><FaLinkedinIn className="  text-[#7b0000] p-1 text-2xl bg-[#ffffff] rounded-[2px]  transition-transform duration-300 ease-in-out group-hover:scale-110" /></Link>
           </div>
 
         </div>
-        </div>
+      
 
 {/* Box-4 */}
-        <div>
-          <div className='flex flex-col items-center shadow-[0px_4px_10px_rgba(0,0,0,0.3)] rounded-b-[10px] py-1 px-3 bg-[#ffffff] '>
+       
+          <div className='flex flex-col items-center shadow-[0px_4px_10px_rgba(0,0,0,0.3)] rounded-b-[10px] py-1 px-3 bg-[#ffffff] group'>
          
              <Image
             width={260}
             height={205}
             src="/assets/aboutus/AboutUsTeam.png"
             alt="About Us"
-            className="w-full h-[225px] object-cover shadow-[0px_4px_4px_rgba(0,0,0,0.3)] mt-2 "/>
+            className="w-full h-[225px] object-cover shadow-[0px_4px_4px_rgba(0,0,0,0.3)] mt-2  transition-transform duration-300 ease-in-out group-hover:scale-110"/>
           
             <h3 className='title mt-4 text-[#7B0000]'>Name</h3>
 
             <p className='content'>CEO & Founder</p>
          
             {/* <Link href="#" ><FaLinkedinIn className="w-[40px] h-[40px] my-2 bg-[#7B0000]  p-[5px] text-[24px] text-[#ffffff] rounded-full" /></Link> */}
-            <div className='rounded-full  p-2  bg-[#7b0000] my-2.5'>
-            <Link href="#"><FaLinkedinIn className="  text-[#7b0000] p-1 text-2xl bg-[#ffffff] rounded-[2px]" /></Link>
+            <div className='rounded-full  p-2  bg-[#7b0000] my-2.5 group'>
+            <Link href="#"><FaLinkedinIn className="  text-[#7b0000] p-1 text-2xl bg-[#ffffff] rounded-[2px]  transition-transform duration-300 ease-in-out group-hover:scale-110" /></Link>
           </div>
 
-        </div>
+       
         </div>
 
        </div>

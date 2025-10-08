@@ -35,6 +35,12 @@
   /* padding: 5px 0 5px 0; */
 }
 
+.contact-heading{
+  font-family: var(--font-roboto), sans-serif;
+  font-weight:500;
+  font-size: 22x;
+}
+
 .title {
   font-family: var(--font-roboto), sans-serif;
   font-weight: 500;

@@ -6,8 +6,8 @@ import { FaAngleDoubleRight } from "react-icons/fa";
 
 export default function OurJourney() {
   return (
-    <section className=''>
-        <div className="text-center mb-10 section mt-[75px]">
+    <section className='section-vertical-padding'>
+        <div className="text-center mb-10 section">
         <h3 className="title text-[#889F2D]">Our Journey</h3>
         <h2 className="center-section-heading">
           EVERY MILESTONE IS A STEP TOWARDS A GREENER FUTURE
@@ -19,20 +19,20 @@ export default function OurJourney() {
  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-10 ">
 
 {/* Image  */}
-      <div className='relative width-full h-[550px] md:h-[600px] sm:h-[400px] object-cover mr-[30px]' 
+      <div className='relative width-full h-[350px] md:h-[600px] sm:h-[400px] object-cover lg:mr-[30px]' 
       // style={{ backgroundImage: "url('/assets/aboutus/AboutUsOurJourney.png')" }}
       >
         <Image
-                    width={260}
-                    height={205}
-                    src="/assets/aboutus/AboutUsOurJourney.png"
-                    alt="About Us"
-                    className="w-full h-[550px] object-cover "/>
+        width={260}
+        height={205}
+        src="/assets/aboutus/AboutUsOurJourney.png"
+        alt="About Us"
+        className="w-full h-[350px] lg:h-[550px] object-cover "/>
 
       </div>
 
 {/* Text Area  */}
-      <div className='flex flex-col pr-[80px]'>
+      <div className='flex flex-col  lg:pr-[80px]  ml-2'>
         
         <div>
           <p className='content'>
@@ -41,7 +41,7 @@ export default function OurJourney() {
           </p>
         </div>
 
-        <h3 className="title text-[#889F2D] my-[25px]">Milestones at a Glance:</h3>
+        <h3 className="title text-[#889F2D] my-[10px] lg:my-[25px] ">Milestones at a Glance:</h3>
 
 <div className=' bg-[#f7f7f7] rounded-r-[50px]  flex items-center p-3 w-fit pr-[25px] my-2'>
   <FaAngleDoubleRight className="text-[#7B0000] mr-2 text-xl " />

@@ -16,13 +16,13 @@ export default function MisionVision() {
 
       {/* Mission Box */}
    
-      <div className="bg-[#6C9D2E] text-white p-6 rounded-r-[120px] shadow-md flex flex-col items-center text-center h-fit ">
+      <div className="bg-[#6C9D2E] text-white p-6 rounded-r-[120px] shadow-md flex flex-col items-center text-center h-fit group">
         <Image
           width={50}
           height={50}
           src="/assets/aboutus/Mision.png"
           alt="About Us"
-          className="w-full h-[50px] object-contain "/>
+          className="w-full h-[50px] object-contain transition-transform duration-300 ease-in-out group-hover:scale-110"/>
         <h3 className="title mt-3">Mission</h3>
         <p className="content mt-2">
           To empower industries, businesses, and communities with sustainable
@@ -44,13 +44,13 @@ export default function MisionVision() {
 
       {/* Vision Box */}
      
-      <div className="bg-[#6C9D2E] text-white p-6 rounded-l-[120px] shadow-md flex flex-col text-center lg:mt-[300px] ">
+      <div className="bg-[#6C9D2E] text-white p-6 rounded-l-[120px] shadow-md flex flex-col text-center lg:mt-[300px] group">
         <Image
           width={50}
           height={50}
           src="/assets/aboutus/Vision.png"
           alt="About Us"
-          className="w-full h-[50px] object-contain "/>
+          className="w-full h-[50px] object-contain transition-transform duration-300 ease-in-out group-hover:scale-110"/>
         <h3 className="title mt-3">Vision</h3>
         <p className="content mt-2">
           To empower industries, businesses, and communities with sustainable
