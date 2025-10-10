@@ -31,7 +31,7 @@ export default function RequestAQuote() {
             </p>
         </div>
 
-        <div className=''>
+        <div className='z-10'>
         <form onSubmit={handleSubmit} className=" p-8 bg-[#889F2D] lg:ml-30 text-[#ffffff] rounded-b-[10px] mt-5 ">
         <h2 className="text-2xl font-bold mb-8 heading text-center">Get Your Quote Today!</h2>
 
