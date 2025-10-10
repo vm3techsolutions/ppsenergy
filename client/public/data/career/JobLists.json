@@ -1,0 +1,25 @@
+[
+    {
+        "job_id" : "1",
+        "job_title" : "Power Consultant",
+        "job_experience" : "0 to 3 Years",
+        "job_location" : "Pune , India",
+        "job_payment" : "Rs. 20,000 - Rs. 25,000" 
+    },
+
+    {
+        "job_id" : "2",
+        "job_title" : "Energy Auditor",
+        "job_experience" : "0 to 3 Years",
+        "job_location" : "Pune , India",
+        "job_payment" : "Rs. 20,000 - Rs. 25,000" 
+    },
+
+    {
+        "job_id" : "3",
+        "job_title" : "Mechanical Engineer",
+        "job_experience" : "0 to 3 Years",
+        "job_location" : "Pune , India",
+        "job_payment" : "Rs. 20,000 - Rs. 25,000" 
+    }
+]
