@@ -6,7 +6,7 @@ import Link from 'next/link'
 export default function ComprehensiveEnergyAudit() {
   return (
     <section className='common-section'>
-        <div className="text-cente mb-10">
+        <div className="text-center mb-10">
         {/* <h3 className="title text-[#889F2D]">Our Journey</h3> */}
         <h2 className="center-section-heading">
         COMPREHENSIVE ENERGY AUDIT SERVICES TO REDUCE<br/>

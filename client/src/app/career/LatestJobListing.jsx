@@ -18,20 +18,20 @@ export default function LatestJobListing() {
         <h2 className="center-section-heading">Latest Job Listing</h2>
       </div>
 
-      {/* Recent Articles Grid */}
-       <div className="flex flex-col section gap-10 mx-[150px] ">
+   
+       <div className="flex flex-col section gap-10 lg:mx-[150px] ">
         {jobs.map((item) => (
           <div
             key={item.job_id}
-            className=" flex flex-col text-white rounded-b-[10px] shadow-lg overflow-hidden text-left "
+            className=" flex flex-col text-white rounded-b-[10px] shadow-lg overflow-hidden text-left hover:shadow-[0_0_5px_#889F2D] transition-shadow duration-300"
           >
 
-            <div className="flex flex-col flex-grow px-4 py-4 text-left ">
+            <div className="flex flex-col flex-grow px-4 py-4 text-left  ">
               <div>
-                <h3 className="title text-[#889F2D] mb-5 mr-5 border-b-[1px] ">{item.job_title}</h3>
+                <h3 className="title text-[#889F2D] mb-5 mr-5 border-b-[1px] pb-2 ">{item.job_title}</h3>
               </div>
 
-              <div className='flex justify-between content'>
+              <div className='lg:flex justify-between content'>
                 <p className='content text-[#000000]'>Location: {item.job_experience}</p>
                 <p className='content text-[#000000]'>Experience: {item.job_location}</p>
                 <p className='content text-[#000000] mr-5'>Payement: {item.job_payment}</p>

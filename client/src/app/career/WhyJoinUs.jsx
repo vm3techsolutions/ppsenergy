@@ -9,7 +9,7 @@ export default function WhyJoinUs() {
         <h2 className="center-section-heading">Build Your Career in Energy Efficiency and Sustainability</h2>
       </div>
       
-<div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2  gap-25   ">
+<div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-25   ">
 
 
 {/* Left Image Section */}
@@ -26,7 +26,7 @@ export default function WhyJoinUs() {
 
  {/* 1. Right Section */}
         <div className='lg:mr-[80px] flex flex-col justify-center'>
-        <div className=' bg-[#f7f7f7] rounded-l-[40px] rounded-[10px] flex items-center p-4 w-full pr-[25px] mb-4'>
+        <div className=' bg-[#f7f7f7] rounded-l-[40px] rounded-[10px] flex items-center p-4 w-full pr-[25px] lg:mb-4'>
           <p className='title bg-[#889F2D] rounded-full  w-[35px] h-[35px] text-center text-[#ffffff]  mr-6'>1</p>
           <h3 className="title text-[#3D3D3D] ">
            Lorem Ipsum</h3>
@@ -37,7 +37,7 @@ export default function WhyJoinUs() {
           <h3 className="title text-[#3D3D3D]  ">Lorem Ipsum</h3>
         </div>
         
-        <div className=' bg-[#f7f7f7] rounded-l-[40px] rounded-[10px]  flex items-center p-4 w-full pr-[25px] my-4'>
+        <div className=' bg-[#f7f7f7] rounded-l-[40px] rounded-[10px]  flex items-center p-4 w-full pr-[25px] lg:my-4'>
            <p className='title bg-[#889F2D] rounded-full  w-[35px] h-[35px] text-center text-[#ffffff]  mr-6'>3</p>
           <h3 className="title text-[#3D3D3D] ">Lorem Ipsum</h3>
         </div>
