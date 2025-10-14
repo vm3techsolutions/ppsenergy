@@ -2,6 +2,7 @@
 import React from 'react'
 import Image from 'next/image';
 import Link from "next/link";
+import { motion } from 'framer-motion';
 
 export default function HowWeWork() {
   return (
@@ -28,35 +29,65 @@ export default function HowWeWork() {
 
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 ml-[50px] mt-5'>
 
+             <motion.div
+                      initial={{ opacity: 0, x: 40 }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      transition={{ duration: 0.6 }}>
             <div className="flex items-center mb-7">
             <span className=" border-[2px] border-[#889F2D]-700 mr-5 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[40px] p-2">01</span>
             <h2 className="title">Understanding Your Needs</h2>
             </div>
+            </motion.div>
 
+             <motion.div
+                      initial={{ opacity: 0, x: 40 }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      transition={{ duration: 0.8 }}>
             <div className='flex  items-center mb-7'>
             <span className='border-[2px] border-[#889F2D]-700 mr-5 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[40px] p-2'>02</span>
             <h2 className='title' >Energy Assessment & Audit</h2>
             </div>
+            </motion.div>
 
+            <motion.div
+                      initial={{ opacity: 0, x: 40 }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      transition={{ duration: 1 }}>
             <div className='flex items-center mb-7'>
             <span className='border-[2px] border-[#889F2D]-700 mr-5 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[40px] p-2'>03</span>
             <h2 className='title '>Tailored Solutions Design</h2>
             </div>
+            </motion.div>
 
+            <motion.div
+                      initial={{ opacity: 0, x: 40 }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      transition={{ duration: 1.2 }}>
             <div className='flex items-center mb-7'>
             <span className='border-[2px] border-[#889F2D]-700 mr-5 w-[60px] h-[60px]  flex items-center justify-center text-[#889F2D] text-[40px] p-2'>04</span>
             <h2 className='title '>Implementation With Precision</h2>
             </div>
+            </motion.div>
 
+            <motion.div
+                      initial={{ opacity: 0, x: 40 }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      transition={{ duration: 1.4 }}>
             <div className='flex items-center mb-7'>
             <span className='border-[2px] border-[#889F2D]-700 mr-5 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[40px] p-2'>05</span>
             <h2 className='title'>Monitoring & Optimization</h2>
             </div>
+            </motion.div>
 
+             <motion.div
+                      initial={{ opacity: 0, x: 40 }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      transition={{ duration: 1.6 }}>
             <div className='flex items-center mb-7'>
             <span className='border-[2px] border-[#889F2D]-700 mr-5 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[40px] p-2'>06</span>
             <h2 className='title'>Sustained Partnership</h2>
             </div>
+            </motion.div>
            
         </div>
         

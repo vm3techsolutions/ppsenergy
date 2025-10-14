@@ -23,8 +23,7 @@ export default function LatestJobListing() {
         {jobs.map((item) => (
           <div
             key={item.job_id}
-            className=" flex flex-col text-white rounded-b-[10px] shadow-lg overflow-hidden text-left hover:shadow-[0_0_5px_#889F2D] transition-shadow duration-300"
-          >
+            className=" flex flex-col text-white rounded-b-[10px] shadow-lg overflow-hidden text-left hover:shadow-[0_0_5px_#889F2D] transition-shadow duration-300" >
 
             <div className="flex flex-col flex-grow px-4 py-4 text-left  ">
               <div>

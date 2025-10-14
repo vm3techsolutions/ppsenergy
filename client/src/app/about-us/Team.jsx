@@ -19,14 +19,14 @@ export default function Team() {
        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10  mt-10 ">
 
         {/* Box-1 */}
-        <div className='flex flex-col items-center shadow-[0px_4px_10px_rgba(0,0,0,0.3)] rounded-b-[10px] py-1 px-3 bg-[#ffffff] group '>
+        <div className='flex flex-col items-center shadow-[0px_4px_10px_rgba(0,0,0,0.3)] rounded-b-[10px] py-1 px-3 bg-[#ffffff] group border border-[#889F2D] transition-all duration-300 hover:shadow-[0_0_5px_#889F2D]'>
          
-             <Image
+            <Image
             width={260}
             height={205}
             src="/assets/aboutus/AboutUsTeam.png"
             alt="About Us"
-            className="w-full h-[225px] object-cover shadow-[0px_4px_4px_rgba(0,0,0,0.3)] mt-2  transition-transform duration-300 ease-in-out group-hover:scale-110"/>
+            className="w-full h-[250px] object-cover shadow-[0px_4px_2px_rgba(0,0,0,0.3)] mt-2  transition-transform duration-300 ease-in-out group-hover:scale-110 "/>
           
             <h3 className='title mt-4 text-[#7B0000]'>Name</h3>
 
@@ -41,14 +41,14 @@ export default function Team() {
         <div>
 
           {/* Box-2 */}
-          <div className='flex flex-col items-center shadow-[0px_4px_10px_rgba(0,0,0,0.3)] rounded-b-[10px] py-1 px-3 bg-[#ffffff] group '>
+          <div className='flex flex-col items-center shadow-[0px_4px_10px_rgba(0,0,0,0.3)] rounded-b-[10px] py-1 px-3 bg-[#ffffff] group border border-[#889F2D] transition-all duration-300 hover:shadow-[0_0_5px_#889F2D]'>
          
              <Image
             width={260}
             height={205}
             src="/assets/aboutus/AboutUsTeam.png"
             alt="About Us"
-            className="w-full h-[225px] object-cover shadow-[0px_4px_4px_rgba(0,0,0,0.3)] mt-2  transition-transform duration-300 ease-in-out group-hover:scale-110"/>
+            className="w-full h-[250px] object-cover shadow-[0px_4px_2px_rgba(0,0,0,0.3)] mt-2  transition-transform duration-300 ease-in-out group-hover:scale-110 "/>
           
             <h3 className='title mt-4 text-[#7B0000]'>Name</h3>
 
@@ -63,14 +63,14 @@ export default function Team() {
 
 {/* Box-3 */}
        
-          <div className='flex flex-col items-center shadow-[0px_4px_10px_rgba(0,0,0,0.3)] rounded-b-[10px] py-1 px-3 bg-[#ffffff] group'>
+          <div className='flex flex-col items-center shadow-[0px_4px_10px_rgba(0,0,0,0.3)] rounded-b-[10px] py-1 px-3 bg-[#ffffff] group border border-[#889F2D] transition-all duration-300 hover:shadow-[0_0_5px_#889F2D]' >
          
              <Image
             width={260}
             height={205}
             src="/assets/aboutus/AboutUsTeam.png"
             alt="About Us"
-            className="w-full h-[225px] object-cover shadow-[0px_4px_4px_rgba(0,0,0,0.3)] mt-2  transition-transform duration-300 ease-in-out group-hover:scale-110 "/>
+            className="w-full h-[250px] object-cover shadow-[0px_4px_2px_rgba(0,0,0,0.3)] mt-2  transition-transform duration-300 ease-in-out group-hover:scale-110 "/>
           
             <h3 className='title mt-4 text-[#7B0000]'>Name</h3>
 
@@ -85,14 +85,14 @@ export default function Team() {
 
 {/* Box-4 */}
        
-          <div className='flex flex-col items-center shadow-[0px_4px_10px_rgba(0,0,0,0.3)] rounded-b-[10px] py-1 px-3 bg-[#ffffff] group'>
+          <div className='flex flex-col items-center shadow-[0px_4px_10px_rgba(0,0,0,0.3)] rounded-b-[10px] py-1 px-3 bg-[#ffffff] group border border-[#889F2D] transition-all duration-300 hover:shadow-[0_0_5px_#889F2D]'>
          
              <Image
             width={260}
             height={205}
             src="/assets/aboutus/AboutUsTeam.png"
             alt="About Us"
-            className="w-full h-[225px] object-cover shadow-[0px_4px_4px_rgba(0,0,0,0.3)] mt-2  transition-transform duration-300 ease-in-out group-hover:scale-110"/>
+            className="w-full h-[250px] object-cover shadow-[0px_4px_2px_rgba(0,0,0,0.3)] mt-2  transition-transform duration-300 ease-in-out group-hover:scale-110 "/>
           
             <h3 className='title mt-4 text-[#7B0000]'>Name</h3>
 

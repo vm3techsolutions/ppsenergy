@@ -29,9 +29,8 @@ export default function RecentArticles() {
         {homeRecentArticles.map((item) => (
           <div
             key={item.article_id}
-            className=" flex flex-col text-white rounded-b-[10px] shadow-lg overflow-hidden bg-white"
-          >
-            <div className="group overflow-hidden p-5">
+            className=" flex flex-col text-white rounded-b-[10px] shadow-lg overflow-hidden bg-white hover:shadow-[0_0_15px_#889F2D] transition-shadow duration-300" >
+            <div className="group overflow-hidden m-5">
               <Image
                 src={item.article_image}
                 alt={item.article_title}

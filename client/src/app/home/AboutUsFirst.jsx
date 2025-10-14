@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 // import { MdSunny } from "react-icons/md";
 import { RiRecycleFill } from "react-icons/ri";
 import { IoIosWater } from "react-icons/io";
@@ -21,6 +22,10 @@ export default function AboutUsFirst() {
 
         {/* Icons Section */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-y-[25px] ">
+           <motion.div
+          initial={{ opacity: 0, y: -40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}>
         <div className="ml-[0] lg:ml-[200px] group">
         <Image
         width={90}
@@ -30,7 +35,12 @@ export default function AboutUsFirst() {
         className="w-full max-w-md md:max-w-full h-[90px] object-contain transition-transform duration-300 ease-in-out group-hover:scale-110"/>
         <h2 className="title text-[#3D3D3D] mt-2">Solar Energy</h2>
         </div>
+        </motion.div>
 
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}>
         <div className="group">
         <Image
         width={90}
@@ -40,7 +50,12 @@ export default function AboutUsFirst() {
         className="w-full max-w-md md:max-w-full h-[90px] object-contain transition-transform duration-300 ease-in-out group-hover:scale-110"/>
         <h2 className="title text-[#3D3D3D] mt-2">Water Energy</h2>
         </div>
+        </motion.div>
 
+         <motion.div
+          initial={{ opacity: 0, y: -40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}>
         <div className="mr-[0] lg:mr-[200px] group">
         <Image
         width={90}
@@ -50,6 +65,7 @@ export default function AboutUsFirst() {
         className="w-full max-w-md md:max-w-full h-[90px] object-contain transition-transform duration-300 ease-in-out group-hover:scale-110" />
         <h2 className="title text-[#3D3D3D] mt-2">Wind Energy</h2>
         </div>
+        </motion.div>
         </div>
       </div>
     

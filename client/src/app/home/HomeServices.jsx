@@ -27,7 +27,7 @@ export default function HomeServices() {
       {homeServices.map((item) => (
       <div
       key={item.service_id}
-      className="flex flex-col text-white rounded-b-[10px] shadow-lg overflow-hidden bg-white">
+      className="flex flex-col text-white rounded-b-[10px] shadow-lg overflow-hidden bg-white  hover:shadow-[0_0_25px_#889F2D] transition-shadow duration-300">
       {/* Image */}
       <div className="group overflow-hidden">
         <Image

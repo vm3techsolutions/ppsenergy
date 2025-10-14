@@ -41,8 +41,7 @@ export default function Testimonials() {
   {/* Full Background Wrapper */}
   <div
     className="relative flex items-center justify-center bg-no-repeat bg-cover bg-center w-full h-[450px] md:h-[500px] lg:h-[700px] lg:mt-[-65px] mt-[-50px]"
-    style={{ backgroundImage: "url('/assets/home/TestimonialsBG.png')" }}
-  >
+    style={{ backgroundImage: "url('/assets/home/TestimonialsBG.png')" }}>
     {/* Inner Content Container (keeps text centered & padded) */}
     <div className="w-full ">
       <Swiper
@@ -51,8 +50,7 @@ export default function Testimonials() {
         autoplay={{ delay: 3500 }}
         loop={true}
         slidesPerView={1}
-        className="flex flex-col text-center items-center justify-center"
-      >
+        className="flex flex-col text-center items-center justify-center">
         {testimonials.map((t, index) => (
           <SwiperSlide key={index}>
             <div className="flex flex-col items-center mb-8">
@@ -61,8 +59,7 @@ export default function Testimonials() {
                 <img
                   src={t.img}
                   alt={t.name}
-                  className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-full "
-                />
+                  className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-full " />
                 <div className="flex flex-col text-center sm:text-left">
                   <h3 className="text-[#7B0000] font-semibold text-lg sm:text-xl md:text-2xl dual-section-heading">
                     {t.name}
@@ -76,7 +73,7 @@ export default function Testimonials() {
 
               {/* Testimonial Text */}
               <div className="max-w-md sm:max-w-2xl">
-                <p className="text-gray-700 sm:text-base md:text-lg leading-relaxed">
+                <p className="text-gray-700 sm:text-base md:text-lg leading-relaxed content">
                   {t.text}
                 </p>
               </div>

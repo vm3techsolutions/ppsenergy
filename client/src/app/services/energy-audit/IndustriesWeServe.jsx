@@ -34,7 +34,7 @@ export default function IndustriesWeServe() {
         {industries.map((item, index) => (
           <div
             key={index}
-            className="border border-[#889F2D] rounded-[10px] shadow-[0px_2px_4px_rgba(0,0,0,0.3)] group overflow-hidden flex flex-col h-full transition-all duration-300"
+           className="border border-[#889F2D] rounded-[10px] shadow-[0_2px_4px_rgba(0,0,0,0.3)] group overflow-hidden flex flex-col h-full transition-all duration-300 hover:shadow-[0_0_15px_#889F2D]"
           >
             <div className="overflow-hidden h-[300px] sm:h-[280px] md:h-[300px]">
               <Image

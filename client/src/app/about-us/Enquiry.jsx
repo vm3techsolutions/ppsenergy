@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function Enquiry() {
   return (
     <section className='common-section flex flex-col justify-center items-center'>
-        <div className="text-center mb-4">
+        <div className="text-center mb-10">
         <h3 className="title text-[#889F2D]">Enquiry</h3>
         <h2 className="center-section-heading">
           LET’S BUILD A CLEANER FUTURE TOGETHER

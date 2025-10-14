@@ -19,7 +19,7 @@ export default function WhyChooseUs() {
 {/* Grid Boxes Designing */}
        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 text-center gap-y-10 ">
 
-        <div  className= 'rounded-b-[10px] shadow-[2px_2px_10px_rgba(0,0,0,0.3)] overflow-hidden p-7 text-center group '>
+        <div  className= 'rounded-b-[10px] shadow-[2px_2px_10px_rgba(0,0,0,0.3)] overflow-hidden p-7 text-center group hover:shadow-[0_0_25px_#889F2D] transition-shadow duration-300'>
         <Image
         width={90}
         height={90}
@@ -31,7 +31,7 @@ export default function WhyChooseUs() {
         <p>With over a decade of experience in the energy sector, we bring deep technical knowledge every project. Our team has successfully delivered solutions for diverse industries across India.</p>
         </div>
 
-        <div  className= 'rounded-b-[10px] shadow-[2px_2px_10px_rgba(0,0,0,0.3)] overflow-hidden p-7 group '>
+        <div  className= 'rounded-b-[10px] shadow-[2px_2px_10px_rgba(0,0,0,0.3)] overflow-hidden p-7 group hover:shadow-[0_0_25px_#889F2D] transition-shadow duration-300'>
         <Image
         width={90}
         height={90}
@@ -43,7 +43,7 @@ export default function WhyChooseUs() {
         <p>We believe there is no one-size-fits-all approach. Every organization has unique energy challenges. We design customized strategies that align with your operational needs, sustainability goals, and budget.</p>
         </div>
 
-        <div  className= 'rounded-b-[10px] shadow-[2px_2px_10px_rgba(0,0,0,0.3)] overflow-hidden p-7 group'>
+        <div  className= 'rounded-b-[10px] shadow-[2px_2px_10px_rgba(0,0,0,0.3)] overflow-hidden p-7 group hover:shadow-[0_0_25px_#889F2D] transition-shadow duration-300'>
         <Image
         width={90}
         height={90}
@@ -55,7 +55,7 @@ export default function WhyChooseUs() {
         <p>From consultation and audits to implementation and monitoring, we manage the entire energy journey. You can count on us as a single, reliable partner for complete energy transformation.</p>
         </div>
 
-        <div  className= 'rounded-b-[10px] shadow-[2px_2px_10px_rgba(0,0,0,0.3)] overflow-hidden p-7 group'>
+        <div  className= 'rounded-b-[10px] shadow-[2px_2px_10px_rgba(0,0,0,0.3)] overflow-hidden p-7 group hover:shadow-[0_0_25px_#889F2D] transition-shadow duration-300'>
         <Image
         width={90}
         height={90}
@@ -67,7 +67,7 @@ export default function WhyChooseUs() {
         <p>Our solutions comply with the latest energy conservation and electricity regulations while helping you move closer to Net Zero and carbon-neutral commitments.</p>
         </div>
 
-        <div className= 'rounded-b-[10px] shadow-[2px_2px_10px_rgba(0,0,0,0.3)] overflow-hidden p-7 group'>
+        <div className= 'rounded-b-[10px] shadow-[2px_2px_10px_rgba(0,0,0,0.3)] overflow-hidden p-7 group hover:shadow-[0_0_25px_#889F2D] transition-shadow duration-300'>
         <Image
         width={90}
         height={90}
@@ -79,7 +79,7 @@ export default function WhyChooseUs() {
         <p>We don’t just promise—we prove. Every project is backed by transparent reporting, real-time monitoring, and clear metrics on savings and efficiency improvements.</p>
         </div>
 
-        <div className= 'rounded-b-[10px] shadow-[2px_2px_10px_rgba(0,0,0,0.3)] overflow-hidden p-7 group'>
+        <div className= 'rounded-b-[10px] shadow-[2px_2px_10px_rgba(0,0,0,0.3)] overflow-hidden p-7 group hover:shadow-[0_0_25px_#889F2D] transition-shadow duration-300'>
         <Image
         width={90}
         height={90}

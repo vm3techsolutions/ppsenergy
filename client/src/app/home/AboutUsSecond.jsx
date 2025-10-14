@@ -33,7 +33,7 @@ export default function AboutUsSecond() {
         height={574}
         src="/assets/home/HomeAboutUs.png"
         alt="About Us"
-        className="w-full max-w-md md:max-w-full h-[400px] lg:h-[600px] rounded-[20px] shadow-lg object-cover mt-10 lg:mt-0 "/>
+        className="w-full max-w-md md:max-w-full h-[400px] lg:h-[600px] rounded-[20px] shadow-lg object-cover mt-10 lg:mt-0 border-b-12  border-[#889F2D]"/>
         
        
       </div>

@@ -18,7 +18,7 @@ export default function RequestAQuote() {
   return (
     <section className='common-section flex flex-col justify-center mb-10'>
 
-        <div className="text-center mb-10">
+        <div className="text-center lg:mb-10">
         <h3 className="title text-[#889F2D]">Request A Quote</h3>
         </div>
 
