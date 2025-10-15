@@ -16,9 +16,9 @@ export default function HomeServices() {
   return (
     <section className="common-section flex flex-col justify-center">
       <div className="text-center mb-10">
-        <h3 className="title text-[#889F2D]">Services</h3>
-        <h2 className="center-section-heading">COMPREHENSIVE ENERGY STRATEGIES</h2>
-        <p className="content text-[#3D3D3D]">Comprehensive energy strategies are totally customized for your efficiency and business growth</p>
+      <h3 className="title text-[#889F2D]">Services</h3>
+      <h2 className="center-section-heading">COMPREHENSIVE ENERGY STRATEGIES</h2>
+      <p className="content text-[#3D3D3D]">Comprehensive energy strategies are totally customized for your efficiency and business growth</p>
       </div>
 
       {/* Services Grid */}
@@ -40,23 +40,22 @@ export default function HomeServices() {
 
       {/* Content */}
       <div className="flex flex-col flex-grow px-4 py-4 text-left">
-        <h3 className="title text-[#889F2D] mb-3 border-b border-[#889F2D] pb-2">
-          {item.service_title}</h3>
-        <p className="content text-[#3D3D3D] mb-5 flex-grow">
-          {item.service_description}</p>
+      <h3 className="title text-[#889F2D] mb-3 border-b border-[#889F2D] pb-2">
+      {item.service_title}</h3>
+      <p className="content text-[#3D3D3D] mb-5 flex-grow">{item.service_description}</p>
 
-        {/* Button (aligned bottom) */}
-        <div className="mt-auto">
-          <Link href="/home">
-            <button className="button mt-3">Read More</button>
-          </Link>
-        </div>
+      {/* Button (aligned bottom) */}
+      <div className="mt-auto">
+      <Link href="/home">
+      <button className="button mt-3">Read More</button>
+      </Link>
+      </div>
       </div>
     </div>
   ))}
 </div>
 
-    </section>
+  </section>
   );
 }
 

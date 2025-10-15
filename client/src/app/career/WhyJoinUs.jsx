@@ -36,7 +36,7 @@ export default function WhyJoinUs() {
                   className='w-full'>
          <div className=' w-full grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 items-center  bg-[#f7f7f7] rounded-l-[120px] rounded-[10px] p-2 py-4 lg:mb-4 my-3'>
         <span className='w-[35px] h-[35px] mr-5 flex items-center justify-center content p-2 rounded-full  bg-[#889F2D] text-white ml-2 '>01</span>
-        <h2 className='title lg:ml-[-225px] ml-[-100px]' >Lorem Ipsum</h2>
+        <h2 className='title lg:ml-[-225px] ml-[-80px]' >Lorem Ipsum</h2>
         </div>
         </motion.div>
 
@@ -48,7 +48,7 @@ export default function WhyJoinUs() {
                     
         <div className=' w-full grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 items-center  bg-[#f7f7f7] rounded-l-[120px] rounded-[10px] p-2 py-4 lg:mb-4 my-3'>
         <span className='w-[35px] h-[35px] mr-5 flex items-center justify-center content p-2 rounded-full  bg-[#889F2D] text-white ml-2 '>02</span>
-        <h2 className='title lg:ml-[-225px] ml-[-100px] ' >Lorem Ipsum</h2>
+        <h2 className='title lg:ml-[-225px] ml-[-80px] ' >Lorem Ipsum</h2>
         </div>
         </motion.div>
 
@@ -59,7 +59,7 @@ export default function WhyJoinUs() {
                   className='w-full'>
         <div className=' w-full grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 items-center  bg-[#f7f7f7] rounded-l-[120px] rounded-[10px] p-2 py-4 lg:mb-4 my-3'>
         <span className='w-[35px] h-[35px] mr-5 flex items-center justify-center content p-2 rounded-full  bg-[#889F2D] text-white ml-2 '>03</span>
-        <h2 className='title lg:ml-[-225px] ml-[-100px]' >Lorem Ipsum</h2>
+        <h2 className='title lg:ml-[-225px] ml-[-80px]' >Lorem Ipsum</h2>
         </div>
         </motion.div>
 
@@ -70,7 +70,7 @@ export default function WhyJoinUs() {
                   className='w-full'>
         <div className=' w-full grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 items-center  bg-[#f7f7f7] rounded-l-[120px] rounded-[10px] p-2 py-4 lg:mb-4 my-3'>
         <span className='w-[35px] h-[35px] mr-5 flex items-center justify-center content p-2 rounded-full  bg-[#889F2D] text-white ml-2 '>04</span>
-        <h2 className='title  lg:ml-[-225px] ml-[-100px]' >Lorem Ipsum</h2>
+        <h2 className='title  lg:ml-[-225px] ml-[-80px]' >Lorem Ipsum</h2>
         </div>
         </motion.div>
 

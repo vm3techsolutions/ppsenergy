@@ -9,13 +9,9 @@ export default function WhyChooseUs() {
     <section className='common-section flex flex-col justify-center'>
         <div className="text-center mb-10">
         <h3 className="title text-[#889F2D]">Why Choose Us</h3>
-        <h2 className="center-section-heading">
-           TRUSTED EXPERTISE, MEASURABLE IMPACT,  <br/>AND A GREENER TOMORROW
-        </h2>
-         <p className="content text-[#3D3D3D]">
-          Right partner for your Energy Efficiency, Net Zero, and Sustainability Goals.
-        </p>
-      </div>
+        <h2 className="center-section-heading">TRUSTED EXPERTISE, MEASURABLE IMPACT,  <br/>AND A GREENER TOMORROW </h2>
+        <p className="content text-[#3D3D3D]">Right partner for your Energy Efficiency, Net Zero, and Sustainability Goals.</p>
+        </div>
 {/* Grid Boxes Designing */}
        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 text-center gap-y-10 ">
 

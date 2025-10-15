@@ -3,8 +3,6 @@ import React from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
-
-// Import Swiper styles
 import "swiper/css";
 
 export default function OurClient() {
@@ -41,7 +39,7 @@ export default function OurClient() {
       <div className="text-center mb-10">
         <h3 className="title text-[#889F2D]">Our Valued Client</h3>
         <h2 className="center-section-heading">
-          EMPOWERING ORGANIZATIONS THAT BELIEVE IN <br /> SUSTAINABLE PROGRESS
+        EMPOWERING ORGANIZATIONS THAT BELIEVE IN <br /> SUSTAINABLE PROGRESS
         </h2>
       </div>
 
@@ -50,9 +48,8 @@ export default function OurClient() {
         <Swiper
           modules={[Autoplay]}
           autoplay={{
-            delay: 2000,
-            disableOnInteraction: false,
-          }}
+          delay: 2000,
+          disableOnInteraction: false,}}
           loop={true}
           grabCursor={true}
           spaceBetween={30}

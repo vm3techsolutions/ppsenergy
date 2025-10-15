@@ -21,8 +21,8 @@ export default function EnergyAuditBenifits() {
              <div className='grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-1 gap-y-4 lg:gap-y-35 lg:mr-[50px] gap-2'>
             {/* Box-1 */}
           <motion.div
-          initial={{ opacity: 0, x: -40 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, y: -20 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}>
             <div className='flex flex-col text-left '>
             <p className='title bg-[#889F2D] rounded-full  w-[35px] h-[35px] text-center text-[#ffffff]  mr-6'>1</p>
@@ -32,8 +32,8 @@ export default function EnergyAuditBenifits() {
             </motion.div>
 
           <motion.div
-          initial={{ opacity: 0, x: -40 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}>
             <div className='flex flex-col text-left '>
             <p className='title bg-[#889F2D] rounded-full  w-[35px] h-[35px] text-center text-[#ffffff]  mr-6'>2</p>
@@ -61,8 +61,8 @@ export default function EnergyAuditBenifits() {
             <div className='grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-1 gap-y-4 lg:gap-y-30 lg:ml-[50px] gap-2'>
             {/* Box-2 */}
             <motion.div
-          initial={{ opacity: 0, x: 40 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, y: -20 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}>
             <div className='flex flex-col text-left   items-start'>
            <p className='title bg-[#889F2D] rounded-full  w-[35px] h-[35px] text-center text-[#ffffff]  mr-6'>3</p>
@@ -72,8 +72,8 @@ export default function EnergyAuditBenifits() {
             </motion.div>
 
              <motion.div
-          initial={{ opacity: 0, x: 40 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2 }}>
             <div className='flex flex-col text-left'>
             <p className='title bg-[#889F2D] rounded-full  w-[35px] h-[35px] text-center text-[#ffffff]  mr-6'>4</p>

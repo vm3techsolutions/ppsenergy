@@ -115,10 +115,8 @@ export default function ProjectHighlights() {
     <section className="flex flex-col justify-center">
       {/* Section Title */}
       <div className="common-section text-center">
-        <h3 className="title text-[#889F2D]">Projects Highlights</h3>
-        <h2 className="center-section-heading">
-          PROVEN RESULTS, POWERING BUSINESSES
-        </h2>
+      <h3 className="title text-[#889F2D]">Projects Highlights</h3>
+      <h2 className="center-section-heading">PROVEN RESULTS, POWERING BUSINESSES</h2>
       </div>
 
       {/* Swiper Section */}
@@ -142,7 +140,7 @@ export default function ProjectHighlights() {
           }}
           modules={[EffectCoverflow, Autoplay]}
           onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
-          className="w-full"
+          className="w-full h-full"
           breakpoints={{
             // Mobile
             0: {
@@ -156,16 +154,15 @@ export default function ProjectHighlights() {
             },
             // Laptop
             1024: {
-              slidesPerView: 3,
-              spaceBetween: 40,
+              slidesPerView: 2,
+              spaceBetween: 20,
             },
             // Desktop large
             1440: {
               slidesPerView: 4,
               spaceBetween: 50,
             },
-          }}
-        >
+          }}  >
           {images.map((src, i) => (
             <SwiperSlide key={i} className="relative">
               <div
@@ -173,15 +170,13 @@ export default function ProjectHighlights() {
                   i === activeIndex
                     ? "scale-110 opacity-100 z-20"
                     : "scale-90 opacity-70 z-10"
-                }`}
-              >
+                }`} >
                 <Image
                   src={src}
-                  width={500}
-                  height={400}
+                  width={600}
+                  height={500}
                   alt="Project highlight"
-                  className="object-cover rounded-md border border-gray-300"
-                />
+                  className="object-cover rounded-md border border-gray-300"/>
                 {i !== activeIndex && (
                   <div className="absolute inset-0 bg-black/30 rounded-md" />
                 )}
@@ -192,7 +187,7 @@ export default function ProjectHighlights() {
 
         {/* Button */}
         <div className="flex justify-center pb-[50px]">
-          <Link href="/home">
+          <Link href="/projects">
             <button className="button mt-7 mb-4">Explore More</button>
           </Link>
         </div>

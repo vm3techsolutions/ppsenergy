@@ -29,18 +29,15 @@ export default function Testimonials() {
 
   return (
 
-    <section className="section-vertical-padding">
+  <section className="section-vertical-padding">
   {/* Section Title */}
   <div className="text-center mb-10 ">
-    <h3 className="title text-[#889F2D]">Testimonials</h3>
-    <h2 className="center-section-heading">
-      Voices of trust, Stories of Transformation
-    </h2>
+  <h3 className="title text-[#889F2D]">Testimonials</h3>
+  <h2 className="center-section-heading">Voices of trust, Stories of Transformation</h2>
   </div>
 
   {/* Full Background Wrapper */}
-  <div
-    className="relative flex items-center justify-center bg-no-repeat bg-cover bg-center w-full h-[450px] md:h-[500px] lg:h-[700px] lg:mt-[-65px] mt-[-50px]"
+  <div className="relative flex items-center justify-center bg-no-repeat bg-cover bg-center w-full h-[450px] md:h-[500px] lg:h-[700px] lg:mt-[-65px] mt-[-50px]"
     style={{ backgroundImage: "url('/assets/home/TestimonialsBG.png')" }}>
     {/* Inner Content Container (keeps text centered & padded) */}
     <div className="w-full ">
@@ -61,10 +58,8 @@ export default function Testimonials() {
                   alt={t.name}
                   className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-full " />
                 <div className="flex flex-col text-center sm:text-left">
-                  <h3 className="text-[#7B0000] font-semibold text-lg sm:text-xl md:text-2xl dual-section-heading">
-                    {t.name}
-                  </h3>
-                  <p className="text-gray-600 text-sm sm:text-base title">{t.role}</p>
+                <h3 className="text-[#7B0000] dual-section-heading">{t.name}  </h3>
+                <p className="text-gray-600 title">{t.role}</p>
                 </div>
                 <span className="text-[#889F2D] text-5xl sm:text-6xl md:text-7xl font-serif hidden sm:block">
                   ❞
@@ -73,9 +68,7 @@ export default function Testimonials() {
 
               {/* Testimonial Text */}
               <div className="max-w-md sm:max-w-2xl">
-                <p className="text-gray-700 sm:text-base md:text-lg leading-relaxed content">
-                  {t.text}
-                </p>
+              <p className="text-gray-700 content"> {t.text} </p>
               </div>
             </div>
           </SwiperSlide>

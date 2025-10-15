@@ -17,12 +17,9 @@ export default function RecentArticles() {
   return (
    <section className='common-section flex flex-col justify-center'>
     <div className="text-center mb-10">
-        <h3 className="title text-[#889F2D]">Recent Articles</h3>
-        <h2 className="center-section-heading">
-           THOUGHT LEADERSHIP AND KNOWLEDGE FOR A <br/>SUSTAINABLE FUTURE
-        </h2>
-        
-      </div>
+    <h3 className="title text-[#889F2D]">Recent Articles</h3>
+    <h2 className="center-section-heading">THOUGHT LEADERSHIP AND KNOWLEDGE FOR A <br/>SUSTAINABLE FUTURE</h2>
+    </div>
 
        {/* Recent Articles Grid */}
        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-evenly items-stretch">
