@@ -1,0 +1,68 @@
+[
+    {
+      "id" : "1",
+      "image" : "/assets/home/HomeService2.png",
+      "title": "Power System Analysis & Design",
+      "desc": "Comprehensive system studies including load flow, short circuit, and stability analysis to ensure reliable and efficient power distribution.",
+      "points": [
+        "Electrical load estimation & balancing",
+        "System protection coordination",
+        "Power factor improvement"
+      ]
+    },
+    {
+        "id" : "2",
+         "image" : "/assets/home/HomeService2.png",
+      "title": "Energy Audits & Optimization",
+      "desc": "Identify inefficiencies and reduce energy costs through in-depth audits and optimization strategies.",
+      "points": [
+        "Detailed energy consumption profiling",
+        "Equipment efficiency analysis",
+        "Energy-saving implementation roadmap"
+      ]
+    },
+    {
+        "id" : "3",
+         "image" : "/assets/home/HomeService2.png",
+      "title": "Renewable Energy Consulting",
+      "desc": "Helping clients transition to sustainable and renewable sources of power.",
+      "points": [
+        "Solar, wind, and hybrid feasibility studies",
+        "Grid integration planning",
+        "ROI and payback analysis"
+      ]
+    },
+    {
+        "id" : "4",
+         "image" : "/assets/home/HomeService2.png",
+      "title": "Electrical Safety & Compliance",
+      "desc": "Ensure your systems meet all statutory and operational safety standards.",
+      "points": [
+        "Compliance with IS/IEC codes",
+        "Electrical risk assessment",
+        "Preventive maintenance planning"
+      ]
+    },
+    {
+        "id" : "5",
+         "image" : "/assets/home/HomeService2.png",
+      "title": "Power Quality & Reliability Improvement",
+      "desc": "Diagnose and resolve issues related to harmonics, voltage instability, and downtime.",
+      "points": [
+        "Power quality analysis",
+        "Harmonic filtration and control",
+        "Uninterrupted Power Supply (UPS) solutions"
+      ]
+    },
+    {
+         "id" : "6",
+                 "image" : "/assets/home/HomeService2.png",
+      "title": "Project Management & Implementation Support",
+      "desc": "From concept to commissioning, we guide your power projects with end-to-end management support.",
+      "points": [
+        "Technical documentation and design review",
+        "Vendor selection and tender evaluation",
+        "On-site supervision and commissioning assistance"
+      ]
+    }
+]

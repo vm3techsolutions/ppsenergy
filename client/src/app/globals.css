@@ -38,7 +38,7 @@
 .contact-heading{
   font-family: var(--font-roboto), sans-serif;
   font-weight:500;
-  font-size: 22x;
+  font-size: 22px;
 }
 
 .title {
@@ -67,6 +67,12 @@
   font-weight: 400; 
   font-size: 24px;
   padding: 5px 0 5px 0;
+}
+
+.bulletPoints{
+  font-family: var(--font-roboto), sans-serif;
+  font-weight: 400;
+  font-size: 15px;
 }
 
 /* ===== Designing Section ===== */
