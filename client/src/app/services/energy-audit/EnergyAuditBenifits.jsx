@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function EnergyAuditBenifits() {
   return (
-    <section className='common-section bg-[#f8f8f8]'>
+    <section className='common-section '>
         <div className="text-center mb-10">
         <h3 className="title text-[#889F2D]">Energy Audit Benifits</h3>
         <h2 className="center-section-heading">
