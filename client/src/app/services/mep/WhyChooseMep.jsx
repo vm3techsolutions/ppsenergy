@@ -6,7 +6,7 @@ import {Users, Layers, ShieldCheck,  Headphones , Timer} from "lucide-react"
 
 export default function WhyChooseMep() {
   return (
-    <section className='common-section flex flex-col justify-center  bg-[#F9FAFB]'>
+    <section className='common-section flex flex-col justify-center '>
         <div className="text-center mb-10">
              <h3 className="title text-[#889F2D]">Why Choose Us</h3>
         <h2 className="center-section-heading">Why Partner with PPS Energy Solutions for MEP Services </h2>

@@ -8,12 +8,14 @@ import MepQuote from './MepQuote'
 import TechnologiesStandards from './TechnologyAndStandardsMep'
 import ValueAdditionAndBenifitsMep from './ValueAdditionAndBenifitsMep'
 import MepCaseStudies from './MepCaseStudies'
+import MepServices from './MepServices'
 
 export default function page() {
   return (
    <>
    <MepBanner/>
    <MepIntroduction/>
+   <MepServices/>
    <MepProcess/>
    <MepIndustries/>
    <TechnologiesStandards/>

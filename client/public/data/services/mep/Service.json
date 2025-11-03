@@ -1,0 +1,64 @@
+[
+    {
+      "id" : "1",
+      "image" : "/assets/home/HomeService2.png",
+      "title": "Mechanical Services",
+      "points": [
+        "HVAC system design, installation & commissioning",
+        "Ventilation and air filtration systems",
+        "Chilled water and VRF/VRV systems",
+        "Firefighting & fire suppression systems",
+        "Industrial ventilation & pressurization solutions",
+        "Building management system (BMS) integration"
+      ]
+    },
+    {
+        "id" : "2",
+         "image" : "/assets/home/HomeService2.png",
+      "title": "Electrical Services",
+      "desc": "Identify inefficiencies and reduce energy costs through in-depth audits and optimization strategies.",
+      "points": [
+        "Electrical system design and load distribution",
+        "HT & LT panels, transformers, switchgear, and cabling",
+        "Lighting design and control systems",
+        "Power backup solutions (UPS, DG sets)",
+        "Earthing & lightning protection systems",
+        "Energy audits and optimization"
+      ]
+    },
+    {
+        "id" : "3",
+         "image" : "/assets/home/HomeService2.png",
+      "title": "Plumbing Services",
+      "desc": "Helping clients transition to sustainable and renewable sources of power.",
+      "points": [
+        "Internal and external water supply systems",
+        "Drainage, sewage & stormwater management",
+        "Hot & cold water distribution networks",
+        "Sanitary fixtures and accessories installation",
+        "Rainwater harvesting and greywater recycling",
+        "Sustainable plumbing design with water conservation focus"
+      ]
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

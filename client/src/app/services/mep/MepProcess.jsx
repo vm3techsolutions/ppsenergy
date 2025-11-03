@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 export default function MepProcess() {
   return (
-        <section className='flex flex-col justify-center pt-[50px] pb-[50px] bg-[#F9FAFB]'>
+        <section className='flex flex-col justify-center pt-[50px] pb-[50px] '>
         <div className="text-center mb-10">
         {/* <h3 className="title text-[#889F2D]">How We Work</h3> */}
         <h2 className="center-section-heading">Our Proven Project Delivery Process </h2>

@@ -38,7 +38,7 @@ export default function TechnologiesStandards() {
   ]
 
   return (
-    <section className="common-section  bg-[#F9FAFB]">
+    <section className="common-section ">
       {/* Heading Section */}
       <div className="text-center mb-10">
         <h3 className="title text-[#889F2D]">
