@@ -3,12 +3,12 @@ import React from 'react'
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
-export default function OurProcessSafetyAudit() {
+export default function MepProcess() {
   return (
-    <section className='flex flex-col justify-center pt-[50px] pb-[50px]'>
+        <section className='flex flex-col justify-center pt-[50px] pb-[50px] bg-[#F9FAFB]'>
         <div className="text-center mb-10">
         {/* <h3 className="title text-[#889F2D]">How We Work</h3> */}
-        <h2 className="center-section-heading">Systematic Approach for Reliable Results </h2>
+        <h2 className="center-section-heading">Our Proven Project Delivery Process </h2>
         {/* <p className="content text-[#3D3D3D]">We follow a structured, transparent, and data-driven approach to ensure measurable outcomes for every client. </p> */}
         </div>
     
@@ -29,7 +29,7 @@ export default function OurProcessSafetyAudit() {
 
         <div className="flex items-center mb-7">
         <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">01</span>
-        <h2 className="title"> Understand the nature of operations, previous incidents, and compliance goals.</h2>
+        <h2 className="contact-heading"> Requirement Analysis – Understanding client objectives, site conditions, and regulatory norms.</h2>
         </div>
         </motion.div>
     
@@ -40,7 +40,7 @@ export default function OurProcessSafetyAudit() {
     
         <div className='flex  items-center mb-7'>
         <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">02</span>
-        <h2 className='title' >Site visits, employee interviews, and document reviews.</h2>
+        <h2 className='contact-heading' >Concept & Design Development – Preparing detailed MEP designs using advanced CAD/BIM tools.</h2>
         </div>
         </motion.div>
     
@@ -51,7 +51,7 @@ export default function OurProcessSafetyAudit() {
     
         <div className='flex items-center mb-7'>
         <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">03</span>
-        <h2 className='title '>Identify unsafe practices, gaps, and non-conformities.</h2>
+        <h2 className='contact-heading '>Engineering & Coordination – Integrating all services for seamless implementation.</h2>
         </div>
         </motion.div>
     
@@ -62,7 +62,7 @@ export default function OurProcessSafetyAudit() {
     
         <div className='flex items-center mb-7'>
         <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">04</span>
-        <h2 className='title '>Assess severity, probability, and control adequacy.</h2>
+        <h2 className='contact-heading'>Procurement & Installation – Supplying and installing high-quality equipment and materials.</h2>
         </div>
         </motion.div>
     
@@ -73,7 +73,7 @@ export default function OurProcessSafetyAudit() {
     
         <div className='flex items-center mb-7'>
         <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">05</span>
-        <h2 className='title'>Deliver a detailed, actionable report with recommendations.</h2>
+        <h2 className='contact-heading'>Testing & Commissioning – Ensuring system functionality, safety, and efficiency.</h2>
         </div>
         </motion.div>
     
@@ -84,20 +84,10 @@ export default function OurProcessSafetyAudit() {
     
         <div className='flex items-center mb-7'>
         <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">06</span>
-        <h2 className='title'>Assist in corrective actions, policy updates, and training programs.</h2>
+        <h2 className='contact-heading'>Handover & Maintenance Support – Providing documentation, training, and post-installation services.</h2>
         </div>
         </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1.6 }}>
-    
-        <div className='flex items-center mb-7'>
-        <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">07</span>
-        <h2 className='title'>Verify improvements and sustained safety compliance.</h2>
-        </div>
-        </motion.div>
         </div>
         </div>
         </section>

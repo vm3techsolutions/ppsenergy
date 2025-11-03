@@ -34,7 +34,7 @@ export default function IndustriesWeServeSafetyAudit() {
   ];
 
   return (
-      <section className="common-section bg-[#F9FAFB]">
+      <section className="common-section">
               <div className="text-center mb-10">
                 <h3 className="title text-[#889F2D]">Industries We Serve</h3>
                 <h2 className="center-section-heading">
@@ -60,7 +60,7 @@ export default function IndustriesWeServeSafetyAudit() {
                 className="w-full h-full object-cover p-2 transition-transform duration-300 ease-in-out group-hover:scale-110"
               />
             </div>
-            <div className="p-2 bg-[#7B0000] flex-grow flex items-center justify-center">
+            <div className="p-2 bg-[#7B0000] grow flex items-center justify-center">
               <h3 className="content">{item.title}</h3>
             </div>
           </div>
@@ -83,7 +83,7 @@ export default function IndustriesWeServeSafetyAudit() {
                 className="w-full h-full object-cover p-2 transition-transform duration-300 ease-in-out group-hover:scale-110"
               />
             </div>
-            <div className="p-2 bg-[#7B0000] flex-grow flex items-center justify-center">
+            <div className="p-2 bg-[#7B0000] grow flex items-center justify-center">
               <h3 className="content">{item.title}</h3>
             </div>
           </div>

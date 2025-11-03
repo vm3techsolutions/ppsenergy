@@ -4,12 +4,12 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { CheckCircle } from "lucide-react";
 
-export default function IntroductionSafetyAudit() {
+export default function MepIntroduction() {
   return (
-      <section className='common-section'>
+    <section className='common-section'>
     <div className="text-center mb-10">
       <h2 className="center-section-heading text-center ">
-     About Safety Audit Services
+     About Our MEP Services
       </h2>
     </div>
 
@@ -19,18 +19,16 @@ export default function IntroductionSafetyAudit() {
  <div>
       {/* Description */}
           <p className="content text-[#3D3D3D]  text-left ">
-            Safety Audits are systematic evaluations of workplace safety standards, policies, and procedures. Our team of certified safety engineers and auditors conduct detailed assessments to ensure your operations meet national and international safety standards. We not only identify potential hazards but also help in creating practical, sustainable safety solutions that enhance employee well-being and operational efficiency.
+           At <b>PPS Energy Solutions</b>, we specialize in providing comprehensive MEP (Mechanical, Electrical, and Plumbing) engineering services that form the backbone of modern infrastructure. Our multidisciplinary expertise ensures that every system — from HVAC to electrical distribution and water supply — is designed and executed with precision, efficiency, and sustainability in mind.<br/>
+           Our MEP solutions combine innovative design, advanced engineering tools, and on-site expertise to deliver optimized performance and reduced lifecycle costs.  </p>
 
-         
-
-          </p>
               {/* Highlights */}
           <ul className="space-y-3 content text-[#3D3D3D]  mt-4">
             {[
-              "Identify and eliminate workplace hazards",
-              "Improve regulatory compliance (Factory Act, OSHA, ISO 45001, etc.)",
-              "Enhance productivity through safer operations",
-              "Reduce accidents, downtime, and insurance costs",
+              "Integrated design and execution",
+              "Energy-efficient systems",
+              "Code-compliant installations",
+              "Scalable and cost-effective solutions",
             ].map((item, index) => (
               <li key={index} className="flex items-start space-x-3">
                 <CheckCircle className="text-[#889F2D] w-5 h-5 mt-1 shrink-0" />
