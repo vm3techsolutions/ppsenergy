@@ -7,8 +7,8 @@ export default function OurProcessSafetyAudit() {
   return (
     <section className='flex flex-col justify-center pt-[50px] pb-[50px]'>
         <div className="text-center mb-10">
-        {/* <h3 className="title text-[#889F2D]">How We Work</h3> */}
-        <h2 className="center-section-heading">Systematic Approach for Reliable Results </h2>
+        <h3 className="title text-[#889F2D]">How We Work</h3>
+        <h2 className="center-section-heading"> SYSTEMATIC APPROACH FOR RELIABLE RESULTS</h2>
         {/* <p className="content text-[#3D3D3D]">We follow a structured, transparent, and data-driven approach to ensure measurable outcomes for every client. </p> */}
         </div>
     
@@ -18,7 +18,7 @@ export default function OurProcessSafetyAudit() {
           height={574}
           src="/assets/home/HowWeWork.png"
           alt="About Us"
-          className="w-[700px] h-[300px] lg:h-[650px]  rounded-r-[20px] shadow-lg object-cover opacity-100 "/>
+          className="w-[700px] h-[300px] lg:h-[700px]  rounded-r-[20px] shadow-lg object-cover opacity-100 "/>
         
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 lg:ml-[50px] mt-5 ml-2 mr-2'>
     

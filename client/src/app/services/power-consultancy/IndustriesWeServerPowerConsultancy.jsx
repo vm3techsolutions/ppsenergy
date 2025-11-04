@@ -33,9 +33,7 @@ export default function IndustriesWeServerPowerConsultancy() {
     <section className="common-section">
           <div className="text-center mb-10">
             <h3 className="title text-[#889F2D]">Industries We Serve</h3>
-            <h2 className="center-section-heading">
-              Powering Diverse Sectors with Tailored Solutions
-            </h2>
+            <h2 className="center-section-heading">POWERING DIVERSE SECTORS WITH <br />TAILORED SOLUTIONS </h2>
              <p className="content text-[#3D3D3D]">Our consultancy services cater to a wide range of industries where energy efficiency and reliability are critical.</p>
           </div>
     
@@ -78,7 +76,7 @@ export default function IndustriesWeServerPowerConsultancy() {
             className="w-full h-full object-cover p-2 transition-transform duration-300 ease-in-out group-hover:scale-110"
           />
         </div>
-        <div className="p-2 bg-[#7B0000] flex-grow flex items-center justify-center">
+        <div className="p-2 bg-[#7B0000] grow flex items-center justify-center">
           <h3 className="content">{item.title}</h3>
         </div>
       </div>
@@ -101,7 +99,7 @@ export default function IndustriesWeServerPowerConsultancy() {
             className="w-full h-full object-cover p-2 transition-transform duration-300 ease-in-out group-hover:scale-110"
           />
         </div>
-        <div className="p-2 bg-[#7B0000] flex-grow flex items-center justify-center">
+        <div className="p-2 bg-[#7B0000] grow flex items-center justify-center">
           <h3 className="content">{item.title}</h3>
         </div>
       </div>

@@ -8,8 +8,9 @@ export default function MepIntroduction() {
   return (
     <section className='common-section'>
     <div className="text-center mb-10">
+
       <h2 className="center-section-heading text-center ">
-     About Our MEP Services
+      ABOUT OUR MEP SERVICES
       </h2>
     </div>
 

@@ -11,7 +11,7 @@ export default function PowerConsultancyBanner() {
 
       {/* Content */}
       <div className="section relative z-10 lg:max-w-6xl px-6 sm:px-4 lg:px-8 text-center">
-        <h2 className="heading text-[#7B0000] lg:pb-6 sm:pb-4">Empowering Industries with <br/> Intelligent Energy Solutions</h2>
+        <h2 className="heading text-[#7B0000] lg:pb-6 sm:pb-4">EMPOWERING INDUSTRIES WITH <br/>INTELLIGENT ENERGY SOLUTIONS</h2>
         <h3 className='text-center title mt-5'>Optimize energy performance, reduce operational costs, and achieve sustainability through expert power consultancy.</h3>
 
         

@@ -9,7 +9,7 @@ export default function WhyChooseMep() {
     <section className='common-section flex flex-col justify-center '>
         <div className="text-center mb-10">
              <h3 className="title text-[#889F2D]">Why Choose Us</h3>
-        <h2 className="center-section-heading">Why Partner with PPS Energy Solutions for MEP Services </h2>
+        <h2 className="center-section-heading"> WHY PARTNER WITH PPS ENERGY SOLUTIONS <br /> FOR MEP SERVICES </h2>
         
         </div>
 {/* Grid Boxes Designing */}

@@ -13,24 +13,26 @@ export default function Header() {
   const links = [
     {
       href: "#",
-      label: "Services",
+      label: "SERVICES",
       submenu: [
-        { href: "/services/energy-audit", label: "Energy Audit" },
-        { href: "/services/power-consultancy", label: "Power Consultancy" },
-        { href: "/services/safety-audit", label: "Safety Audit" },
+        { href: "/services/energy-audit", label: "ENERGY AUDIT" },
+        { href: "/services/power-consultancy", label: "POWER CONSULTANCY" },
+        { href: "/services/safety-audit", label: "SAFETY AUDIT" },
         { href: "/services/mep", label: "MEP" },
+         { href: "/services/market-research-survey-training", label: "MARKET RESEARCH, SURVEY & TRAINING" },
+          { href: "/services/project-management-consultancy", label: "PROJECT MANAGEMENT CONSULTANCY" },
       ],
     },
-    { href: "/projects", label: "Projects" },
-    { href: "/about-us", label: "About Us" },
-    { href: "/insights", label: "Insights" },
-    { href: "/gallery", label: "Gallery" },
-    { href: "/career", label: "Career" },
-    { href: "/contact-us", label: "Contact Us" },
+    { href: "/projects", label: "PROJECTS" },
+    { href: "/about-us", label: "ABOUT US" },
+    { href: "/insights", label: "INSIGHTS" },
+    { href: "/gallery", label: "GALLERY" },
+    { href: "/career", label: "CAREER" },
+    { href: "/contact-us", label: "CONTACT US" },
   ];
 
   return (
-    <header className="w-full shadow-md bg-white px-6 md:px-16 py-4 flex items-center justify-between relative lg:px-[80px] ">
+    <header className="w-full shadow-md bg-white px-6 md:px-16 py-4 flex items-center justify-between relative lg:px-20 ">
     {/* Left: Logo */}
     <Link href="/">
       <Image
@@ -50,10 +52,10 @@ export default function Header() {
 
       {/* Submenu for desktop */}
       {link.submenu && (
-        <ul className="absolute left-0 w-48  bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50 content px-5">
+        <ul className="absolute left-0 w-58  bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50 content px-5">
         {link.submenu.map((sublink) => (
         <li key={sublink.href}>
-        <Link href={sublink.href} className="block text-[#7B0000] hover:bg-[#889F2D] hover:text-[#ffffff] py-[10px] px-[10px] text-[16px] font-medium">
+        <Link href={sublink.href} className="block text-[#7B0000] hover:bg-[#889F2D] hover:text-[#ffffff] py-2.5 px-2.5 text-[16px] font-medium">
         {sublink.label}
         </Link>
         </li>))}

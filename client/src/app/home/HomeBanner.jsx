@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function HomeBanner() {
   return (
     <section
-      className="relative h-[450px] md:h-[600px] sm:h-[300px] lg:h-[600px] flex items-center bg-cover bg-center"
+      className="relative h-[450px] md:h-[600px] sm:h-[300px] lg:h-[700px] flex items-center bg-cover bg-center"
       style={{ backgroundImage: "url('/assets/home/HomeBannerImage.png')" }}>
       {/* Overlay */}
       <div className="absolute"></div>

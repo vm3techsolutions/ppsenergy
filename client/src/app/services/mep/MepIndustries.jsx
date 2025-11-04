@@ -39,7 +39,7 @@ export default function MepIndustries() {
     <section className="common-section  bg-[#F9FAFB]">
                   <div className="text-center mb-10">
                     <h3 className="title text-[#889F2D]">Industries We Serve</h3>
-                    <h2 className="center-section-heading">Delivering MEP Solutions Across Industries</h2>
+                    <h2 className="center-section-heading"> DELIVERING MEP SOLUTIONS ACROSS INDUSTRIES</h2>
                      <p className="content text-[#3D3D3D]">Our MEP services cater to diverse sectors, ensuring reliability, safety, and sustainability in every project:</p>
                   </div>
         

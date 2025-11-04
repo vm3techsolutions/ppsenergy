@@ -7,8 +7,8 @@ export default function MepProcess() {
   return (
         <section className='flex flex-col justify-center pt-[50px] pb-[50px] '>
         <div className="text-center mb-10">
-        {/* <h3 className="title text-[#889F2D]">How We Work</h3> */}
-        <h2 className="center-section-heading">Our Proven Project Delivery Process </h2>
+        <h3 className="title text-[#889F2D]">How We Work</h3>
+        <h2 className="center-section-heading"> OUR PROVEN PROJECT DELIVERY PROCESS</h2>
         {/* <p className="content text-[#3D3D3D]">We follow a structured, transparent, and data-driven approach to ensure measurable outcomes for every client. </p> */}
         </div>
     
@@ -30,7 +30,7 @@ export default function MepProcess() {
         <div className="flex items-center mb-7">
         <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">01</span>
         <h2 className="process-bullet-section-desc">
-        <b className='process-bullet-section-heading text-[#7b0000]'>Requirement Analysis:-</b>
+        <b className='process-bullet-section-heading text-[#7b0000]'>Requirement Analysis:-</b><br />
         Understanding client objectives, site conditions, and regulatory norms.</h2>
         </div>
         </motion.div>
@@ -43,7 +43,7 @@ export default function MepProcess() {
         <div className='flex  items-center mb-7'>
         <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">02</span>
         <h2 className='process-bullet-section-desc' >
-        <b className='process-bullet-section-heading text-[#7b0000]'>Concept & Design Development:-</b>
+        <b className='process-bullet-section-heading text-[#7b0000]'>Concept & Design Development:-</b><br />
         Preparing detailed MEP designs using advanced CAD/BIM tools.</h2>
         </div>
         </motion.div>
@@ -55,8 +55,9 @@ export default function MepProcess() {
     
         <div className='flex items-center mb-7'>
         <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">03</span>
+        
         <h2 className='process-bullet-section-desc'>
-        <b className='process-bullet-section-heading text-[#7b0000]'>Engineering & Coordination</b>
+        <b className='process-bullet-section-heading text-[#7b0000]'>Engineering & Coordination:-</b><br />
         Integrating all services for seamless implementation.</h2>
         </div>
         </motion.div>
@@ -69,7 +70,7 @@ export default function MepProcess() {
         <div className='flex items-center mb-7'>
         <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">04</span>
         <h2 className='process-bullet-section-desc'>
-        <b className='process-bullet-section-heading text-[#7b0000]'>Procurement & Installation:-</b> 
+        <b className='process-bullet-section-heading text-[#7b0000]'>Procurement & Installation:-</b> <br />
         Supplying and installing high-quality equipment and materials.</h2>
         </div>
         </motion.div>
@@ -82,7 +83,7 @@ export default function MepProcess() {
         <div className='flex items-center mb-7'>
         <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">05</span>
         <h2 className='process-bullet-section-desc'>
-        <b className='process-bullet-section-heading text-[#7b0000]'>Testing & Commissioning:-</b>
+        <b className='process-bullet-section-heading text-[#7b0000]'>Testing & Commissioning:-</b><br />
         Ensuring system functionality, safety, and efficiency.</h2>
         </div>
         </motion.div>
@@ -95,7 +96,7 @@ export default function MepProcess() {
         <div className='flex items-center mb-7'>
         <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">06</span>
         <h2 className='process-bullet-section-desc'>
-        <b className='process-bullet-section-heading text-[#7b0000]'>Handover & Maintenance Support:-</b>
+        <b className='process-bullet-section-heading text-[#7b0000]'>Handover & Maintenance Support:-</b><br />
         Providing documentation, training, and post-installation services.</h2>
         </div>
         </motion.div>

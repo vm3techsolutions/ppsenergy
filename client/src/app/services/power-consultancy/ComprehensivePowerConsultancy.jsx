@@ -8,9 +8,7 @@ export default function ComprehensivePowerConsultancy() {
   return (
   <section className='common-section'>
     <div className="text-center mb-10">
-      <h2 className="center-section-heading text-center ">
-      Comprehensive Power Consultancy for Sustainable Growth
-      </h2>
+      <h2 className="center-section-heading text-center ">COMPREHENSIVE POWER CONSULTANCY FOR <br /> SUSTAINABLE GROWTH</h2>
     </div>
 
        

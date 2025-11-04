@@ -12,7 +12,7 @@ export default function MepBanner() {
       {/* Content */}
     <div className="section relative z-10 lg:max-w-6xl px-6 sm:px-4 lg:px-8 text-center">
         <h2 className="
-            heading text-[#7B0000] lg:pb-6 sm:pb-4">Integrated MEP Solutions for Smarter,  <br className="hidden sm:block" />Safer, and Sustainable Infrastructure <br className="hidden sm:block" /></h2>
+            heading text-[#7B0000] lg:pb-6 sm:pb-4">INTEGRATED MEP SOLUTIONS FOR SMARTER,  <br className="hidden sm:block" />SAFER, AND SUSTAINABLE INFRASTRUCTURE<br className="hidden sm:block" /></h2>
                <h3 className='text-center title mt-5'>Delivering end-to-end Mechanical, Electrical, and Plumbing engineering services that power efficient, safe, and future-ready buildings.</h3>
 
            
