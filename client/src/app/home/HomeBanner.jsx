@@ -19,7 +19,7 @@ export default function HomeBanner() {
           ENERGY SOLUTIONS
         </h1>
 
-        <Link href="/solutions">
+        <Link href="/contact-us">
           <button className="buttonGreenBG mt-8 "> Explore Solutions </button>
         </Link>
       </div>

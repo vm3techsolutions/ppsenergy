@@ -65,7 +65,7 @@ export default function Header() {
 
       {/* Desktop Button */}
       <div className="hidden md:block">
-      <Link href="/quote">
+      <Link href="/contact-us">
       <button className="px-4 py-2 hover:bg-green-700 transition button">Request Quote</button>
       </Link>
       </div>
@@ -97,7 +97,7 @@ export default function Header() {
       </div> )}
       </div>))}
 
-      <Link href="/quote" onClick={() => setIsOpen(false)} className="w-full px-6">
+      <Link href="/contact-us" onClick={() => setIsOpen(false)} className="w-full px-6">
       <button className="mt-4 px-4 py-2  w-full  button"> Request Quote</button>
       </Link>
       </div> )}
