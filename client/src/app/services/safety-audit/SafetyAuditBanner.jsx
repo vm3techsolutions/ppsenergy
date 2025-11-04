@@ -26,9 +26,9 @@ export default function SafetyAuditBanner() {
   <button className="button">
     Request a Safety Audit
   </button>
-  <button className="buttonService">
+  {/* <button className="buttonService">
     Talk to Our Experts
-  </button>
+  </button> */}
 </div>
             </div>
 

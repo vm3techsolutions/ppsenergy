@@ -34,7 +34,7 @@ export default function IndustriesWeServeSafetyAudit() {
   ];
 
   return (
-      <section className="common-section">
+      <section className="common-section bg-[#F9FAFB]">
               <div className="text-center mb-10">
                 <h3 className="title text-[#889F2D]">Industries We Serve</h3>
                 <h2 className="center-section-heading">

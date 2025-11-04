@@ -21,9 +21,9 @@ export default function EnergyAuditBanner() {
           <button className="button">
             Request a Energy Audit
           </button>
-          <button className="buttonService">
+          {/* <button className="buttonService">
             Talk to Our Experts
-          </button>
+          </button> */}
         </div>
          </div>
 

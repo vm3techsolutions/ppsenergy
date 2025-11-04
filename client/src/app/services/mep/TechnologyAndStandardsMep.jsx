@@ -64,8 +64,8 @@ export default function TechnologiesStandards() {
           >
             <div>
               <div className="flex justify-center mb-4">
-                <div className="w-16 h-16 flex items-center justify-center rounded-full bg-[#889F2D]/10 group-hover:bg-[#889F2D]/20 transition">
-                  <Icon className="w-8 h-8 text-[#889F2D]" />
+                <div className="w-16 h-16 flex items-center justify-center rounded-full bg-[#889F2D]/10 group-hover:bg-[#889F2D]/20 transition group">
+                  <Icon className="w-8 h-8 text-[#889F2D] transition-transform duration-300 ease-in-out group-hover:scale-110 " />
                 </div>
               </div>
               <h3 className="contact-heading text-[#7B0000] mb-4">

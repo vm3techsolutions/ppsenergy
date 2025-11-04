@@ -29,8 +29,8 @@ export default function OurProcessSection() {
             transition={{ duration: 0.6 }}>
     
         <div className="flex items-center mb-7">
-        <span className=" border-[2px] border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">01</span>
-        <h2 className="title"> Evaluate current systems, loads, and performance metrics.</h2>
+        <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">01</span>
+        <h2 className="process-bullet-section-desc"><b className='process-bullet-section-heading text-[#7b0000]'>Assessment:- </b><br/> Evaluate current systems, loads, and performance metrics.</h2>
         </div>
         </motion.div>
     
@@ -40,8 +40,8 @@ export default function OurProcessSection() {
           transition={{ duration: 0.8 }}>
     
         <div className='flex  items-center mb-7'>
-        <span className=" border-[2px] border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">02</span>
-        <h2 className='title' >Develop optimized power system models and layouts.</h2>
+        <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">02</span>
+        <h2 className='process-bullet-section-desc' ><b className='process-bullet-section-heading text-[#7b0000]'>Design:-</b><br></br> Develop optimized power system models and layouts.</h2>
         </div>
         </motion.div>
     
@@ -51,8 +51,8 @@ export default function OurProcessSection() {
           transition={{ duration: 1 }}>
     
         <div className='flex items-center mb-7'>
-        <span className=" border-[2px] border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">03</span>
-        <h2 className='title '>Recommend cost-effective, sustainable solutions.</h2>
+        <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">03</span>
+        <h2 className='process-bullet-section-desc '><b className='process-bullet-section-heading text-[#7b0000]'>Strategy:-</b><br/>Recommend cost-effective, sustainable solutions.</h2>
         </div>
         </motion.div>
     
@@ -62,8 +62,8 @@ export default function OurProcessSection() {
         transition={{ duration: 1.2 }}>
     
         <div className='flex items-center mb-7'>
-        <span className=" border-[2px] border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">04</span>
-        <h2 className='title '>Support execution through technical guidance and supervision.</h2>
+        <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">04</span>
+        <h2 className='process-bullet-section-desc '><b className='process-bullet-section-heading text-[#7b0000]'>Implementation:- </b><br/>Support execution through technical guidance and supervision.</h2>
         </div>
         </motion.div>
     
@@ -73,24 +73,18 @@ export default function OurProcessSection() {
           transition={{ duration: 1.4 }}>
     
         <div className='flex items-center mb-7'>
-        <span className=" border-[2px] border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">05</span>
-        <h2 className='title'>Continuously track performance for long-term efficiency.</h2>
+        <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">05</span>
+        <h2 className='process-bullet-section-desc'><b className='process-bullet-section-heading text-[#7b0000]'>Monitoring:-</b><br/>Continuously track performance for long-term efficiency.</h2>
         </div>
         </motion.div>
     
-        <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1.6 }}>
-    
-        <div className='flex items-center mb-7'>
-        <span className=" border-[2px] border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">06</span>
-        <h2 className='title'>Sustained Partnership</h2>
-        </div>
-        </motion.div>
+       
         </div>
         </div>
         </section>
   );
 
 }
+
+
+

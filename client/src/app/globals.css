@@ -75,6 +75,19 @@
   font-size: 15px;
 }
 
+
+.process-bullet-section-heading{
+  font-family: var(--font-montserrat), sans-serif;
+  font-weight: 500; 
+  font-size: 24px;
+  padding: 5x 0 5px 0;
+}
+.process-bullet-section-desc{
+  font-family: var(--font-roboto), sans-serif;
+  font-weight: 400; 
+  font-size: 20px;
+  padding: 5x 0 5px 0;
+}
 /* ===== Designing Section ===== */
 
 .section{

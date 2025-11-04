@@ -21,9 +21,9 @@ export default function MepBanner() {
           <button className="button">
             Request a Consultation
           </button>
-          <button className="buttonService">
+          {/* <button className="buttonService">
             Download Service Brochure
-          </button>
+          </button> */}
         </div>
          </div>
 

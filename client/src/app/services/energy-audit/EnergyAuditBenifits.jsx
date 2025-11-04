@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -18,28 +19,32 @@ export default function EnergyAuditBenifits() {
       
             {/* 1st Box section */}
          
-             <div className='grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-1 gap-y-4 lg:gap-y-35 lg:mr-[50px] gap-2'>
+             <div className='grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-1 gap-y-4 lg:gap-y-45 lg:mr-[50px] gap-2'>
             {/* Box-1 */}
           <motion.div
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}>
-            <div className='flex flex-col text-left '>
-            <p className='title bg-[#889F2D] rounded-full  w-[35px] h-[35px] text-center text-[#ffffff]  mr-6'>1</p>
-            <h3 className='title text-[#7B0000] mt-2'>Cut Energy Costs</h3>
-            <p className='content text-[#3d3d3d]'>Reduce operational expenses by up to 30%.</p>
+
+            <div className="flex items-start gap-3 sm:gap-4 text-left">
+            <div className="shrink-0 flex items-center justify-center bg-[#889F2D] text-white font-semibold rounded-full w-8 h-8 sm:w-10 sm:h-10 text-base sm:text-lg">1</div>
+            <h3 className="content text-[#3d3d3d] "> <b className='title text-[#7B0000] '>Cut Energy Costs:- </b><br />
+            Reduce operational expenses by up to 30%.</h3>
             </div>
+
             </motion.div>
 
           <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}>
-            <div className='flex flex-col text-left '>
-            <p className='title bg-[#889F2D] rounded-full  w-[35px] h-[35px] text-center text-[#ffffff]  mr-6'>2</p>
-            <h3 className='title text-[#7B0000] mt-2'>Boost Efficiency</h3>
-            <p className='content text-[#3d3d3d]'>Optimize the performance of critical equipment.</p>
+
+             <div className="flex items-start gap-3 sm:gap-4 text-left">
+            <div className="shrink-0 flex items-center justify-center bg-[#889F2D] text-white font-semibold rounded-full w-8 h-8 sm:w-10 sm:h-10 text-base sm:text-lg">2</div>
+            <h3 className="content text-[#3d3d3d] "> <b className='title text-[#7B0000] '>Boost Efficiency:- </b><br />
+            Optimize the performance of critical equipment.</h3>
             </div>
+
             </motion.div>
 
             </div>
@@ -58,28 +63,32 @@ export default function EnergyAuditBenifits() {
       
             {/* Vision Box */}
            
-            <div className='grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-1 gap-y-4 lg:gap-y-30 lg:ml-[50px] gap-2'>
+            <div className='grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-1 gap-y-4 lg:gap-y-45 lg:ml-[50px] gap-2'>
             {/* Box-2 */}
             <motion.div
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}>
-            <div className='flex flex-col text-left   items-start'>
-           <p className='title bg-[#889F2D] rounded-full  w-[35px] h-[35px] text-center text-[#ffffff]  mr-6'>3</p>
-            <h3 className='title text-[#7B0000] mt-2'>Sustainability</h3>
-            <p className='content text-[#3d3d3d]'>Lower your carbon footprint and support green initiatives.</p>
+
+            <div className="flex items-start gap-3 sm:gap-4 text-left">
+            <div className="shrink-0 flex items-center justify-center bg-[#889F2D] text-white font-semibold rounded-full w-8 h-8 sm:w-10 sm:h-10 text-base sm:text-lg">3</div>
+            <h3 className="content text-[#3d3d3d] "> <b className='title text-[#7B0000] '>Sustainability:- </b><br />
+            Lower your carbon footprint and support green initiatives.</h3>
             </div>
+
             </motion.div>
 
              <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2 }}>
-            <div className='flex flex-col text-left'>
-            <p className='title bg-[#889F2D] rounded-full  w-[35px] h-[35px] text-center text-[#ffffff]  mr-6'>4</p>
-            <h3 className='title text-[#7B0000] mt-2'>Better ROI</h3>
-            <p className='content text-[#3d3d3d]'>Energy-saving investments often pay back within months.</p>
+
+            <div className="flex items-start gap-3 sm:gap-4 text-left">
+            <div className="shrink-0 flex items-center justify-center bg-[#889F2D] text-white font-semibold rounded-full w-8 h-8 sm:w-10 sm:h-10 text-base sm:text-lg">4</div>
+            <h3 className="content text-[#3d3d3d] "> <b className='title text-[#7B0000] '>Better ROI:- </b><br />
+            Energy-saving investments often pay back within months.</h3>
             </div>
+
             </motion.div>
 
             </div>

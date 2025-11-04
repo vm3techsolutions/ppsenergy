@@ -37,7 +37,7 @@ export default function ComprehensivePowerConsultancy() {
               "Proven track record in energy cost optimization and compliance",
             ].map((item, index) => (
               <li key={index} className="flex items-start space-x-3">
-                <CheckCircle className="text-[#889F2D] w-5 h-5 mt-1 flex-shrink-0" />
+                <CheckCircle className="text-[#889F2D] w-5 h-5 mt-1 shrink-0" />
                 <span className="text-gray-800">{item}</span>
               </li>
             ))}

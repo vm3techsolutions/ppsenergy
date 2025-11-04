@@ -20,9 +20,9 @@ export default function PowerConsultancyBanner() {
           <button className="button">
             Request a Consultation
           </button>
-          <button className="buttonService">
+          {/* <button className="buttonService">
             Explore Our Solutions
-          </button>
+          </button> */}
         </div>
 
             </div>

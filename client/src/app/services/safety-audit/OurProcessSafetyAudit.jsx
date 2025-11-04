@@ -29,7 +29,9 @@ export default function OurProcessSafetyAudit() {
 
         <div className="flex items-center mb-7">
         <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">01</span>
-        <h2 className="title"> Understand the nature of operations, previous incidents, and compliance goals.</h2>
+        <h2 className="process-bullet-section-desc"> 
+        <b className='process-bullet-section-heading text-[#7b0000]'>Initial Consultation:-</b><br/>
+        Understand the nature of operations, previous incidents, and compliance goals.</h2>
         </div>
         </motion.div>
     
@@ -40,7 +42,9 @@ export default function OurProcessSafetyAudit() {
     
         <div className='flex  items-center mb-7'>
         <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">02</span>
-        <h2 className='title' >Site visits, employee interviews, and document reviews.</h2>
+        <h2 className='process-bullet-section-desc' >
+        <b className='process-bullet-section-heading text-[#7b0000]'>Data Collection:-</b><br/>
+        Site visits, employee interviews, and document reviews.</h2>
         </div>
         </motion.div>
     
@@ -51,7 +55,9 @@ export default function OurProcessSafetyAudit() {
     
         <div className='flex items-center mb-7'>
         <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">03</span>
-        <h2 className='title '>Identify unsafe practices, gaps, and non-conformities.</h2>
+        <h2 className='process-bullet-section-desc'>
+        <b className='process-bullet-section-heading text-[#7b0000]'>Risk Identification:-</b><br/>
+        Identify unsafe practices, gaps, and non-conformities.</h2>
         </div>
         </motion.div>
     
@@ -62,7 +68,9 @@ export default function OurProcessSafetyAudit() {
     
         <div className='flex items-center mb-7'>
         <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">04</span>
-        <h2 className='title '>Assess severity, probability, and control adequacy.</h2>
+        <h2 className='process-bullet-section-desc '>
+        <b className='process-bullet-section-heading text-[#7b0000]'>Analysis & Evaluation:-</b><br/>
+        Assess severity, probability, and control adequacy.</h2>
         </div>
         </motion.div>
     
@@ -73,7 +81,9 @@ export default function OurProcessSafetyAudit() {
     
         <div className='flex items-center mb-7'>
         <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">05</span>
-        <h2 className='title'>Deliver a detailed, actionable report with recommendations.</h2>
+        <h2 className='process-bullet-section-desc'>
+        <b className='process-bullet-section-heading text-[#7b0000]'>Audit Report Preparation:-</b><br/>
+        Deliver a detailed, actionable report with recommendations.</h2>
         </div>
         </motion.div>
     
@@ -84,7 +94,9 @@ export default function OurProcessSafetyAudit() {
     
         <div className='flex items-center mb-7'>
         <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">06</span>
-        <h2 className='title'>Assist in corrective actions, policy updates, and training programs.</h2>
+        <h2 className='process-bullet-section-desc'>
+        <b className='process-bullet-section-heading text-[#7b0000]'>Implementation Support:-</b><br/>
+        Assist in corrective actions, policy updates, and training programs.</h2>
         </div>
         </motion.div>
 
@@ -95,11 +107,18 @@ export default function OurProcessSafetyAudit() {
     
         <div className='flex items-center mb-7'>
         <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">07</span>
-        <h2 className='title'>Verify improvements and sustained safety compliance.</h2>
+        <h2 className='process-bullet-section-desc'>
+        <b className='process-bullet-section-heading text-[#7b0000]'>Follow-Up Audit:-</b><br/>
+        Verify improvements and sustained safety compliance.</h2>
         </div>
         </motion.div>
+
         </div>
         </div>
         </section>
   )
 }
+
+
+
+ 
