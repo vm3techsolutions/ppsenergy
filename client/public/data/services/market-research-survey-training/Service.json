@@ -1,0 +1,73 @@
+[
+    {
+      "id" : "1",
+      "image" : "/assets/home/HomeService2.png",
+      "title": "Market Research",
+      "desc": "Gain deep insights into your market landscape, competition, and consumer behavior.",
+      "pointsHead" : "Services include:",
+      "points": [
+        "Market feasibility & opportunity studies",
+        "Competitor benchmarking & SWOT analysis",
+        "Consumer perception & brand analysis",
+        "New product testing and feedback studies",
+        "Pricing and demand analysis",
+        "Market entry strategy development"
+      ]
+    },
+    {
+        "id" : "2",
+         "image" : "/assets/home/HomeService2.png",
+      "title": "Survey Services",
+      "desc": "End-to-end survey management for accurate and timely data collection.",
+     "pointsHead" : "Services include:",
+       "approach": "We use digital tools, structured questionnaires, and multilingual survey techniques to ensure authentic responses and high data reliability.",
+      "points": [
+        "Customer satisfaction & employee engagement surveys",
+        "Vendor/supplier performance surveys",
+        "Field data collection & telephonic surveys",
+        "Digital & online survey deployment",
+        "Statistical analysis and report preparation"
+      ]
+    },
+    {
+        "id" : "3",
+         "image" : "/assets/home/HomeService2.png",
+      "title": "Training Services",
+      "desc": "Enhance organizational performance with customized, skill-focused training.",
+        "pointsHead" : "Programs include:",
+    
+      "points": [
+        "Market Research & Data Analysis Training",
+        "Customer Service & Communication Skills",
+        "Leadership & Team Development",
+        "Safety & Compliance Training",
+        "Industry-specific workshops and on-site training sessions"
+      ],
+      "features": [
+        "Certified trainers and domain experts",
+        "Practical, hands-on modules",
+        "Pre- and post-training evaluation reports"
+      ]
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
