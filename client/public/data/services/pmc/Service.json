@@ -1,0 +1,69 @@
+[
+    {
+      "id" : "1",
+      "image" : "/assets/home/HomeService2.png",
+      "title": "Project Planning & Feasibility",
+      "points": [
+        "Technical and financial feasibility studies",
+        "Conceptual planning and detailed project scheduling",
+        "Resource estimation and cost forecasting",
+        "Risk assessment and mitigation strategies"
+      ]
+    },
+    {
+        "id" : "2",
+         "image" : "/assets/home/HomeService2.png",
+      "title": "Design Management",
+      "points": [
+        "Review and coordination of design deliverables",
+        "Value engineering and design optimization",
+        "Regulatory and statutory compliance support",
+        "Design change control and approval management"
+      ]
+    },
+    {
+        "id" : "3",
+         "image" : "/assets/home/HomeService2.png",
+      "title": "Procurement Assistance",
+      "points": [
+        "Preparation of bid documents and tendering process",
+        "Contractor/vendor prequalification",
+        "Bid evaluation and recommendation",
+        "Contract finalization and documentation"
+      ]
+    },
+    {
+        "id" : "4",
+         "image" : "/assets/home/HomeService2.png",
+      "title": "Construction Supervision",
+      "points": [
+        "Monitoring of site activities and progress tracking",
+        "Quality assurance and safety compliance",
+        "Cost control and material verification",
+        "Schedule adherence and milestone verification"
+      ]
+    },
+    {
+        "id" : "5",
+         "image" : "/assets/home/HomeService2.png",
+      "title": "Project Monitoring & Control",
+      "points": [
+        "Progress measurement and reporting (daily/weekly/monthly)",
+        "Performance tracking through KPIs",
+        "Budget control and variance analysis",
+        "Risk and change management"
+      ]
+    },
+    {
+        "id" : "6",
+         "image" : "/assets/home/HomeService2.png",
+      "title": "Commissioning & Handover",
+      "points": [
+        "System testing and validation",
+        "Final documentation and as-built drawings",
+        "Training and operational readiness",
+        "Post-handover support and audit"
+      ]
+
+    }
+]
