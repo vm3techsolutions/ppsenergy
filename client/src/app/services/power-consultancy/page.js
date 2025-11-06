@@ -5,7 +5,7 @@ import ComprehensivePowerConsultancy from './ComprehensivePowerConsultancy'
 import CoreServices from './CoreServices'
 import OurProcessSection from './OurProcessSection'
 import WhyChooseUsPowerConsultancy from './WhyChooseUsPowerConsultancy'
-import QuoteBox from './QuoteBox'
+// import QuoteBox from './QuoteBox'
 
 export default function page() {
   return (
@@ -16,7 +16,7 @@ export default function page() {
     <IndustriesWeServerPowerConsultancy/>
     <OurProcessSection/>
     <WhyChooseUsPowerConsultancy/>
-    <QuoteBox/>
+    {/* <QuoteBox/> */}
     </>
   )
 }

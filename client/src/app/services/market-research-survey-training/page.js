@@ -4,7 +4,7 @@ import IntroMarketResearch from './IntroMarketResearch'
 import ProcessMarketRearch from './ProcessMarketRearch'
 import IndustriesMarketResearch from './IndustriesMarketResearch'
 import WhyChooseMarketReseach from './WhyChooseMarketReseach'
-import QuoteMarketResearch from './QuoteMarketResearch'
+// import QuoteMarketResearch from './QuoteMarketResearch'
 import ServicesMarketResearch from './ServicesMarketResearch'
 import ToolsMarketResearch from './ToolsMarketResearch'
 
@@ -18,7 +18,7 @@ export default function page() {
     <IndustriesMarketResearch/>
     <ToolsMarketResearch/>
     <WhyChooseMarketReseach/>
-    <QuoteMarketResearch/>
+    {/* <QuoteMarketResearch/> */}
     </>
   )
 }
