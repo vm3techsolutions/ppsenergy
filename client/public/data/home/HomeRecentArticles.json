@@ -4,6 +4,7 @@
         "slug": "energy-saving-tips",
         "article_image" : "/assets/home/HomeRecentArticle.png",
         "article_title" : "Lorem Genrator",
+        "article_date" : "August 20, 2023",
         "article_description" : "This handy tool helps you create dummy text for all your layoThis handy tool helps you create dummy text for all your layout needs. We are gradually adding new, This handy tool helps you create dummy text for all your layout needs. We are gradually adding new, "
 
     },
@@ -13,6 +14,7 @@
          "slug": "energy-saving-new-tips",
         "article_image" : "/assets/home/HomeRecentArticle.png",
         "article_title" : "Lorem Genrator", 
+         "article_date" : "August 20, 2024",
         "article_description" : "This handy tool helps you create dummy text for all your layoThis handy tool helps you create dummy text for all your layout needs. We are gradually adding new, This handy tool helps you create dummy text for all your layout needs. We are gradually adding new,  "
     }, 
 
@@ -21,6 +23,7 @@
          "slug": "energy-saving-new-new-tips",
         "article_image" : "/assets/home/HomeRecentArticle.png",
         "article_title" : "Lorem Genrator",
-        "article_description" : "This handy tool helps you create dummy text for all your layoThis handy tool helps you create dummy text for all your layout needs. We are gradually adding new, This handy tool helps you create dummy text for all your layout needs. We are gradually adding new, "
+        "article_date" : "August 20, 2025",
+        "article_description" : "This handy tool helps you create dummy text for all your layoThis handy tool helps you create dummy text for all your layout needs. We are gradually adding new, This handy to "
     }
 ]

@@ -20,7 +20,7 @@ export default async function Page({ params }) {
   }
 
   return (
-    <section className="common-section">
+  <section className="common-section px-4 lg:px-0 lg:mx-[100px]">
       <h2 className="center-section-heading text-center mb-10">
         {article.article_title}
       </h2>
@@ -29,8 +29,8 @@ export default async function Page({ params }) {
         src={article.article_image}
         alt={article.article_title}
         width={800}
-        height={400}
-        className="w-full h-auto mb-6"
+        height={600}
+        className="w-full h-auto lg:w-[1200px] lg:h-[550px] object-cover rounded-lg mx-auto lg:mb-10 mb-5"
       />
 
       <div className="mb-10">
@@ -42,10 +42,20 @@ export default async function Page({ params }) {
       </div>
 
 
-<Link href="/insights/blogs">
+{/* <Link href="/insights/blogs">
  
       <button className="button flex "> <ArrowLeft size={20} className="mr-2 " />  Back to Blogs</button>
-</Link>
+</Link> */}
+
+<div className="mt-6">
+  <Link href="/insights/blogs">
+    <button className="button flex items-center">
+      <ArrowLeft size={20} className="mr-2" />
+      Back to Blogs
+    </button>
+  </Link>
+</div>
+
     </section>
   );
 }

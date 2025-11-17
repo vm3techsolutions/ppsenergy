@@ -47,11 +47,16 @@ export default function RecentArticles() {
                </div>
                 
               </Link> */}
-                           <Link href={`/insights/blogs/${item.slug}`}>
-  <div className="mt-auto">
-    <button className="button mt-3">Explore More</button>
-  </div>
-</Link>
+                       
+ <div className="mt-auto">
+                <Link href={`/insights/blogs/${item.slug}`}>
+                  <button className="button mt-3 flex">
+                    Explore More{" "}
+                    
+                  </button>
+                </Link>
+              </div>
+
 
 
             </div>

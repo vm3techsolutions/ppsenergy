@@ -8,9 +8,9 @@ export default function page() {
   return (
   <>
   
-  {/* <BlogsBanner/>
-  <BlogDisplay/> */}
-  <UnderDevelopment/>
+  <BlogsBanner/>
+  <BlogDisplay/>
+  {/* <UnderDevelopment/> */}
 
   </>
   )
