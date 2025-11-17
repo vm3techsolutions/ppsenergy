@@ -20,7 +20,7 @@ export default function AboutUsFirst() {
       initial={{ opacity: 0, y: -40 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}>
-      <div className="ml-[0] lg:ml-[200px] group">
+      <div className="ml-0 lg:ml-[200px] group">
       <Image
         width={90}
         height={90}
@@ -50,7 +50,7 @@ export default function AboutUsFirst() {
         initial={{ opacity: 0, y: -40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}>
-      <div className="mr-[0] lg:mr-[200px] group">
+      <div className="mr-0 lg:mr-[200px] group">
       <Image
         width={90}
         height={90}

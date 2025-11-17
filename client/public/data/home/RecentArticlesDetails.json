@@ -1,0 +1,27 @@
+[
+    {
+        "article_id": "1",
+          "slug": "energy-saving-tips",
+        "article_image" : "/assets/home/HomeRecentArticle.png",
+        "article_title" : "Lorem Genrator",
+        "article_description" : "This handy tool helps you create dummy text for all your layoThis handy tool helps you create dummy text for all your layout needs. We are gradually adding new, This handy tool helps you create dummy text for all your layout needs. We are gradually adding new, ",
+        "adding_just_for_test" : "This handy tool helps you create dummy text for all your layoThis handy tool helps you create dummy text for all your layout needs. We are gradually adding new, This handy tool helps you create dummy text for all your layout needs. We are gradually adding new, This handy tool helps you create dummy text for all your layoThis handy tool helps you create dummy text for all your layout needs. We are gradually adding new, This handy tool helps you create dummy text for all your layout needs. We are gradually adding new, This handy tool helps you create dummy text for all your layoThis handy tool helps you create dummy text for all your layout needs. We are gradually adding new, This handy tool helps you create dummy text for all your layout needs. We are gradually adding new, This handy tool helps you create dummy text for all your layoThis handy tool helps you create dummy text for all your layout needs. We are gradually adding new, This handy tool helps you create dummy text for all your layout needs. We are gradually adding new, "
+
+    },
+
+    {
+        "article_id" : "2",
+         "slug": "energy-saving-new-tips",
+        "article_image" : "/assets/home/HomeRecentArticle.png",
+        "article_title" : "Lorem Genrator", 
+        "article_description" : "This handy tool helps you create dummy text for all your layoThis handy tool helps you create dummy text for all your layout needs. We are gradually adding new, This handy tool helps you create dummy text for all your layout needs. We are gradually adding new,  "
+    }, 
+
+    {
+        "article_id" : "3",
+          "slug": "energy-saving-new-new-tips",
+        "article_image" : "/assets/home/HomeRecentArticle.png",
+        "article_title" : "Lorem Genrator",
+        "article_description" : "This handy tool helps you create dummy text for all your layoThis handy tool helps you create dummy text for all your layout needs. We are gradually adding new, This handy tool helps you create dummy text for all your layout needs. We are gradually adding new, "
+    }
+]

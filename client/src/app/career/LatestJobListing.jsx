@@ -25,9 +25,9 @@ export default function LatestJobListing() {
             key={item.job_id}
             className=" flex flex-col text-white rounded-b-[10px] shadow-lg overflow-hidden text-left hover:shadow-[0_0_5px_#889F2D] transition-shadow duration-300" >
 
-            <div className="flex flex-col flex-grow px-4 py-4 text-left  ">
+            <div className="flex flex-col grow px-4 py-4 text-left  ">
               <div>
-                <h3 className="title text-[#889F2D] mb-5 mr-5 border-b-[1px] pb-2 ">{item.job_title}</h3>
+                <h3 className="title text-[#889F2D] mb-5 mr-5 border-b pb-2 ">{item.job_title}</h3>
               </div>
 
               <div className='lg:flex justify-between content'>
@@ -39,7 +39,7 @@ export default function LatestJobListing() {
               
              
               
-               <div className="mt-[20px] mb-2 self-center">
+               <div className="mt-20 mb-2 self-center">
                 <button className="button mt-3">
                   Apply Now
                 </button>

@@ -25,7 +25,14 @@ export default function Header() {
     },
     { href: "/projects", label: "PROJECTS" },
     { href: "/about-us", label: "ABOUT US" },
-    { href: "/insights", label: "INSIGHTS" },
+
+    { href: "/insights", label: "INSIGHTS" 
+      ,submenu: [
+        { href: "/insights/blogs", label: "BLOGS" },
+        { href: "/insights/case-studies", label: "CASE STUDIES" },
+      ]
+    },
+
     { href: "/gallery", label: "GALLERY" },
     { href: "/career", label: "CAREER" },
     { href: "/contact-us", label: "CONTACT US" },
@@ -52,7 +59,7 @@ export default function Header() {
 
       {/* Submenu for desktop */}
       {link.submenu && (
-        <ul className="absolute left-0 w-58  bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50 content px-5">
+        <ul className="absolute left-0 w-52  bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50 content px-5">
         {link.submenu.map((sublink) => (
         <li key={sublink.href}>
         <Link href={sublink.href} className="block text-[#7B0000] hover:bg-[#889F2D] hover:text-[#ffffff] py-2.5 px-2.5 text-[16px] font-medium">

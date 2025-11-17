@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 
-export default function RecentArticles() {
+export default function BlogDisplay() {
     const [homeRecentArticles, setHomeRecentArticles] = useState([]);
 
       useEffect(() => {
@@ -39,15 +39,8 @@ export default function RecentArticles() {
             <div className="flex flex-col grow px-4 py-4 text-left">
               <h3 className="title text-[#889F2D] mb-3 mr-5">{item.article_title}</h3>
               <p className="content text-[#3D3D3D] mb-5">{item.article_description}</p>
-              {/* <Link href="/home">
-               <div className="mt-auto">
-                <button className="button mt-3">
-                  Explore More
-                </button>
-               </div>
-                
-              </Link> */}
-                           <Link href={`/insights/blogs/${item.slug}`}>
+
+             <Link href={`/insights/blogs/${item.slug}`}>
   <div className="mt-auto">
     <button className="button mt-3">Explore More</button>
   </div>

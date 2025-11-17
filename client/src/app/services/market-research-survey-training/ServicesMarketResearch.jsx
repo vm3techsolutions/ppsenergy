@@ -44,7 +44,7 @@ export default function ServicesMarketResearch() {
 
             {/* Content */}
             <div className="flex flex-col grow px-4 py-4 text-left">
-              <h3 className="title text-[#889F2D] mb-3 border-b border-[#889F2D] pb-2">
+              <h3 className="process-bullet-section-heading text-[#889F2D] mb-3 border-b border-[#889F2D] pb-2">
                 {item.title}
               </h3>
               <p className="content text-[#3D3D3D] mb-2 grow">{item.desc}</p>

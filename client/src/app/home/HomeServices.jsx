@@ -39,14 +39,14 @@ export default function HomeServices() {
       </div>
 
       {/* Content */}
-      <div className="flex flex-col flex-grow px-4 py-4 text-left">
+      <div className="flex flex-col grow px-4 py-4 text-left">
       <h3 className="title text-[#889F2D] mb-3 border-b border-[#889F2D] pb-2">
       {item.service_title}</h3>
-      <p className="content text-[#3D3D3D] mb-5 flex-grow">{item.service_description}</p>
+      <p className="content text-[#3D3D3D] mb-5 grow">{item.service_description}</p>
 
       {/* Button (aligned bottom) */}
       <div className="mt-auto">
-      <Link href="/home">
+      <Link href={item.service_link || "#"}>
       <button className="button mt-3">Read More</button>
       </Link>
       </div>

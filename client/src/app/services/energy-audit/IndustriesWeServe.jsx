@@ -45,7 +45,7 @@ export default function IndustriesWeServe() {
                 className="w-full h-full object-cover p-2 transition-transform duration-300 ease-in-out group-hover:scale-110"
               />
             </div>
-            <div className="p-2 bg-[#7B0000] flex-grow flex items-center justify-center">
+            <div className="p-2 bg-[#7B0000] grow flex items-center justify-center">
               <h3 className="content">{item.title}</h3>
             </div>
           </div>

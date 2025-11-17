@@ -150,17 +150,17 @@ export default function ProjectHighlights() {
             // Tablet
             640: {
               slidesPerView: 2,
-              spaceBetween: 20,
+              spaceBetween: 10,
             },
             // Laptop
             1024: {
               slidesPerView: 2,
-              spaceBetween: 20,
+              spaceBetween: 10,
             },
             // Desktop large
             1440: {
               slidesPerView: 4,
-              spaceBetween: 50,
+              spaceBetween: 20,
             },
           }}  >
           {images.map((src, i) => (
