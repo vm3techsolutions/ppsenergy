@@ -17,7 +17,7 @@ export default function StatergicImplementation() {
                     height={574}
                     src="/assets/services/energyAudit/EnergyAuditSecondSection.png"
                     alt="About Us"
-                    className="w-full max-w-md md:max-w-full h-[350px] lg:h-[450px] rounded-br-[120px] rounded-tr-[40px] shadow-lg object-cover"/>
+                    className="w-full max-w-md md:max-w-full h-[350px] lg:h-[550px] rounded-br-[120px] rounded-tr-[40px] shadow-lg object-cover"/>
 
 
         {/* Right COLUMN - TEXT */}

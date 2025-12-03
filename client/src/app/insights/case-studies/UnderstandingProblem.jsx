@@ -50,7 +50,7 @@ export default function UnderstandingProblem() {
                     height={574}
                     src="/assets/services/energyAudit/EnergyAuditSecondSection.png"
                     alt="About Us"
-                    className="w-full max-w-md md:max-w-full h-[350px] lg:h-[450px] rounded-bl-[120px] rounded-tl-[40px] shadow-lg object-cover"/>
+                    className="w-full max-w-md md:max-w-full h-[350px] lg:h-[550px] rounded-bl-[120px] rounded-tl-[40px] shadow-lg object-cover"/>
          
       </div>
     </section>
