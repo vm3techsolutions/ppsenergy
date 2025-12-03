@@ -26,8 +26,9 @@ export default function Header() {
     { href: "/projects", label: "PROJECTS" },
     { href: "/about-us", label: "ABOUT US" },
 
-    { href: "/insights", label: "INSIGHTS" 
-      ,submenu: [
+    { href: "#", 
+    label: "INSIGHTS" ,
+    submenu: [
         { href: "/insights/blogs", label: "BLOGS" },
         { href: "/insights/case-studies", label: "CASE STUDIES" },
       ]
@@ -53,9 +54,30 @@ export default function Header() {
     {/* Desktop Nav */}
       <nav className="hidden md:flex space-x-4 content">
       {links.map((link) => (
-      <div key={link.href} className="relative group content">
-      <Link href={link.href}  className={`content nav-link ${pathname === link.href ? "active" : ""}`}>{link.label}
-      </Link>
+      <div key={link.label} className="relative group content">
+      {/* <Link href={link.href}  className={`content nav-link ${pathname === link.href ? "active" : ""}`}>
+      
+      {link.label}{link.submenu && (
+                <ChevronDown
+                  size={20}
+                  className="pt-1 transition-transform duration-300 group-hover:rotate-180"
+                />
+              )}
+      
+      </Link> */}
+      <Link
+  href={link.href}
+  className={`content nav-link flex items-center gap-1 ${pathname === link.href ? "active" : ""}`}
+>
+  <span>{link.label}</span>
+
+  {link.submenu && (
+    <ChevronDown
+      size={18}
+      className="transition-transform duration-300 group-hover:rotate-180"
+    />
+  )}
+</Link>
 
       {/* Submenu for desktop */}
       {link.submenu && (

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Mail, Globe, MapPin } from "lucide-react";
+import Link from 'next/link';
 
 export default function PrivacyPolicy() {
   return (
@@ -116,7 +117,7 @@ export default function PrivacyPolicy() {
   <br />
   <Mail className="inline w-5 h-5 mr-1" /> Email: office@ppsenergy.in
   <br />
-  <Globe className="inline w-5 h-5 mr-1" /> Website: https://ppsenergy.in
+  <Globe className="inline w-5 h-5 mr-1" /> Website: <Link href="/" className="text-[#4b0404]"> https://ppsenergy.in</Link> 
   <br />
   <MapPin className="inline w-5 h-5 mr-1" /> Address: 18, 3rd Floor, Ashirwad Building, Girish Society, Warje – 411058, Pune, India
 </p>
