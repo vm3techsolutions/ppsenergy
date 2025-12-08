@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Mr. A. S. Ghanti",
+    "designation": "Certified Manager",
+    "academic": "Ph.D. (Rural Electrification), MBA (Power), M-Tech, Accredited Energy Auditor",
+    "experience": "35 Years [Mechanical System Expert]",
+    "expertise": [
+      "Process Industries",
+      "Steel Industry",
+      "Cement Industry",
+      "Manufacturing",
+      "Co-Generation",
+      "Pharma Industry"
+    ],
+    "image": "/assets/aboutus/AboutUsTeam.png",
+    "linkedin": "#"
+  },
+  {
+    "id": 2,
+    "name": "Mr. Arvind Bhalerao",
+    "designation": "Certified Auditor",
+    "academic": "M. Tech Mechanical, Accredited Energy Auditor",
+    "experience": "35 Years [Power Plant, Steam and Boiler Expert]",
+    "expertise": [
+      "Thermal Power Stations",
+      "Textile",
+      "Cement",
+      "Commercial Buildings & Establishments",
+      "Railways",
+      "Chemical",
+      "Pulp and Paper Sectors"
+    ],
+    "image": "/assets/aboutus/AboutUsTeam.png",
+    "linkedin": "#"
+  },
+  {
+    "id": 3,
+    "name": "Mr. H S Moorthy",
+    "designation": "Sr. Consultant / Sector Expert",
+    "academic": "AMIE (Elect. / Mech.), Management (XLRI), Certified Energy Auditor",
+    "experience": "35 Years",
+    "expertise": [
+      "Steel Industry",
+      "Cement Industry",
+      "Water Pumping Stations",
+      "Manufacturing",
+      "Co-Generation",
+      "Pharma Industry",
+      "Commercial Buildings"
+    ],
+    "image": "/assets/aboutus/AboutUsTeam.png",
+    "linkedin": "#"
+  },
+  {
+    "id": 4,
+    "name": "Mr. Pramod Kembhavi",
+    "designation": "Certified Auditor",
+    "academic": "PG Mechanical, Accredited Energy Auditor",
+    "experience": "35 Years [Steam and Boiler Expert]",
+    "expertise": [
+      "Iron & Steel",
+      "Cement",
+      "Textile",
+      "Commercial Buildings",
+      "Refineries & Petrochemicals",
+      "Chemicals",
+      "Pharmaceutical",
+      "Hotel & Hospital",
+      "Automobile Industry"
+    ],
+    "image": "/assets/aboutus/AboutUsTeam.png",
+    "linkedin": "#"
+  },
+  {
+    "id": 5,
+    "name": "Adv. Amit Nalawade",
+    "designation": "Legal Consultant",
+    "academic": "Diploma, B.S.L., LL.B, LL.M",
+    "experience": "15 Years (Legal Expert)",
+    "expertise": [
+      "Legal Consultation",
+      "Advocacy"
+    ],
+    "image": "/assets/aboutus/AboutUsTeam.png",
+    "linkedin": "#"
+  },
+  {
+    "id": 6,
+    "name": "Adv. Hemant Singh",
+    "designation": "Legal Consultant",
+    "academic": "BA, LLB",
+    "experience": "15 Years (Legal Expert)",
+    "expertise": [
+      "Legal Consultation",
+      "Managing Equity Partner",
+      "Associate Advisory"
+    ],
+    "image": "/assets/aboutus/AboutUsTeam.png",
+    "linkedin": "#"
+  }
+]
