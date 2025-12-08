@@ -7,7 +7,7 @@ export default function BlogsBanner() {
      
 
       {/* Content */}
-    
+      
 
       
     </section>

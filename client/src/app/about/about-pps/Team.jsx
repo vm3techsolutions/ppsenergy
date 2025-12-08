@@ -33,7 +33,7 @@ export default function Team() {
             <p className='content'>CEO & Founder</p>
          
             <div className='rounded-full  p-2  bg-[#7b0000] my-2.5 group'>
-            <Link href="#"><FaLinkedinIn className="  text-[#7b0000] p-1 text-2xl bg-[#ffffff] rounded-[2px]  transition-transform duration-300 ease-in-out group-hover:scale-110" /></Link>
+            <Link href="#"><FaLinkedinIn className="  text-[#7b0000] p-1 text-2xl bg-[#ffffff] rounded-xs  transition-transform duration-300 ease-in-out group-hover:scale-110" /></Link>
           </div>
 
         </div>
@@ -55,7 +55,7 @@ export default function Team() {
             <p className='content'>CEO & Founder</p>
          
             <div className='rounded-full  p-2  bg-[#7b0000] my-2.5 group'>
-            <Link href="#"><FaLinkedinIn className="  text-[#7b0000] p-1 text-2xl bg-[#ffffff] rounded-[2px]  transition-transform duration-300 ease-in-out group-hover:scale-110" /></Link>
+            <Link href="#"><FaLinkedinIn className="  text-[#7b0000] p-1 text-2xl bg-[#ffffff] rounded-xs  transition-transform duration-300 ease-in-out group-hover:scale-110" /></Link>
           </div>
 
         </div>
@@ -77,7 +77,7 @@ export default function Team() {
             <p className='content'>CEO & Founder</p>
          
             <div className='rounded-full  p-2  bg-[#7b0000] my-2.5 group'>
-            <Link href="#"><FaLinkedinIn className="  text-[#7b0000] p-1 text-2xl bg-[#ffffff] rounded-[2px]  transition-transform duration-300 ease-in-out group-hover:scale-110" /></Link>
+            <Link href="#"><FaLinkedinIn className="  text-[#7b0000] p-1 text-2xl bg-[#ffffff] rounded-xs  transition-transform duration-300 ease-in-out group-hover:scale-110" /></Link>
           </div>
 
         </div>
@@ -100,7 +100,7 @@ export default function Team() {
          
             {/* <Link href="#" ><FaLinkedinIn className="w-[40px] h-[40px] my-2 bg-[#7B0000]  p-[5px] text-[24px] text-[#ffffff] rounded-full" /></Link> */}
             <div className='rounded-full  p-2  bg-[#7b0000] my-2.5 group'>
-            <Link href="#"><FaLinkedinIn className="  text-[#7b0000] p-1 text-2xl bg-[#ffffff] rounded-[2px]  transition-transform duration-300 ease-in-out group-hover:scale-110" /></Link>
+            <Link href="#"><FaLinkedinIn className="  text-[#7b0000] p-1 text-2xl bg-[#ffffff] rounded-xs  transition-transform duration-300 ease-in-out group-hover:scale-110" /></Link>
           </div>
 
        

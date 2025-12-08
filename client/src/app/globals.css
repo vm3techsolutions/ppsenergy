@@ -71,7 +71,7 @@
 
 .bulletPoints{
   font-family: var(--font-roboto), sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 15px;
 }
 
@@ -87,6 +87,25 @@
   font-weight: 400; 
   font-size: 20px;
   padding: 5x 0 5px 0;
+}
+
+/* Team */
+.team-members-name{
+  font-family: var(--font-montserrat), sans-serif;
+  font-weight: 500; 
+  font-size: 22px;
+}
+
+.team-members-designation{
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 18px;
+}
+
+/* Team */
+.team-members-modal-name{
+  font-family: var(--font-montserrat), sans-serif;
+  font-weight: 500; 
+  font-size: 15px;
 }
 /* ===== Designing Section ===== */
 
@@ -164,22 +183,21 @@
 /* Buttons with white color border*/
 .buttonNoService{
   border-radius: 5px;
-  border-color: #ffffff;
-  /* background-color: #7b0000; */
-  /* color: ; */
+  border-color: #889F2D;
+  background-color: #889F2D;
   font-family: var(--font-roboto), sans-serif;
   font-weight: 500;
   font-size: 16px; 
-  border: 2px solid #ffffff;
+  border: 2px solid #889F2D;
   cursor: pointer;
   padding: 9px 35px 9px 35px;
 }
 
 .buttonNoService:hover{
-   background-color: #889F2D;
-   box-shadow: 0px 4px 10px 0.3;
-   color: #ffffff;
-   border:2px solid #889F2D
+   background-color: #ffffff;
+   /* box-shadow: 0px 4px 10px 0.3; */
+   color: #7b0000;
+     border: 2px solid #ffffff;
 }
 
 /* Designing Menu  */
