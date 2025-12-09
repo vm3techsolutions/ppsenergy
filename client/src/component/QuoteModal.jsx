@@ -30,8 +30,7 @@ export default function QuoteModal({ open, onClose }) {
         {/* Close Button */}
         <button
           onClick={onClose}
-          className="absolute right-4 top-4 text-[#7b0000] hover:text-#889F2D text-xl font-bold"
-        >
+          className="absolute right-4 top-4 text-[#7b0000] hover:text-#889F2D text-xl font-bold" >
           ✕
         </button>
 
@@ -42,8 +41,7 @@ export default function QuoteModal({ open, onClose }) {
 
         <form
           onSubmit={handleSubmit}
-          className="p-6 rounded-xl text-white mt-6 border border-[#889F2D] bg-white"
-        >
+          className="p-6 rounded-xl text-white mt-6 border border-[#889F2D] bg-white"  >
          
 
           <input
@@ -53,8 +51,7 @@ export default function QuoteModal({ open, onClose }) {
             value={form.name}
             onChange={handleChange}
             className="w-full p-3 rounded-lg mb-4 text-black bg-[#f8f8f8]"
-            required
-          />
+            required />
 
           <input
             type="text"
@@ -63,8 +60,7 @@ export default function QuoteModal({ open, onClose }) {
             value={form.phone}
             onChange={handleChange}
             className="w-full p-3 rounded-lg mb-4 text-black  bg-[#f8f8f8]"
-            required
-          />
+            required/>
 
           <input
             type="email"
@@ -73,8 +69,7 @@ export default function QuoteModal({ open, onClose }) {
             value={form.email}
             onChange={handleChange}
             className="w-full p-3 rounded-lg mb-4 text-black  bg-[#f8f8f8]"
-            required
-          />
+            required />
 
           <textarea
             name="message"
@@ -83,13 +78,11 @@ export default function QuoteModal({ open, onClose }) {
             onChange={handleChange}
             rows="4"
             className="w-full p-3 rounded-lg mb-4 text-black  bg-[#f8f8f8]"
-            required
-          />
+            required/>
 
           <button
             type="submit"
-            className="button w-full py-3 rounded-lg text-white"
-          >
+            className="button w-full py-3 rounded-lg text-white" >
             Request A Quote
           </button>
         </form>

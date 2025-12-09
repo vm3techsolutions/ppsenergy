@@ -10,8 +10,7 @@ export default function Header() {
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
   const [openSubmenu, setOpenSubmenu] = useState(null);
-
-   const [modalOpen, setModalOpen] = useState(false);
+  const [modalOpen, setModalOpen] = useState(false);
 
   const links = [
     {
@@ -76,47 +75,43 @@ export default function Header() {
           alt="Logo"
           width={150}
           height={38}
-          className="cursor-pointer"
-        />
+          className="cursor-pointer" />
       </Link>
 
       {/* Desktop Nav */}
       <nav className="hidden md:flex space-x-6 ">
         {links.map((link) => (
-          <div key={link.label} className="relative group menu-items">
+          <div key={link.label} className="relative group ">
 
             {/* Top-level item */}
             <Link
               href={link.href}
-              className={` nav-link flex items-center gap-1 ${pathname === link.href ? "active" : ""}`}
-            >
+              className={` nav-link flex items-center gap-1 ${pathname === link.href ? "active" : ""}`}  >
               {link.label}
-              {link.submenu && <ChevronDown size={16} className="group-hover:rotate-180 transition menu-items" />}
+              {link.submenu && <ChevronDown size={16} className="group-hover:rotate-180 transition" />}
             </Link>
 
             {/* FIRST LEVEL SUBMENU */}
             {link.submenu && (
-              <ul className="absolute left-0 top-full w-56 bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300  z-50  my-2 menu-items">
+              <ul className="absolute left-0 top-full w-56 bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300  z-50  my-2 sub-menu">
 
                 {link.submenu.map((sublink) => (
-                  <li key={sublink.label} className="relative group/sub menu-items">
+                  <li key={sublink.label} className="relative group/sub">
                     <Link
                       href={sublink.href}
-                      className="flex justify-between items-center text-[#7B0000] hover:bg-[#889F2D] hover:text-white px-3 py-2 menu-items"
-                    >
+                      className="flex justify-between items-center text-[#7B0000] hover:bg-[#889F2D] hover:text-white px-3 py-2 " >
                       {sublink.label}
                       {sublink.submenu && <ChevronRight size={14} />}
                     </Link>
 
                     {/* SECOND LEVEL SUBMENU */}
                     {sublink.submenu && (
-                      <ul className="absolute left-full top-0 w-56 bg-white shadow-lg opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all menu-items">
+                      <ul className="absolute left-full top-0 w-56 bg-white shadow-lg opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all ">
                         {sublink.submenu.map((child) => (
                           <li key={child.label}>
                             <Link
                               href={child.href}
-                              className="block text-[#7B0000] hover:bg-[#889F2D] hover:text-white px-3 py-2 bulletPoints"
-                            >
+                              className="block px-3 py-2 sub-menu hover:bg-[#889F2D] ">
                               {child.label}
                             </Link>
                           </li>
@@ -134,9 +129,6 @@ export default function Header() {
 
       {/* Desktop Button */}
       <div className="hidden md:block">
-        {/* <Link href="/contact-us">
-          <button className="px-4 py-2 button">Request Quote</button>
-        </Link> */}
         <button
           onClick={() => setModalOpen(true)}
           className="px-4 py-2 button">
@@ -159,14 +151,11 @@ export default function Header() {
               <div
                 className="flex justify-between px-6 py-2 cursor-pointer"
                 onClick={() =>
-                  link.submenu ? setOpenSubmenu(openSubmenu === link.label ? null : link.label) : setIsOpen(false)
-                }
-              >
+                  link.submenu ? setOpenSubmenu(openSubmenu === link.label ? null : link.label) : setIsOpen(false)   }   >
                 <Link href={link.href}>{link.label}</Link>
 
                 {link.submenu && (
-                  openSubmenu === link.label ? <ChevronUp size={18} /> : <ChevronDown size={18} />
-                )}
+                  openSubmenu === link.label ? <ChevronUp size={18} /> : <ChevronDown size={18} /> )}
               </div>
 
               {/* MOBILE FIRST-LEVEL SUBMENU */}

@@ -10,17 +10,16 @@ export default function TeamModal({ member, onClose }) {
   return (
     <div
       className="fixed inset-0 bg-black/60 flex justify-center items-center z-50 p-4"
-      onClick={onClose}  // <-- Close when clicking background
-    >
+      onClick={onClose}> 
+   
       <div
         className="bg-white rounded-xl p-6 max-w-3xl w-full relative shadow-xl overflow-auto max-h-[90vh]"
-        onClick={(e) => e.stopPropagation()} // <-- Prevent close when clicking inside modal
-      >
+        onClick={(e) => e.stopPropagation()} >
+
         {/* Close Button */}
         <button
           onClick={onClose}
-          className="absolute top-3 right-3 text-[#7B0000] hover:text-[#889F2D]"
-        >
+          className="absolute top-3 right-3 text-[#7B0000] hover:text-[#889F2D]"  >
           <FaTimes size={22} />
         </button>
 
@@ -31,8 +30,7 @@ export default function TeamModal({ member, onClose }) {
             height={130}
             src={member.image}
             alt={member.name}
-            className="rounded-full border object-cover shadow-md"
-          />
+            className="rounded-full border object-cover shadow-md" />
 
           <h2 className="team-members-name text-[#7B0000] mt-4">{member.name}</h2>
           <p className="text-[#889F2D] team-members-designation mb-2">
@@ -47,7 +45,7 @@ export default function TeamModal({ member, onClose }) {
         </div>
 
         {/* Details Section */}
-        <div className="text-gray-700 mt-6 space-y-4">
+        <div className="text-gray-700 mt-6 space-y-4 bulletPoints">
           {member.academic && (
             <p>
               <strong className="text-[#7B0000] team-members-modal-name">
