@@ -5,7 +5,7 @@ import WhoWeAre from './WhoWeAre'
 import MisionVision from './MisionVision'
 import OurCoreValues from './OurCoreValues'
 import Enquiry from './Enquiry'
-import Team from './Team'
+// import Team from './Team'
 import OurJourney from './OurJourney'
 
 export default function page() {
@@ -16,7 +16,7 @@ export default function page() {
     <MisionVision/>
     <OurCoreValues/>
     <OurJourney/>
-    <Team/>
+    {/* <Team/> */}
     <Enquiry/>
     </>
   )

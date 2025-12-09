@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -81,6 +82,12 @@ export default function OurClient() {
           ))}
         </Swiper>
       </div>
+
+      <div className="flex justify-center pb-[50px]">
+       <Link href="/about/our-clients">
+            <button className="button mt-7 mb-4">Explore More</button>
+          </Link>
+          </div>
     </section>
   );
 }

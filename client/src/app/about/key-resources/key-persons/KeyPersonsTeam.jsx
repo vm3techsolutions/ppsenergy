@@ -34,10 +34,10 @@ export default function KeyPersonsTeam() {
   <div className="flex flex-col items-center grow text-center">
     <Image
       width={260}
-      height={205}
+      height={275}
       src={member.image}
       alt={member.name}
-      className="w-full h-[250px] lg:object-cover object-contain mt-2 transition-transform"
+      className="w-full h-[275px] lg:object-cover object-contain object-top mt-2 transition-transform"
     />
 
     <h3 className="team-members-name mt-4 text-[#7B0000]">
@@ -53,9 +53,14 @@ export default function KeyPersonsTeam() {
   <div className="flex justify-between items-center w-full mt-4 pb-2">
     {/* LinkedIn */}
     <div className="rounded-full p-2 bg-[#7b0000]">
-      <Link href={member.linkedin || "#"} onClick={(e) => e.stopPropagation()}>
-        <FaLinkedinIn className="text-[#7b0000] p-1 text-2xl bg-white rounded-sm hover:scale-110 transition-transform" />
-      </Link>
+      <Link 
+  href={member.linkedin || "#"} 
+  onClick={(e) => e.stopPropagation()} 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  <FaLinkedinIn className="text-[#7b0000] p-1 text-2xl bg-white rounded-sm hover:scale-110 transition-transform" />
+</Link>
     </div>
 
     {/* Arrow */}

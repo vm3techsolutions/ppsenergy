@@ -10,7 +10,7 @@ export default function BannerProjectMgmt() {
      
 
       {/* Content */}
-    <div className="section relative z-10 lg:max-w-6xl px-6 sm:px-4 lg:px-8 text-center">
+    {/* <div className="section relative z-10 lg:max-w-6xl px-6 sm:px-4 lg:px-8 text-center">
         <h2 className="
             heading text-[#7B0000] lg:pb-6 sm:pb-4">DELEVERING PROJECTS WITH PRECISION, PERFORMANCE & PURPOSE </h2>
                <h3 className='text-center title mt-5'>Comprehensive Project Management Consultancy services ensuring seamless execution, cost efficiency, and on-time project delivery.</h3>
@@ -22,7 +22,7 @@ export default function BannerProjectMgmt() {
             Request a Consultation
           </button>
         </div>
-         </div>
+         </div> */}
 
    
     </section>

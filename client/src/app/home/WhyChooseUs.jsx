@@ -89,13 +89,13 @@ export default function WhyChooseUs() {
 
        </div>
 
-       <div className='flex justify-center mt-10'>
+       {/* <div className='flex justify-center mt-10'>
         <Link href="/home">
                 <button className="button mt-3 ">
                  Know More
                 </button>
               </Link>
-       </div>
+       </div> */}
     </section>
   )
 }

@@ -89,6 +89,14 @@
   padding: 5x 0 5px 0;
 }
 
+/* Buulet Points for Emapanelments */
+
+.bulletPoints{
+  font-family: var(--font-roboto), sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+
 /* Team */
 .team-members-name{
   font-family: var(--font-montserrat), sans-serif;
@@ -139,7 +147,7 @@
 
 .button:hover{
    background-color: #889F2D;
-   box-shadow: 0px 4px 10px 0.3;
+   /* box-shadow: 0px 4px 10px 0.3; */
 }
 
 .buttonGreenBG{
@@ -157,7 +165,7 @@
 .buttonGreenBG:hover{
    background-color: #ffffff;
    color: #7b0000;
-   box-shadow: 0px 4px 10px 0.3;
+   /* box-shadow: 0px 4px 10px 0.3; */
 }
 
 /* Services Buttons with white color */
@@ -175,7 +183,7 @@
 
 .buttonService:hover{
    background-color: #889F2D;
-   box-shadow: 0px 4px 10px 0.3;
+   /* box-shadow: 0px 4px 10px 0.3; */
    color: #ffffff;
 }
 

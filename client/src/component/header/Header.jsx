@@ -4,11 +4,14 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X, ChevronDown, ChevronUp, ChevronRight } from "lucide-react";
+import QuoteModal from "../../component/QuoteModal";
 
 export default function Header() {
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
   const [openSubmenu, setOpenSubmenu] = useState(null);
+
+   const [modalOpen, setModalOpen] = useState(false);
 
   const links = [
     {
@@ -26,7 +29,7 @@ export default function Header() {
 
     { href: "/projects", label: "PROJECTS" },
 
-    {
+     {
       href: "#",
       label: "ABOUT",
       submenu: [
@@ -38,9 +41,15 @@ export default function Header() {
             { href: "/about/key-resources/key-persons", label: "KEY PERSONS" },
             { href: "/about/key-resources/associates-and-mentors", label: "ASSOCIATES AND MENTORS" }
           ]
-        }
+        },
+         { href: "/about/our-clients", label: "OUR CLINENTS" },
+          { href: "/about/empanelments", label: "EMPANELMENTS" },
       ]
     },
+
+    // { href: "/our-clients", label: "OUR CLIENTS" },
+
+   
 
     {
       href: "#",
@@ -57,7 +66,8 @@ export default function Header() {
   ];
 
   return (
-    <header className="w-full shadow-md bg-white px-6 md:px-16 py-4 flex items-center justify-between relative lg:px-20">
+    <>
+    <header className="w-full shadow-md bg-white px-6 md:px-16 py-4 flex items-center justify-between relative lg:px-20 menu-items">
       
       {/* Logo */}
       <Link href="/">
@@ -71,9 +81,9 @@ export default function Header() {
       </Link>
 
       {/* Desktop Nav */}
-      <nav className="hidden md:flex space-x-6">
+      <nav className="hidden md:flex space-x-6 ">
         {links.map((link) => (
-          <div key={link.label} className="relative group">
+          <div key={link.label} className="relative group menu-items">
 
             {/* Top-level item */}
             <Link
@@ -86,13 +96,13 @@ export default function Header() {
 
             {/* FIRST LEVEL SUBMENU */}
             {link.submenu && (
-              <ul className="absolute left-0 top-full w-56 bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300  z-50  my-2">
+              <ul className="absolute left-0 top-full w-56 bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300  z-50  my-2 menu-items">
 
                 {link.submenu.map((sublink) => (
-                  <li key={sublink.label} className="relative group/sub">
+                  <li key={sublink.label} className="relative group/sub menu-items">
                     <Link
                       href={sublink.href}
-                      className="flex justify-between items-center text-[#7B0000] hover:bg-[#889F2D] hover:text-white px-3 py-2 bulletPoints"
+                      className="flex justify-between items-center text-[#7B0000] hover:bg-[#889F2D] hover:text-white px-3 py-2 menu-items"
                     >
                       {sublink.label}
                       {sublink.submenu && <ChevronRight size={14} />}
@@ -100,7 +110,7 @@ export default function Header() {
 
                     {/* SECOND LEVEL SUBMENU */}
                     {sublink.submenu && (
-                      <ul className="absolute left-full top-0 w-56 bg-white shadow-lg opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all ">
+                      <ul className="absolute left-full top-0 w-56 bg-white shadow-lg opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all menu-items">
                         {sublink.submenu.map((child) => (
                           <li key={child.label}>
                             <Link
@@ -124,9 +134,14 @@ export default function Header() {
 
       {/* Desktop Button */}
       <div className="hidden md:block">
-        <Link href="/contact-us">
+        {/* <Link href="/contact-us">
           <button className="px-4 py-2 button">Request Quote</button>
-        </Link>
+        </Link> */}
+        <button
+          onClick={() => setModalOpen(true)}
+          className="px-4 py-2 button">
+          Request Quote
+        </button>
       </div>
 
       {/* Mobile Menu Button */}
@@ -185,6 +200,11 @@ export default function Header() {
       )}
 
     </header>
+
+     {/* Popup Modal */}
+      <QuoteModal open={modalOpen} onClose={() => setModalOpen(false)} />
+        </>
   );
+
 }
 

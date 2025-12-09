@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Enquiry() {
   return (
-    <section className='common-section flex flex-col justify-center items-center'>
+    <section className='common-section flex flex-col justify-center items-center bg-[#f8f8f8]'>
         <div className="text-center mb-10">
         <h3 className="title text-[#889F2D]">Enquiry</h3>
         <h2 className="center-section-heading">
@@ -16,7 +16,7 @@ export default function Enquiry() {
       </div>
       
       <div className='text-center items-center'>
-        <Link href="/home">
+        <Link href="/contact-us">
                 <button className="button  sm:text-sm md:text-base px-8 sm:px-5 py-3 sm:py-2 rounded-lg shadow-md hover:bg-green-600 transition mt-3 mb-4">
                   Contact Us Today
                 </button>

@@ -52,7 +52,7 @@ export default function Footer() {
       <h3 className="text-[#ffffff] title">Get In Touch</h3>
 
       <div className='flex gap-4 mb-4 mt-4'>
-      <p>Address: Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      <p>Address: 18, 3rd Floor, Ashirwad Building, Girish Society, Warje -411058</p>
       </div>
 
       <div className=' mb-4 mt-2'>
