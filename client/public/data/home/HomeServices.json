@@ -4,7 +4,7 @@
         "service_image" : "/assets/services/energyAudit/Service1Banner.png",
         "service_title" : "Energy Audit",
         "service_description" : "An Energy Audit is a systematic assessment of your facility’s energy use to identify areas of wastage, inefficiency, and potential savings. Our comprehensive audits help you understand your energy consumption patterns and provide actionable recommendations.",
-        "service_link" : "/services/power-consultancy"
+        "service_link" : "/services/energy-audit"
 
     },
 
@@ -13,7 +13,7 @@
         "service_image" : "/assets/services/powerConsultancy/Service2Banner.png",
         "service_title" : "Power Consultancy", 
         "service_description" : "At PPS Energy Solutions, we specialize in delivering end-to-end power consultancy solutions designed to help industries, businesses, and infrastructure projects optimize their energy systems. Our team of experienced engineers and consultants work closely with clients to provide tailored solutions.",
-        "service_link" : "/services/energy-audit"
+        "service_link" : "/services/power-consultancy"
     }, 
 
     {
@@ -21,7 +21,7 @@
         "service_image" : "/assets/services/safetyAudit/Service3Banner.png",
         "service_title" : "Safety Audit",
         "service_description" : "Safety Audits are systematic evaluations of workplace safety standards, policies, and procedures. They help identify potential hazards, ensure compliance with regulations, and promote a safe working environment.",
-        "service_link" : "/services/mep"
+        "service_link" : "/services/safety-audit"
     },
 
     {
@@ -37,7 +37,7 @@
         "service_image" : "/assets/services/marketResearch/Service5Banner.png",
         "service_title" : "Market Reasearch, Survey & Training",
         "service_description" : "In today’s competitive business environment, informed decision-making is the key to success. Our Market Research, Survey & Training services are designed to equip your organization with the insights and skills needed to thrive.",
-        "service_link" : "/services/mep"
+        "service_link" : "/services/market-research-survey-training"
     },
 
     {
@@ -45,6 +45,6 @@
         "service_image" : "/assets/services/pmc/Service6Banner.png",
         "service_title" : "Project Management Consultancy",
         "service_description" : "At PPS Energy Solutions, we provide end-to-end Project Management Consultancy (PMC) services that bring together planning, engineering, execution, and control — ensuring your projects are delivered on time, within budget, and to the highest quality standards.",
-        "service_link" : "/services/mep"
+        "service_link" : "/services/project-management-consultancy"
     }
 ]

@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 export default function OurCoreValues() {
   return (
-    <section className=' flex flex-col items-center justify-center bg-[#7B0000] pt-[20px]' >
+    <section className=' flex flex-col items-center justify-center bg-[#7B0000] pt-5' >
         <div className="text-center mb-10 section">
         <h3 className="title text-[#889F2D] ">Our Core Values</h3>
         <h2 className="center-section-heading text-[#ffffff]">
@@ -24,7 +24,7 @@ export default function OurCoreValues() {
                       transition={{ duration: 1 }}>
             <div className='flex flex-col text-left '>
             <p className='text-4xl font-bold text-[#889F2D] mb-2'>1</p>
-            <h3 className='title text-[#ffffff]'>Sustainibility</h3>
+            <h3 className='title text-[#ffffff]'>Sustainability</h3>
             <p className='content text-[#ffffff]'>Building solutions that respect the planet.</p>
             </div>
             </motion.div>

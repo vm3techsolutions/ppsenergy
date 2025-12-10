@@ -8,7 +8,7 @@ export default function EnergyAuditBenifits() {
   return (
     <section className='common-section '>
         <div className="text-center mb-10">
-        <h3 className="title text-[#889F2D]">Energy Audit Benifits</h3>
+        <h3 className="title text-[#889F2D]">Energy Audit Benefits</h3>
         <h2 className="center-section-heading">
         POWER YOUR BUSINESS WITH SAVINGS<br/>
         AND SUSTAINABILITY
@@ -17,7 +17,7 @@ export default function EnergyAuditBenifits() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 items-start gap-10">
       
-            {/* 1st Box section */}
+            {/* Mission Box */}
          
              <div className='grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-1 gap-y-4 lg:gap-y-45 lg:mr-[50px] gap-2'>
             {/* Box-1 */}

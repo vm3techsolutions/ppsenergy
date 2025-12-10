@@ -39,7 +39,7 @@ export default function LatestJobListing() {
               
              
               
-               <div className="mt-20 mb-2 self-center">
+               <div className="mt-2 mb-2 self-center">
                 <button className="button mt-3">
                   Apply Now
                 </button>
