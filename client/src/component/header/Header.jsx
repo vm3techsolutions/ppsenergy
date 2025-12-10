@@ -41,7 +41,7 @@ export default function Header() {
             { href: "/about/key-resources/associates-and-mentors", label: "ASSOCIATES AND MENTORS" }
           ]
         },
-         { href: "/about/our-clients", label: "OUR CLINENTS" },
+         { href: "/about/our-clients", label: "OUR CLIENTS" },
           { href: "/about/empanelments", label: "EMPANELMENTS" },
       ]
     },

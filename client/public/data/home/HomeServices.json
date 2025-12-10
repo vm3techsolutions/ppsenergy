@@ -1,26 +1,50 @@
 [
     {
         "service_id": "1",
-        "service_image" : "/assets/home/HomeService1.png",
-        "service_title" : "Power Consultancy",
-        "service_description" : "The team of PPS Energy Solutions comprises of experienced and skilled members who have been serving in the power sector for the last 30 years by providing innovative solutions across the entire power spectrum Power Distribution.",
+        "service_image" : "/assets/services/energyAudit/Service1Banner.png",
+        "service_title" : "Energy Audit",
+        "service_description" : "An Energy Audit is a systematic assessment of your facility’s energy use to identify areas of wastage, inefficiency, and potential savings. Our comprehensive audits help you understand your energy consumption patterns and provide actionable recommendations.",
         "service_link" : "/services/power-consultancy"
 
     },
 
     {
         "service_id" : "2",
-        "service_image" : "/assets/home/HomeService2.png",
-        "service_title" : "Energy Audit", 
-        "service_description" : "The essential foundation required to identify energy-saving opportunities is to analyse the current situation. The energy audit is designed to determine why, when, where and how energy is used in the industry.",
+        "service_image" : "/assets/services/powerConsultancy/Service2Banner.png",
+        "service_title" : "Power Consultancy", 
+        "service_description" : "At PPS Energy Solutions, we specialize in delivering end-to-end power consultancy solutions designed to help industries, businesses, and infrastructure projects optimize their energy systems. Our team of experienced engineers and consultants work closely with clients to provide tailored solutions.",
         "service_link" : "/services/energy-audit"
     }, 
 
     {
         "service_id" : "3",
-        "service_image" : "/assets/home/HomeService3.png",
+        "service_image" : "/assets/services/safetyAudit/Service3Banner.png",
+        "service_title" : "Safety Audit",
+        "service_description" : "Safety Audits are systematic evaluations of workplace safety standards, policies, and procedures. They help identify potential hazards, ensure compliance with regulations, and promote a safe working environment.",
+        "service_link" : "/services/mep"
+    },
+
+    {
+        "service_id" : "4",
+        "service_image" : "/assets/services/mep/Service4Banner.png",
         "service_title" : "MEP",
         "service_description" : "We as company best in providing world-class MEP Consultancy Services. Design, Detail, Engineering, Procurement, MEP and allied services under one roof. We have expertise in the MEP projects.",
+        "service_link" : "/services/mep"
+    },
+
+    {
+        "service_id" : "5",
+        "service_image" : "/assets/services/marketResearch/Service5Banner.png",
+        "service_title" : "Market Reasearch, Survey & Training",
+        "service_description" : "In today’s competitive business environment, informed decision-making is the key to success. Our Market Research, Survey & Training services are designed to equip your organization with the insights and skills needed to thrive.",
+        "service_link" : "/services/mep"
+    },
+
+    {
+        "service_id" : "6",
+        "service_image" : "/assets/services/pmc/Service6Banner.png",
+        "service_title" : "Project Management Consultancy",
+        "service_description" : "At PPS Energy Solutions, we provide end-to-end Project Management Consultancy (PMC) services that bring together planning, engineering, execution, and control — ensuring your projects are delivered on time, within budget, and to the highest quality standards.",
         "service_link" : "/services/mep"
     }
 ]

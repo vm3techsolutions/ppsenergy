@@ -29,8 +29,8 @@ export default function Footer() {
         <h3 className="text-[#ffffff]  title">Quick Links</h3>
         <ul className="list-none  text-white text-base space-y-2 mt-4">
         <li><Link href="/projects">Project</Link></li>
-        <li><Link href="/about-us">About Us</Link></li>
-        <li><Link href="/insights">Insights</Link></li>
+        <li><Link href="/about/about-pps">About Us</Link></li>
+        <li><Link href="/insights/case-studies">Insights</Link></li>
         <li><Link href="/gallery">Gallery</Link></li>
         <li><Link href="/career">Career</Link></li>
         <li><Link href="/contact-us">Contact Us</Link></li>
@@ -65,19 +65,19 @@ export default function Footer() {
       </div>
 
       <div className="flex  gap-4  text-[#000000] text-2xl justify-items-start mb-[30px] ">
-      <div className='border border-gray-300 rounded-[5px] p-1.5 group'>  <Link href="#"><FaFacebookF className=" rounded-full bg-[#ffffff]  p-1 transition-transform duration-300 ease-in-out group-hover:scale-110" /></Link>
+      <div className='border border-gray-300 rounded-[5px] p-1.5 group'>  <Link href="https://www.facebook.com/ppsenergy" target='_blank'><FaFacebookF className=" rounded-full bg-[#ffffff]  p-1 transition-transform duration-300 ease-in-out group-hover:scale-110" /></Link>
       </div>
           
       <div className='border border-gray-300 rounded-[5px] p-1.5 group '>
-      <Link href="#"><FaInstagram className=" rounded-full bg-[#ffffff]  p-1 transition-transform duration-300 ease-in-out group-hover:scale-110"  /></Link>
+      <Link href="https://www.instagram.com/ppsenergysolutionspvtltd/" target='_blank'><FaInstagram className=" rounded-full bg-[#ffffff]  p-1 transition-transform duration-300 ease-in-out group-hover:scale-110"  /></Link>
       </div>
             
       <div className='border border-gray-300 rounded-[5px] p-1.5 group'>
-      <Link href="#"><FaYoutube className=" rounded-full bg-[#ffffff]  p-1 transition-transform duration-300 ease-in-out group-hover:scale-110" /></Link>
+      <Link href="https://www.youtube.com/channel/UCCPClPIY7cq8SbLIgOGBB_w/posts?show_create_dialog=1" target="_blank"><FaYoutube className=" rounded-full bg-[#ffffff]  p-1 transition-transform duration-300 ease-in-out group-hover:scale-110" /></Link>
       </div>
 
       <div className='border border-gray-300 rounded-[5px] p-1.5 group'>
-      <Link href="#"><FaLinkedinIn className=" rounded-full bg-[#ffffff]  p-1 transition-transform duration-300 ease-in-out group-hover:scale-110" /></Link>
+      <Link href="https://www.linkedin.com/company/pps-energy-solutions-private-limited/" target='_blank'><FaLinkedinIn className=" rounded-full bg-[#ffffff]  p-1 transition-transform duration-300 ease-in-out group-hover:scale-110" /></Link>
       </div>
       </div>
       </div>

@@ -19,16 +19,23 @@ export default function RequestAQuote() {
     <section className='common-section flex flex-col justify-center mb-10'>
 
         <div className="text-center lg:mb-10">
-        <h3 className="title text-[#889F2D]">Request A Quote</h3>
+   
         </div>
 
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2'>
 
-        <div className='flex  flex-col text-left  justify-center lg:mr-[30px] '>
-            <h2 className="heading mb-2 text-center lg:text-left">POWERING BUSINESSES <br></br> TOWARDS NET ZERO!</h2>
-            <p className="content text-[#3D3D3D] pt-3 text-left">
+        <div className='flex  flex-col text-left   lg:mr-[30px] '>
+          <div>
+            <h3 className="title text-[#889F2D] my-5">Request A Quote</h3>
+            <h2 className="heading mb-5 text-center lg:text-left">POWERING BUSINESSES <br></br> TOWARDS NET ZERO!</h2>
+          </div>
+          <div>
+             <p className="content text-[#3D3D3D] pt-6 text-left">
             We, PPS Energy Solutions Private Limited (PPSES) Pune are the strategic organization especially formulated for serving Energy and Power sectors, with proven experience of 3 Million Hours in power regulatory, Energy Audit, MEP, Research and Training in India and abroad.
             </p>
+          </div>
+               
+           
         </div>
 
         <div className='z-10'>

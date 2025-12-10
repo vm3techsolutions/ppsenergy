@@ -20,7 +20,7 @@ export default function AboutUsSecond() {
             Our team comprises of Accredited Energy Auditors, Certified Energy Auditors/Manager, Sector Experts, Safety auditors, Distribution and Transmission experts with rich consulting experiences. This makes us one of the most preferred advisory Organization in Energy and Power sector.
           </p>
           <Link href="/about/about-pps">
-            <button className="button mt-5 lg:mt-20"> Know More </button>
+            <button className="button mt-3 lg:mt-10"> Know More </button>
           </Link>
         </div>
 

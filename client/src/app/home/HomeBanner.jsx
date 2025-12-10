@@ -20,7 +20,7 @@ export default function HomeBanner() {
         </h1>
 
         <Link href="/contact-us">
-          <button className="buttonGreenBG mt-8 "> Explore Solutions </button>
+          <button className="buttonGreenBG mt-8 "> Get a Consultation </button>
         </Link>
       </div>
     </section>
