@@ -1,12 +1,16 @@
 import UnderDevelopment from '@/component/UnderDevelopment'
 import React from 'react'
-// import ProjectsPage from './ProjectsPage'
+import ProjectsBanner from './ProjectsBanner'
+import ProjectsAll from './ProjectsAll'
+
 
 export default function page() {
   return (
     <>
-    <UnderDevelopment/>
+    {/* <UnderDevelopment/> */}
     {/* <ProjectsPage/> */}
+    <ProjectsBanner/>
+    <ProjectsAll/>
     </>
   )
 }
