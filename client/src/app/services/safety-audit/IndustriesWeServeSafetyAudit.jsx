@@ -9,19 +9,19 @@ export default function IndustriesWeServeSafetyAudit() {
     },
     {
       title: "Power Plants & Utilities",
-      image: "/assets/services/energyAudit/CommercialBuildingsAndOffices.png",
+      image: "/assets/industries/PowerPlant.jpeg",
     },
     {
       title: "Oil & Gas",
-      image: "/assets/services/energyAudit/HotelsAndHospitality.png",
+      image: "/assets/industries/OilandGas.jpeg",
     },
     {
       title: "Chemical & Process Plants",
-      image: "/assets/services/energyAudit/HospitalsAndHealthcareFacilities.png",
+      image: "/assets/industries/Chemicalplant.jpeg",
     },
     {
       title: "Mining & Metallurgy",
-      image: "/assets/services/energyAudit/HospitalsAndHealthcareFacilities.png",
+      image: "/assets/industries/mining.jpeg",
     },
     {
       title: "Construction & Infrastructure",
@@ -29,7 +29,7 @@ export default function IndustriesWeServeSafetyAudit() {
     },
     {
       title: "Automotive & Heavy Equipment",
-      image: "/assets/services/energyAudit/HospitalsAndHealthcareFacilities.png",
+      image: "/assets/industries/Automotive.jpeg",
     },
   ];
 

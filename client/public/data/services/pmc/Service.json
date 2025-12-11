@@ -1,7 +1,7 @@
 [
     {
       "id" : "1",
-      "image" : "/assets/home/HomeService2.png",
+      "image" : "/assets/services/pmc/ProjectPlanningFeasibilityS1.jpeg",
       "title": "Project Planning & Feasibility",
       "points": [
         "Technical and financial feasibility studies",
@@ -12,7 +12,7 @@
     },
     {
         "id" : "2",
-         "image" : "/assets/home/HomeService2.png",
+         "image" : "/assets/services/pmc/DesignManagementS2.jpeg",
       "title": "Design Management",
       "points": [
         "Review and coordination of design deliverables",
@@ -23,7 +23,7 @@
     },
     {
         "id" : "3",
-         "image" : "/assets/home/HomeService2.png",
+         "image" : "/assets/services/pmc/ProcurementAssistanceS3.jpeg",
       "title": "Procurement Assistance",
       "points": [
         "Preparation of bid documents and tendering process",
@@ -34,7 +34,7 @@
     },
     {
         "id" : "4",
-         "image" : "/assets/home/HomeService2.png",
+         "image" : "/assets/services/pmc/ConstructionSupervisionS4.jpeg",
       "title": "Construction Supervision",
       "points": [
         "Monitoring of site activities and progress tracking",
@@ -45,7 +45,7 @@
     },
     {
         "id" : "5",
-         "image" : "/assets/home/HomeService2.png",
+         "image" : "/assets/services/pmc/ProjectMonitoringControlS5.jpeg",
       "title": "Project Monitoring & Control",
       "points": [
         "Progress measurement and reporting (daily/weekly/monthly)",
@@ -56,7 +56,7 @@
     },
     {
         "id" : "6",
-         "image" : "/assets/home/HomeService2.png",
+         "image" : "/assets/services/pmc/CommissioningHandoverS6.jpeg",
       "title": "Commissioning & Handover",
       "points": [
         "System testing and validation",

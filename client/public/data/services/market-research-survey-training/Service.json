@@ -1,7 +1,7 @@
 [
     {
       "id" : "1",
-      "image" : "/assets/home/HomeService2.png",
+      "image" : "/assets/services/marketResearch/marketresearchService1.jpeg",
       "title": "Market Research",
       "desc": "Gain deep insights into your market landscape, competition, and consumer behavior.",
       "pointsHead" : "Services include:",
@@ -16,7 +16,7 @@
     },
     {
         "id" : "2",
-         "image" : "/assets/home/HomeService2.png",
+         "image" : "/assets/services/marketResearch/surveyservice2.jpeg",
       "title": "Survey Services",
       "desc": "End-to-end survey management for accurate and timely data collection.",
      "pointsHead" : "Services include:",
@@ -31,7 +31,7 @@
     },
     {
         "id" : "3",
-         "image" : "/assets/home/HomeService2.png",
+         "image" : "/assets/services/marketResearch/trainingservice3.jpeg",
       "title": "Training Services",
       "desc": "Enhance organizational performance with customized, skill-focused training.",
         "pointsHead" : "Programs include:",

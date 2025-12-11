@@ -1,7 +1,7 @@
 [
     {
       "id" : "1",
-      "image" : "/assets/home/HomeService2.png",
+      "image" : "/assets/services/powerConsultancy/PowerSystemAnalysisDesignService1.jpeg",
       "title": "Power System Analysis & Design",
       "desc": "Comprehensive system studies including load flow, short circuit, and stability analysis to ensure reliable and efficient power distribution.",
       "points": [
@@ -23,7 +23,7 @@
     },
     {
         "id" : "3",
-         "image" : "/assets/home/HomeService2.png",
+         "image" : "/assets/services/powerConsultancy/RenewableEnergyConsultingService3.jpeg",
       "title": "Renewable Energy Consulting",
       "desc": "Helping clients transition to sustainable and renewable sources of power.",
       "points": [
@@ -34,7 +34,7 @@
     },
     {
         "id" : "4",
-         "image" : "/assets/home/HomeService2.png",
+         "image" : "/assets/services/powerConsultancy/ElectricalSafetyComplianceService4.jpeg",
       "title": "Electrical Safety & Compliance",
       "desc": "Ensure your systems meet all statutory and operational safety standards.",
       "points": [
@@ -45,7 +45,7 @@
     },
     {
         "id" : "5",
-         "image" : "/assets/home/HomeService2.png",
+         "image" : "/assets/services/powerConsultancy/powerQualityService5.jpeg",
       "title": "Power Quality & Reliability Improvement",
       "desc": "Diagnose and resolve issues related to harmonics, voltage instability, and downtime.",
       "points": [
@@ -56,7 +56,7 @@
     },
     {
          "id" : "6",
-                 "image" : "/assets/home/HomeService2.png",
+                 "image" : "/assets/services/powerConsultancy/ProjectManagementService6.jpeg",
       "title": "Project Management & Implementation Support",
       "desc": "From concept to commissioning, we guide your power projects with end-to-end management support.",
       "points": [

@@ -1,7 +1,7 @@
 [
     {
       "id" : "1",
-      "image" : "/assets/home/HomeService2.png",
+      "image" : "/assets/services/mep/mechanicalservices.jpeg",
       "title": "Mechanical Services",
       "points": [
         "HVAC system design, installation & commissioning",
@@ -14,7 +14,7 @@
     },
     {
         "id" : "2",
-         "image" : "/assets/home/HomeService2.png",
+         "image" : "/assets/services/mep/electricalservices.jpeg",
       "title": "Electrical Services",
       "desc": "Identify inefficiencies and reduce energy costs through in-depth audits and optimization strategies.",
       "points": [
@@ -28,7 +28,7 @@
     },
     {
         "id" : "3",
-         "image" : "/assets/home/HomeService2.png",
+         "image" : "/assets/services/mep/plumbingservices.jpeg",
       "title": "Plumbing Services",
       "desc": "Helping clients transition to sustainable and renewable sources of power.",
       "points": [

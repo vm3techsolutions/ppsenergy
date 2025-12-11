@@ -6,35 +6,35 @@ export default function IndustriesPMC() {
          const industries = [
     {
       title: "Infrastructure & Construction",
-      image: "/assets/services/energyAudit/ManufacturingAndIndustrialPlants.png",
+      image: "/assets/industries/Infrastructure.jpeg",
     },
     {
       title: "Power & Energy",
-      image: "/assets/services/energyAudit/CommercialBuildingsAndOffices.png",
+      image: "/assets/industries/PowerPlant.jpeg",
     },
     {
       title: "Oil & Gas",
-      image: "/assets/services/energyAudit/HotelsAndHospitality.png",
+      image: "/assets/industries/OilandGas.jpeg",
     },
     {
       title: "Manufacturing & Industrial Plants",
-      image: "/assets/services/energyAudit/HospitalsAndHealthcareFacilities.png",
+      image: "/assets/services/energyAudit/ManufacturingAndIndustrialPlants.png",
     },
     {
       title: "Water & Wastewater Projects",
-      image: "/assets/services/energyAudit/HospitalsAndHealthcareFacilities.png",
+      image: "/assets/industries/WaterWastewater.jpeg",
     },
     {
       title: "Commercial & Residential Complexes",
-      image: "/assets/services/energyAudit/HospitalsAndHealthcareFacilities.png",
+      image: "/assets/industries/residentialcomplex.jpeg",
     },
     {
       title: "Transportation & Logistics Hubs",
-      image: "/assets/services/energyAudit/HospitalsAndHealthcareFacilities.png",
+      image: "/assets/industries/TransportationLogisticsHubs.jpeg",
     },
     {
       title: "Government & Public Sector Projects",
-      image: "/assets/services/energyAudit/HospitalsAndHealthcareFacilities.png",
+      image: "/assets/industries/Governmentandpublicsector.jpeg",
     },
   ];
 

@@ -65,7 +65,7 @@ export default function ToolsMarketResearch() {
     {/* Center Image */}
                <div className="flex flex-col justify-center items-center ">
                <Image
-               src="/assets/services/energyAudit/EnergyAuditBenifits.png"
+               src="/assets/services/marketResearch/benefits.jpeg"
                alt="Team working"
                width={500}
                height={500}

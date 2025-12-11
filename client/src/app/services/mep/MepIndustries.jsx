@@ -15,11 +15,11 @@ export default function MepIndustries() {
     },
     {
       title: "Hospitals & Healthcare Centers",
-      image: "/assets/services/energyAudit/HotelsAndHospitality.png",
+      image: "/assets/industries/HospitalityRetailInfrastructure.jpeg",
     },
     {
       title: "Educational Institutions",
-      image: "/assets/services/energyAudit/HospitalsAndHealthcareFacilities.png",
+      image: "/assets/industries/EducationalInstitutions.jpeg",
     },
     {
       title: "Data Centers & IT Parks",
@@ -27,7 +27,7 @@ export default function MepIndustries() {
     },
     {
       title: "Residential Complexes & Smart Cities",
-      image: "/assets/services/energyAudit/HospitalsAndHealthcareFacilities.png",
+      image: "/assets/industries/residentialcomplex.jpeg",
     },
     {
       title: "Hospitality & Retail Infrastructure",

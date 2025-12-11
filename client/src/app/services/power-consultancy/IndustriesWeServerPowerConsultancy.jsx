@@ -14,11 +14,11 @@ export default function IndustriesWeServerPowerConsultancy() {
     },
     {
       title: "Data Centers & IT Parks",
-      image: "/assets/services/energyAudit/HotelsAndHospitality.png",
+      image: "/assets/industries/ITPark.jpeg",
     },
     {
       title: "Infrastructure & Utilities",
-      image: "/assets/services/energyAudit/HospitalsAndHealthcareFacilities.png",
+      image: "/assets/industries/infrastructure.jpeg",
     },
     {
       title: "Hospitals & Institutions",
@@ -26,7 +26,7 @@ export default function IndustriesWeServerPowerConsultancy() {
     },
     {
       title: "Renewable Energy Developers",
-      image: "/assets/services/energyAudit/HospitalsAndHealthcareFacilities.png",
+      image: "/assets/industries/RenewableEnergyDevelopers.jpeg",
     },
   ];
   return (
