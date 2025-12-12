@@ -48,7 +48,7 @@ export default function RegulatoryCommision() {
             <Image
               width={678}
               height={574}
-              src="/assets/services/energyAudit/EnergyAuditSecondSection.png"
+              src="/assets/projects/RegulatoryCompliancesInfo.jpg"
               alt="About Us"
               className="w-full max-w-md md:max-w-full h-[350px] lg:h-[450px] rounded-bl-[120px] rounded-tl-[40px] shadow-lg object-cover"/>
           </div>

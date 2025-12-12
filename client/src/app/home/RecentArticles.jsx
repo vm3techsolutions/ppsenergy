@@ -15,7 +15,7 @@ export default function RecentArticles() {
       }, []);
 
   return (
-   <section className='common-section flex flex-col justify-center'>
+   <section className='common-section flex flex-col justify-center '>
     <div className="text-center mb-10">
     <h3 className="title text-[#889F2D]">Recent Articles</h3>
     <h2 className="center-section-heading">THOUGHT LEADERSHIP AND KNOWLEDGE FOR A <br/>SUSTAINABLE FUTURE</h2>

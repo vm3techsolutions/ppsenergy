@@ -42,7 +42,7 @@ export default function CaseStudiesPage() {
             ) : null}
 
             <div className="p-4">
-              <h3 className="text-[#7b0000] team-members-designation mb-2">
+              <h3 className="team-members-name text-[#7b0000]  mb-2">
                 {study.title}  {/* <-- use 'title' from JSON */}
               </h3>
               <p className="bulletPoints text-gray-600">

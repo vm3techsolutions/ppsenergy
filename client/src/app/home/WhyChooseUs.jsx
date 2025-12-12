@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function WhyChooseUs() {
   return (
-    <section className='common-section flex flex-col justify-center'>
+    <section className='common-section flex flex-col justify-center '>
         <div className="text-center mb-10">
         <h3 className="title text-[#889F2D]">Why Choose Us</h3>
         <h2 className="center-section-heading">TRUSTED EXPERTISE, MEASURABLE IMPACT,  <br/>AND A GREENER TOMORROW </h2>

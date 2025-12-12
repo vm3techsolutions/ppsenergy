@@ -9,7 +9,7 @@ export default function HowWeWork() {
     <div className="text-center mb-10">
     <h3 className="title text-[#889F2D]">How We Work</h3>
     <h2 className="center-section-heading">A PROVEN APPROACH TO DELIVER EFFICIENCY <br/>AND SUSTAINABILITY </h2>
-    <p className="content text-[#3D3D3D]">PPS Energy’s structured, transparent, and impact-driven approach </p>
+    <p className="content text-[#3D3D3D]">PPS Energy's structured, transparent, and impact-driven approach </p>
     </div>
 
     <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2  '>
@@ -28,7 +28,7 @@ export default function HowWeWork() {
         transition={{ duration: 0.6 }}>
 
     <div className="flex items-center mb-7">
-    <span className=" border-[2px] border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">01</span>
+    <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">01</span>
     <h2 className="title">Understanding Your Needs</h2>
     </div>
     </motion.div>
@@ -39,7 +39,7 @@ export default function HowWeWork() {
       transition={{ duration: 0.8 }}>
 
     <div className='flex  items-center mb-7'>
-    <span className=" border-[2px] border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">02</span>
+    <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">02</span>
     <h2 className='title' >Energy Assessment & Audit</h2>
     </div>
     </motion.div>
@@ -50,7 +50,7 @@ export default function HowWeWork() {
       transition={{ duration: 1 }}>
 
     <div className='flex items-center mb-7'>
-    <span className=" border-[2px] border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">03</span>
+    <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">03</span>
     <h2 className='title '>Tailored Solutions Design</h2>
     </div>
     </motion.div>
@@ -61,7 +61,7 @@ export default function HowWeWork() {
     transition={{ duration: 1.2 }}>
 
     <div className='flex items-center mb-7'>
-    <span className=" border-[2px] border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">04</span>
+    <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">04</span>
     <h2 className='title '>Implementation With Precision</h2>
     </div>
     </motion.div>
@@ -72,7 +72,7 @@ export default function HowWeWork() {
       transition={{ duration: 1.4 }}>
 
     <div className='flex items-center mb-7'>
-    <span className=" border-[2px] border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">05</span>
+    <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">05</span>
     <h2 className='title'>Monitoring & Optimization</h2>
     </div>
     </motion.div>
@@ -83,7 +83,7 @@ export default function HowWeWork() {
       transition={{ duration: 1.6 }}>
 
     <div className='flex items-center mb-7'>
-    <span className=" border-[2px] border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">06</span>
+    <span className=" border-2 border-[#889F2D]-700 mr-8 w-[60px] h-[60px] flex items-center justify-center text-[#889F2D] text-[30px] lg:text-[40px] p-3 ">06</span>
     <h2 className='title'>Sustained Partnership</h2>
     </div>
     </motion.div>

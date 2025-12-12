@@ -334,3 +334,28 @@
   padding: 5x 0 5px 0;
 }
 }
+
+/* Project hilights CSSS */
+
+/* Make slides look like your 2nd screenshot */
+.project-slider .swiper-slide {
+  width: 380px !important;
+  transition: 0.4s ease;
+  opacity: 0.45;
+}
+
+.project-slider .swiper-slide img {
+  border-radius: 18px;
+}
+
+/* Active centered slide */
+.project-slider .swiper-slide-active {
+  transform: scale(1.1) !important;
+  opacity: 1 !important;
+}
+
+/* Slight fade for side slides */
+.project-slider .swiper-slide-next,
+.project-slider .swiper-slide-prev {
+  opacity: 0.6 !important;
+}

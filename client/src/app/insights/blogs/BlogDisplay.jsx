@@ -114,11 +114,11 @@ export default function BlogDisplay() {
                 {item.article_date}
               </p>
 
-              <h3 className="title text-[#889F2D] mb-3 mr-5">
+              <h3 className="team-members-name text-[#889F2D] mb-3 mr-5">
                 {item.article_title}
               </h3>
 
-              <p className="content text-[#3D3D3D] mb-5">
+              <p className="bulletPoints text-[#3D3D3D] mb-5">
                 {item.article_description}
               </p>
 

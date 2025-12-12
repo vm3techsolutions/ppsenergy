@@ -43,12 +43,12 @@ Our work reflects strong technical capabilities, a commitment to sustainability,
           >
             {/* Image */}
             <Image
-              src={project.image}
-              alt={project.name}
-              width={300}
-              height={200}
-              className="object-cover w-full object-top rounded-t-lg"
-            />
+  src={project.image}
+  alt={project.name}
+  width={300}
+  height={200}
+  className="w-full h-[200px] object-cover object-center rounded-t-lg"
+/>
 
             {/* Content zone */}
             <div className="flex flex-col flex-1 p-4">

@@ -6,8 +6,8 @@ import { motion } from "framer-motion";
 
 export default function AboutUsFirst() {
   return (
-    <div className="common-section text-center flex flex-col justify-center mt-[50px]">
-    {/* Heading */}
+    <div className="common-section text-center flex flex-col justify-center pt-[50px]  ">
+    {/* Heading */} 
       <div className="mb-10">
       <h3 className="title text-[#889F2D] ">About Us</h3>
       <h2 className="center-section-heading"> DRIVEN BY INNOVATION, COMMITTED TO SUSTAINABILITY</h2>
