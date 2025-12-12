@@ -1,0 +1,162 @@
+[
+    {
+  "case_id": "1",
+  "slug": "energy-optimization-for-manufacturing-plant",
+  "title": "Energy Optimization for Manufacturing Plant",
+  "hero_image": "/assets/services/energyAudit/ManufacturingAndIndustrialPlants.png",
+
+  "project_background": "Our client, a leading manufacturing facility with operations across India, was facing rising energy costs, inefficiencies in equipment usage, and increasing pressure to adopt sustainable practices. They approached us to conduct a comprehensive energy audit and deliver a strategy that balances cost savings with sustainability goals.",
+
+  "client": "ABC Manufacturing Co.",
+  "location": "ABCDE, India",
+  "duration": "6 Months",
+  "industry": "Manufacturing",
+
+  "impact_title": "Project Impact",
+  "impact_subtitle": "Through strategic energy optimization and renewable integration, we delivered measurable results that exceeded expectations.",
+  "impact_metrics": [
+    { "number": "42%", "label": "Quantification 1" },
+    { "number": "42%", "label": "Quantification 2" },
+    { "number": "42%", "label": "Quantification 3" },
+    { "number": "42%", "label": "Quantification 4" }
+  ],
+
+  "challenge_title": "The Challenge",
+  "challenge_points": [
+    "Our certified and experienced auditors systematically collect and analyze the significant energy flows and losses.",
+    "Inspection of lighting, air conditioning, heating and ventilation, refrigeration, compressors, and other heavy equipment.",
+    "Measurement of temperatures, pressures, illumination levels, power draw, and consumption patterns."
+  ],
+
+  "challenge_image": "/assets/services/mep/mepInfo.jpeg",
+
+  "solution_title": "Our Solution",
+  "solution_points": [
+    "Optimized major energy loss areas after detailed analysis.",
+    "Upgraded inefficient systems and improved operational workflows.",
+    "Introduced renewable integration for stable and clean power.",
+    "Real-time monitoring systems installed for continuous evaluation."
+  ],
+
+  "solution_image": "/assets/services/marketResearch/marketResearchInfo.jpeg",
+
+  "methodology_steps": [
+    { "step": "01", "title": "Baseline Energy Audit", "description": "Conducted a detailed assessment and analyzed consumption patterns." },
+    { "step": "02", "title": "Data Collection", "description": "Measured power, load variation, and operational inefficiencies." },
+    { "step": "03", "title": "Analysis & Reporting", "description": "Identified major gaps and prepared audit reports." },
+    { "step": "04", "title": "Implementation", "description": "Executed improvement strategies for maximum savings." }
+  ],
+
+  "results": [
+    { "title": "Detailed Results Content", "description": "Quantification & performance improvements documented." },
+    { "title": "Detailed Results Content", "description": "Long-term renewable strategy implemented." }
+  ]
+},
+
+{
+  "case_id": "2",
+  "slug": "solar-rooftop-for-commercial-building",
+  "title": "Solar Rooftop Deployment for Commercial Building",
+  "hero_image": "/assets/services/energyAudit/CommercialBuildingsAndOffices.png",
+
+  "project_background": "The client was experiencing high electricity costs and grid instability at their commercial complex. PPS Energy implemented a solar rooftop project designed for maximum efficiency and long-term savings.",
+
+  "client": "XYZ Commercial Pvt Ltd",
+  "location": "Mumbai, India",
+  "duration": "4 Months",
+  "industry": "Commercial Real Estate",
+
+  "impact_title": "Project Impact",
+  "impact_subtitle": "Solar deployment helped the client reduce grid dependency and significantly lowered electricity bills.",
+  "impact_metrics": [
+    { "number": "68%", "label": "Energy Savings" },
+    { "number": "90%", "label": "Reduced Grid Dependence" },
+    { "number": "25%", "label": "Operational Efficiency Gain" },
+    { "number": "100%", "label": "Renewable Energy Adoption" }
+  ],
+
+  "challenge_title": "The Challenge",
+  "challenge_points": [
+    "High-energy consumption during peak hours.",
+    "Limited rooftop structural strength.",
+    "Requirement for zero downtime installation."
+  ],
+  "challenge_image": "/assets/services/mep/mepInfo.jpeg",
+
+  "solution_title": "Our Solution",
+  "solution_points": [
+    "Developed lightweight structural mounts for rooftop panels.",
+    "Installed a high-efficiency inverter system.",
+    "Configured the plant for optimal sunlight exposure using AI-based tools.",
+    "Delivered the project with zero operational downtime."
+  ],
+  "solution_image": "/assets/services/marketResearch/marketResearchInfo.jpeg",
+
+  "methodology_steps": [
+    { "step": "01", "title": "Feasibility Study", "description": "Structural evaluation and load testing." },
+    { "step": "02", "title": "Engineering Design", "description": "Optimized layout for maximum generation." },
+    { "step": "03", "title": "Installation", "description": "Fast, safe rooftop installation." },
+    { "step": "04", "title": "Monitoring Setup", "description": "Real-time performance tracking enabled." }
+  ],
+
+  "results": [
+    { "title": "Annual Savings", "description": "₹32 lakhs saved yearly in electricity costs." },
+    { "title": "Carbon Reduction", "description": "Reduced 180 tons CO₂ annually." }
+  ]
+},
+
+{
+  "case_id": "3",
+  "slug": "ht-lt-panel-upgrade-industrial-plant",
+  "title": "HT/LT Panel Upgrade for Industrial Plant",
+  "hero_image": "/assets/industries/PowerPlant.jpeg",
+
+  "project_background": "The client faced repeated power trips and downtime due to outdated HT/LT panels. PPS Energy modernized the complete system to enhance reliability and safety.",
+
+  "client": "LMN Industrial Group",
+  "location": "Pune, India",
+  "duration": "3 Months",
+  "industry": "Heavy Engineering",
+
+  "impact_title": "Project Impact",
+  "impact_subtitle": "Upgrading HT/LT panels reduced downtime and improved safety compliance.",
+  "impact_metrics": [
+    { "number": "75%", "label": "Reduced Downtime" },
+    { "number": "55%", "label": "Energy Efficiency Improvement" },
+    { "number": "100%", "label": "Compliance Achieved" },
+    { "number": "40%", "label": "Maintenance Cost Reduction" }
+  ],
+
+  "challenge_title": "The Challenge",
+  "challenge_points": [
+    "Old HT/LT panels with unsafe wiring.",
+    "High failure rate during peak industrial load.",
+    "Non-compliance with updated electrical safety norms."
+  ],
+  "challenge_image": "/assets/services/mep/mepInfo.jpeg",
+
+  "solution_title": "Our Solution",
+  "solution_points": [
+    "Installed new HT/LT panels with enhanced safety features.",
+    "Implemented load-balancing technology.",
+    "Redesigned electrical layout for operational efficiency.",
+    "Conducted safety training for plant operators."
+  ],
+  "solution_image": "/assets/services/marketResearch/marketResearchInfo.jpeg",
+
+  "methodology_steps": [
+    { "step": "01", "title": "Site Inspection", "description": "Evaluated existing load issues." },
+    { "step": "02", "title": "Panel Design", "description": "Custom-designed compliant HT/LT setup." },
+    { "step": "03", "title": "Installation & Testing", "description": "Zero-downtime installation with safety checks." },
+    { "step": "04", "title": "Training & Handover", "description": "Hands-on training provided." }
+  ],
+
+  "results": [
+    { "title": "Improved Reliability", "description": "System failures reduced drastically." },
+    { "title": "Enhanced Safety", "description": "Became fully compliant with BIS & IEC standards." }
+  ]
+}
+
+
+
+]

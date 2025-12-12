@@ -1,0 +1,25 @@
+[
+  {
+    "id": "1",
+    "slug": "energy-optimization-for-manufacturing-plant",
+    "image": "/assets/services/energyAudit/ManufacturingAndIndustrialPlants.png",
+    "title": "Energy Optimization for Manufacturing Plant",
+    "short_description": "Comprehensive energy audit and optimization improving efficiency and reducing operational cost."
+  },
+
+  {
+    "id": "2",
+    "slug": "solar-rooftop-for-commercial-building",
+    "image": "/assets/services/energyAudit/CommercialBuildingsAndOffices.png",
+    "title": "Solar Rooftop Deployment for Commercial Building",
+    "short_description": "Large scale rooftop solar installation enabling major yearly savings."
+  },
+
+  {
+    "id": "3",
+    "slug": "ht-lt-panel-upgrade-industrial-plant",
+    "image": "/assets/industries/PowerPlant.jpeg",
+    "title": "HT/LT Panel Upgrade for Industrial Plant",
+    "short_description": "Electrical system upgrade reducing downtime and improving safety."
+  }
+]
