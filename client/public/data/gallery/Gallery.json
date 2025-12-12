@@ -1,5 +1,5 @@
 [
-  { "image": "/assets/gallery/Image1.jpg", "title": "Solar Plant", "category": "Solar" },
+  { "image": "/assets/gallery/Img1.jpg", "title": "Solar Plant", "category": "Solar" },
   { "image": "/assets/gallery/Img2.jpg", "title": "HT Panel", "category": "Industrial" },
   { "image": "/assets/gallery/Img3.jpg", "title": "Commercial Setup", "category": "Commercial" },
   { "image": "/assets/gallery/Img4.jpg", "title": "Commercial Setup", "category": "Commercial" },

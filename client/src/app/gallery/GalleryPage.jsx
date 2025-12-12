@@ -89,7 +89,7 @@ export default function GalleryPage() {
 
       {/* Gallery Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        {galleryImages.map((img, index) => (
+        {/* {galleryImages.map((img, index) => (
           <div
             key={img.id}
             className="rounded-xl overflow-hidden shadow-lg bg-white hover:shadow-[0_0_25px_#889F2D] transition-shadow duration-300 cursor-pointer"
@@ -103,7 +103,22 @@ export default function GalleryPage() {
               className="w-full h-[250px] object-cover hover:scale-110 transition duration-300"
             />
           </div>
-        ))}
+        ))} */}
+        {galleryImages.map((img, index) => (
+  <div
+    key={img.id || index}
+    className="rounded-xl overflow-hidden shadow-lg bg-white hover:shadow-[0_0_25px_#889F2D] transition-shadow duration-300 cursor-pointer"
+    onClick={() => openLightbox(index)}
+  >
+    <Image
+      src={img.image}
+      alt={img.title}
+      width={600}
+      height={400}
+      className="w-full h-[250px] object-cover hover:scale-110 transition duration-300"
+    />
+  </div>
+))}
       </div>
 
       {/* Lightbox Popup */}
