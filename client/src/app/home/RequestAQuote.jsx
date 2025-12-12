@@ -21,7 +21,7 @@ export default function RequestAQuote() {
     const formData = { name, email, phone, message };
 
     try {
-      const res = await fetch("http://localhost:5000/api/submit-form", {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/submit-form`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),

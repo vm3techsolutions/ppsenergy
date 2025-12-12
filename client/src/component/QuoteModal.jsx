@@ -119,7 +119,7 @@ export default function QuoteModal({ open, onClose }) {
     setSuccessMsg("");
 
     try {
-      const res = await fetch("http://localhost:5000/api/submit-form", {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/submit-form`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
