@@ -10,7 +10,7 @@
 
     {
         "service_id" : "2",
-        "service_image" : "/assets/services/powerConsultancy/Service2Banner.png",
+        "service_image" : "/assets/services/powerConsultancy/powerConsultancyBanner.png",
         "service_title" : "Power Consultancy", 
         "service_description" : "At PPS Energy Solutions, we specialize in delivering end-to-end power consultancy solutions designed to help industries, businesses, and infrastructure projects optimize their energy systems. Our team of experienced engineers and consultants work closely with clients to provide tailored solutions.",
         "service_link" : "/services/power-consultancy"

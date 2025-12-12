@@ -7,15 +7,6 @@ export default function Banner() {
      
 
     
-      {/* Content */}
-      <div className="section relative z-10 max-w-3xl px-6 sm:px-4 md:px-8 ">
-        <h2 className="heading text-[#7B0000] pb-6 sm:pb-4 ">
-        Associates & Mentors
-        </h2>
-        </div>
-    
-
-      
     </section>
   )
 }

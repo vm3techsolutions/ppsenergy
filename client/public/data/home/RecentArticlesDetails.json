@@ -1,27 +1,93 @@
 [
-    {
-        "article_id": "1",
-          "slug": "energy-saving-tips",
-        "article_image" : "/assets/home/HomeRecentArticle.png",
-        "article_title" : "Lorem Genrator",
-        "article_description" : "This handy tool helps you create dummy text for all your layoThis handy tool helps you create dummy text for all your layout needs. We are gradually adding new, This handy tool helps you create dummy text for all your layout needs. We are gradually adding new, ",
-        "adding_just_for_test" : "This handy tool helps you create dummy text for all your layoThis handy tool helps you create dummy text for all your layout needs. We are gradually adding new, This handy tool helps you create dummy text for all your layout needs. We are gradually adding new, This handy tool helps you create dummy text for all your layoThis handy tool helps you create dummy text for all your layout needs. We are gradually adding new, This handy tool helps you create dummy text for all your layout needs. We are gradually adding new, This handy tool helps you create dummy text for all your layoThis handy tool helps you create dummy text for all your layout needs. We are gradually adding new, This handy tool helps you create dummy text for all your layout needs. We are gradually adding new, This handy tool helps you create dummy text for all your layoThis handy tool helps you create dummy text for all your layout needs. We are gradually adding new, This handy tool helps you create dummy text for all your layout needs. We are gradually adding new, "
+  {
+    "article_id": "1",
+    "slug": "how-pps-energy-is-powering-indias-transition-to-a-sustainable-future",
+    "article_image": "/assets/home/HomeRecentArticle.png",
 
-    },
+    "title": "How PPS Energy Is Powering India’s Transition to a Sustainable Future",
+    "description": "India is undergoing a rapid energy transformation. With rising demand, urban growth, and environmental concerns, the need for reliable, sustainable power has never been greater. PPS Energy is at the forefront of this transition—delivering innovative, future-ready solutions that help industries, businesses, and communities meet their energy goals responsibly.",
 
-    {
-        "article_id" : "2",
-         "slug": "energy-saving-new-tips",
-        "article_image" : "/assets/home/HomeRecentArticle.png",
-        "article_title" : "Lorem Genrator", 
-        "article_description" : "This handy tool helps you create dummy text for all your layoThis handy tool helps you create dummy text for all your layout needs. We are gradually adding new, This handy tool helps you create dummy text for all your layout needs. We are gradually adding new,  "
-    }, 
+    "title1": "The Shift Toward Renewable Power",
+    "title1_description": "India is committed to achieving 500 GW of renewable energy by 2030. This vision has opened doors for businesses to adopt solar, wind, and hybrid solutions. PPS Energy supports this shift through:",
+    "title1_points": [
+      "Advanced solar power system design",
+      "High-efficiency installations",
+      "Scalable solutions for industries and institutions",
+      "Long-term maintenance and monitoring"
+    ],
 
-    {
-        "article_id" : "3",
-          "slug": "energy-saving-new-new-tips",
-        "article_image" : "/assets/home/HomeRecentArticle.png",
-        "article_title" : "Lorem Genrator",
-        "article_description" : "This handy tool helps you create dummy text for all your layoThis handy tool helps you create dummy text for all your layout needs. We are gradually adding new, This handy tool helps you create dummy text for all your layout needs. We are gradually adding new, "
-    }
+    "title2": "Long-term maintenance and monitoring",
+    "title2_description": "PPS Energy provides end-to-end support to ensure clients maximize efficiency and reduce costs:",
+    "title2_points": [
+      "Accurate load analysis",
+      "Customized system planning",
+      "Quality engineering",
+      "Fast commissioning",
+      "Reliable after-sales support"
+    ],
+
+    "title3": "Reliable after-sales support",
+    "title3_description": "With innovative technology and robust execution, PPS Energy is helping India build a greener, more resilient power ecosystem."
+  },
+
+  {
+    "article_id": "2",
+    "slug": "top-5-benefits-of-switching-to-solar",
+    "article_image": "/assets/home/HomeRecentArticle.png",
+
+    "title": "Top 5 Benefits of Switching to Solar with PPS Energy",
+    "description": "Businesses across India are choosing solar energy to reduce costs and improve sustainability. PPS Energy helps organizations unlock the true potential of solar with high-performance systems built for long-term results.",
+
+    "title1": "1. Huge Reduction in Electricity Bills",
+    "title1_description": "Solar power significantly cuts monthly energy expenses. PPS Energy designs systems tailored for optimal output and maximum savings.",
+    "title1_points": [],
+
+    "title2": "2. Low Maintenance, High Durability",
+    "title2_description": "Installations use premium materials for long service life and minimal maintenance.",
+    "title2_points": [],
+
+    "title3": "3. Quick ROI",
+    "title3_description": "Government subsidies and smart planning ensure fast return on investment.",
+
+    "title4": "4. Energy Independence",
+    "title4_description": "Solar protects businesses from rising electricity rates and grid instability.",
+
+    "title5": "5. Environment-Friendly Operations",
+    "title5_description": "Switching to solar reduces carbon footprint and supports ESG goals.",
+
+    "conclusion_title": "Conclusion",
+    "conclusion_description": "Solar energy is one of the smartest investments a business can make—PPS Energy ensures a smooth, efficient transition."
+  },
+
+  {
+    "article_id": "3",
+    "slug": "pps-energy-industrial-power-solutions",
+    "article_image": "/assets/home/HomeRecentArticle.png",
+
+    "title": "Why PPS Energy Is the Trusted Partner for Industrial Power Solutions",
+    "description": "Industries require stable, reliable, and efficient power systems for uninterrupted operations. PPS Energy has earned a strong reputation for delivering high-quality industrial energy solutions.",
+
+    "title1": "Comprehensive Industrial Solutions",
+    "title1_description": "",
+    "title1_points": [
+      "Electrical contracting",
+      "HT/LT panel installations",
+      "Transformer supply & maintenance",
+      "Solar rooftop systems",
+      "Energy audits and optimization"
+    ],
+
+    "title2": "Expert Engineering Team",
+    "title2_description": "Highly skilled engineers ensure precision, safety, and long-term reliability at every stage.",
+    "title2_points": [],
+
+    "title3": "Focus on Cost Efficiency",
+    "title3_description": "Optimized system design helps industries reduce operational costs and improve performance.",
+
+    "title4": "Commitment to Quality",
+    "title4_description": "PPS Energy uses high-grade materials and proven technology, ensuring dependable project delivery and strong after-sales support.",
+
+    "conclusion_title": "Conclusion",
+    "conclusion_description": "PPS Energy stands out as a trusted partner that provides reliable, scalable, and efficient industrial power solutions."
+  }
 ]

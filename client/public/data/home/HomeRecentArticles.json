@@ -1,29 +1,28 @@
 [
-    {
-        "article_id": "1",
-        "slug": "energy-saving-tips",
-        "article_image" : "/assets/home/HomeRecentArticle.png",
-        "article_title" : "Lorem Genrator",
-        "article_date" : "August 20, 2023",
-        "article_description" : "This handy tool helps you create dummy text for all your layoThis handy tool helps you create dummy text for all your layout needs. We are gradually adding new, This handy tool helps you create dummy text for all your layout needs. We are gradually adding new, "
+  {
+    "article_id": "1",
+    "slug": "how-pps-energy-is-powering-indias-transition-to-a-sustainable-future",
+    "article_image": "/assets/home/HomeRecentArticle.png",
+    "article_title": "How PPS Energy Is Powering India’s Transition to a Sustainable Future",
+    "article_date": "August 20, 2023",
+    "article_description": "India is undergoing a rapid energy transformation. With rising demand, urban growth, and environmental concerns, the need for reliable, sustainable power has never been greater."
+  },
 
-    },
+  {
+    "article_id": "2",
+    "slug": "top-5-benefits-of-switching-to-solar",
+    "article_image": "/assets/home/HomeRecentArticle.png",
+    "article_title": "Top 5 Benefits of Switching to Solar with PPS Energy",
+    "article_date": "September 10, 2024",
+    "article_description": "Businesses across India are choosing solar energy to reduce costs and improve sustainability. Discover how PPS Energy delivers long-term solar value."
+  },
 
-    {
-        "article_id" : "2",
-         "slug": "energy-saving-new-tips",
-        "article_image" : "/assets/home/HomeRecentArticle.png",
-        "article_title" : "Lorem Genrator", 
-         "article_date" : "August 20, 2024",
-        "article_description" : "This handy tool helps you create dummy text for all your layoThis handy tool helps you create dummy text for all your layout needs. We are gradually adding new, This handy tool helps you create dummy text for all your layout needs. We are gradually adding new,  "
-    }, 
-
-    {
-        "article_id" : "3",
-         "slug": "energy-saving-new-new-tips",
-        "article_image" : "/assets/home/HomeRecentArticle.png",
-        "article_title" : "Lorem Genrator",
-        "article_date" : "August 20, 2025",
-        "article_description" : "This handy tool helps you create dummy text for all your layoThis handy tool helps you create dummy text for all your layout needs. We are gradually adding new, This handy to "
-    }
+  {
+    "article_id": "3",
+    "slug": "pps-energy-industrial-power-solutions",
+    "article_image": "/assets/home/HomeRecentArticle.png",
+    "article_title": "Why PPS Energy Is the Trusted Partner for Industrial Power Solutions",
+    "article_date": "October 02, 2024",
+    "article_description": "Industries require stable, reliable, and efficient power systems. Learn why PPS Energy is a leading provider of industrial energy solutions."
+  }
 ]

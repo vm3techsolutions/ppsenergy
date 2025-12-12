@@ -7,11 +7,11 @@ export default function MepIndustries() {
     const industries = [
     {
       title: "Commercial Buildings & Offices",
-      image: "/assets/services/energyAudit/ManufacturingAndIndustrialPlants.png",
+      image: "/assets/services/energyAudit/CommercialBuildingsAndOffices.png",
     },
     {
       title: "Industrial & Manufacturing Facilities",
-      image: "/assets/services/energyAudit/CommercialBuildingsAndOffices.png",
+      image: "/assets/services/energyAudit/ManufacturingAndIndustrialPlants.png",
     },
     {
       title: "Hospitals & Healthcare Centers",
@@ -23,7 +23,7 @@ export default function MepIndustries() {
     },
     {
       title: "Data Centers & IT Parks",
-      image: "/assets/services/energyAudit/HospitalsAndHealthcareFacilities.png",
+      image: "/assets/industries/ITPark.jpeg",
     },
     {
       title: "Residential Complexes & Smart Cities",
