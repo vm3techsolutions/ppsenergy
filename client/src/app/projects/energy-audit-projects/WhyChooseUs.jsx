@@ -1,18 +1,20 @@
-import { Building2, Gauge, TrendingUp, Workflow } from "lucide-react";
+import { Layers,
+  ShieldCheck,
+  BadgeCheck } from "lucide-react";
 
 export default function WhyChooseUs() {
 
   const items = [
     {
-      icon: <Building2 size={40} className="text-[#889F2D]" />,
+      icon: <Layers size={40} className="text-[#889F2D]" />,
       title: "Accuracy at scale",
     },
     {
-      icon: <Gauge size={40} className="text-[#889F2D]" />,
+      icon: <ShieldCheck size={40} className="text-[#889F2D]" />,
       title: "Proven loss reduction results",
     },
     {
-      icon: <Gauge size={40} className="text-[#889F2D]" />,
+      icon: <BadgeCheck size={40} className="text-[#889F2D]" />,
       title: "Certified energy auditors",
     }
   ];

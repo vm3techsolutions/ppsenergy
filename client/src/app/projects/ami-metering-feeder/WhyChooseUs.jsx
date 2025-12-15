@@ -1,14 +1,15 @@
-import { Building2, Gauge, TrendingUp, Workflow } from "lucide-react";
+import { ClipboardCheck,
+  Cpu } from "lucide-react";
 
 export default function WhyChooseUs() {
 
   const items = [
     {
-      icon: <Building2 size={40} className="text-[#889F2D]" />,
+      icon: <ClipboardCheck size={40} className="text-[#889F2D]" />,
       title: "High-accuracy field execution",
     },
     {
-      icon: <Gauge size={40} className="text-[#889F2D]" />,
+      icon: <Cpu size={40} className="text-[#889F2D]" />,
       title: "Compliance with smart-grid standards",
     }
   ];

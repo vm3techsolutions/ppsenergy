@@ -18,7 +18,7 @@ export default function IndustriesWeServerPowerConsultancy() {
     },
     {
       title: "Infrastructure & Utilities",
-      image: "/assets/industries/infrastructure.jpeg",
+      image: "/assets/industries/Infrastructure.jpeg",
     },
     {
       title: "Hospitals & Institutions",

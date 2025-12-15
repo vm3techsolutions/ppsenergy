@@ -1,19 +1,21 @@
-import { Building2, Gauge, TrendingUp, Workflow } from "lucide-react";
+import { Scale,
+  Activity,
+  TrendingUp } from "lucide-react";
 
 export default function WhyChooseUs() {
 
 
   const items = [
     {
-      icon: <Building2 size={40} className="text-[#889F2D]" />,
+      icon: <Scale size={40} className="text-[#889F2D]" />,
       title: "Unbiased technical evaluation",
     },
     {
-      icon: <Gauge size={40} className="text-[#889F2D]" />,
+      icon: <Activity size={40} className="text-[#889F2D]" />,
       title: "Accurate asset health assessment",
     },
     {
-      icon: <Gauge size={40} className="text-[#889F2D]" />,
+      icon: <TrendingUp size={40} className="text-[#889F2D]" />,
       title: "Supports investor decisions",
     }
   ];

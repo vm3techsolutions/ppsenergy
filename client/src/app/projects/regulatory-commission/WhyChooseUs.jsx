@@ -1,22 +1,25 @@
-import { Building2, Gauge, TrendingUp, Workflow } from "lucide-react";
+import { FileCheck,
+  BarChart3,
+  Timer,
+  MapPinned, } from "lucide-react";
 
 export default function WhyChooseUs() {
 
   const items = [
     {
-      icon: <Building2 size={40} className="text-[#889F2D]" />,
+      icon: <FileCheck size={40} className="text-[#889F2D]" />,
       title: "Accurate regulatory reporting",
     },
     {
-      icon: <Gauge size={40} className="text-[#889F2D]" />,
+      icon: <BarChart3 size={40} className="text-[#889F2D]" />,
       title: "Data-backed analysis",
     },
     {
-      icon: <TrendingUp size={40} className="text-[#889F2D]" />,
+      icon: <Timer size={40} className="text-[#889F2D]" />,
       title: "Faster approval cycles",
     },
     {
-      icon: <Workflow size={40} className="text-[#889F2D]" />,
+      icon: <MapPinned size={40} className="text-[#889F2D]" />,
       title: "Strong experience across states",
     },
   ];

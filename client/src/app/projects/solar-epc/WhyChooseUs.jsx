@@ -1,4 +1,5 @@
-import { Building2, Gauge, TrendingUp, Workflow } from "lucide-react";
+import {Sun,
+  Workflow } from "lucide-react";
 
 export default function WhyChooseUs() {
 
@@ -6,11 +7,11 @@ export default function WhyChooseUs() {
 
   const items = [
     {
-      icon: <Building2 size={40} className="text-[#889F2D]" />,
+      icon: <Sun size={40} className="text-[#889F2D]" />,
       title: "Accurate yield forecasting",
     },
     {
-      icon: <Gauge size={40} className="text-[#889F2D]" />,
+      icon: <Workflow size={40} className="text-[#889F2D]" />,
       title: "End-to-end EPC lifecycle management",
     }
   ];

@@ -1,18 +1,20 @@
-import { Building2, Gauge, TrendingUp, Workflow } from "lucide-react";
+import { Ruler,
+  FileCog,
+  HardHat } from "lucide-react";
 
 export default function WhyChooseUs() {
 
   const items = [
     {
-      icon: <Building2 size={40} className="text-[#889F2D]" />,
+      icon: <Ruler size={40} className="text-[#889F2D]" />,
       title: "Engineering precision",
     },
     {
-      icon: <Gauge size={40} className="text-[#889F2D]" />,
+      icon: <FileCog size={40} className="text-[#889F2D]" />,
       title: "Regulatory compliant designs",
     },
     {
-      icon: <Gauge size={40} className="text-[#889F2D]" />,
+      icon: <HardHat size={40} className="text-[#889F2D]" />,
       title: "Optimized for safety & efficiency",
     }
   ];

@@ -45,7 +45,7 @@
     },
     {
         "id" : "5",
-         "image" : "/assets/services/powerConsultancy/powerQualityService5.jpeg",
+         "image" : "/assets/services/powerConsultancy/PowerQualityService5.jpeg",
       "title": "Power Quality & Reliability Improvement",
       "desc": "Diagnose and resolve issues related to harmonics, voltage instability, and downtime.",
       "points": [
