@@ -26,11 +26,11 @@ export default function TeamModal({ member, onClose }) {
         {/* Profile Header */}
         <div className="flex flex-col items-center text-center">
           <Image
-            width={130}
-            height={130}
+            width={200}
+            height={200}
             src={member.image}
             alt={member.name}
-            className="rounded-full border object-cover shadow-md" />
+            className="h-[130px] w-[130px]  rounded-full border object-cover shadow-md" />
 
           <h2 className="team-members-name text-[#7B0000] mt-4">{member.name}</h2>
           <p className="text-[#889F2D] team-members-designation mb-2">

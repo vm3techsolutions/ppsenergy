@@ -23,7 +23,7 @@
       "Thesis submitted to Amravati University towards,  Rural Electrification and economics."
     ],
      "image": "/assets/keypersons/keypersonFirst.jpeg",
-    "linkedin": "https://www.linkedin.com/in/adv-dr-ravi-deshmukh-323960a1/"
+    "linkedin": "https://in.linkedin.com/in/adv-dr-ravi-deshmukh-323960a1"
   },
   {
     "id": 2,
@@ -40,7 +40,7 @@
       "Independent Advocate",
       "Conveyancing"
     ],
-     "image": "/assets/aboutus/AboutUsTeam.png",
+     "image": "/assets/keypersons/Muktai Bhagvat.png",
     "linkedin": "#"
   },
   {
@@ -61,8 +61,8 @@
     "inventions": [
       "Indian Patent No. 336705 – ‘Improved, Intelligent & Cost-Effective Combined Combustion Control System’"
     ],
-   "image": "/assets/aboutus/AboutUsTeam.png",
-    "linkedin": "#"
+   "image": "/assets/keypersons/Madan-Bhowmick.jpg",
+    "linkedin": "https://in.linkedin.com/in/dr-madan-bhowmick-6a3042107"
   },
   {
     "id": 4,
@@ -145,8 +145,8 @@
       "MEP",
       "Electrical Distribution"
     ],
-     "image": "/assets/aboutus/AboutUsTeam.png",
-    "linkedin": "#"
+     "image": "/assets/keypersons/Prasad Bhosle.jpeg",
+    "linkedin": "https://in.linkedin.com/in/bbprasad"
   },
   {
     "id": 9,
@@ -161,8 +161,8 @@
       "Quality Inspection",
       "Boundary Metering"
     ],
-   "image": "/assets/aboutus/AboutUsTeam.png",
-    "linkedin": "#"
+   "image": "/assets/keypersons/Hemant N Kadu.jpg",
+    "linkedin": "https://www.linkedin.com/in/hemant-dell-43732319/"
   },
   {
     "id": 10,
@@ -178,41 +178,11 @@
       "Power Quality Audit",
       "Thermography"
     ],
-    "image": "/assets/aboutus/AboutUsTeam.png",
-    "linkedin": "#"
+    "image": "/assets/keypersons/Vinayak apte.jpeg",
+    "linkedin": "https://in.linkedin.com/in/adv-dr-ravi-deshmukh-323960a1"
   },
   {
     "id": 11,
-    "name": "Mr. Vedmurthy Swami",
-    "designation": "Sr. Engineer",
-    "academic": "BE Mechanical, PG",
-    "experience": "6 Years (Energy Audit Field Survey)",
-    "expertise": [
-      "Data Collection",
-      "Field Survey",
-      "Report Preparation",
-      "Project Engineering",
-      "Performance Monitoring"
-    ],
-   "image": "/assets/aboutus/AboutUsTeam.png",
-    "linkedin": "#"
-  },
-  {
-    "id": 12,
-    "name": "Mr. Ritesh Pali",
-    "designation": "Sr. Engineer",
-    "academic": "Diploma in Electrical Engineering, BE Electrical",
-    "experience": "8 Years (Energy Audit) + 2 Years (EV Charging Survey & Installation)",
-    "expertise": [
-      "EV Charging Station Installation",
-      "Audit Participation",
-      "Survey Operations"
-    ],
-     "image": "/assets/aboutus/AboutUsTeam.png",
-    "linkedin": "#"
-  },
-  {
-    "id": 13,
     "name": "Mr. Dilip Kumar Behera",
     "designation": "Sr. Consultant",
     "academic": "B.Tech, MBA",
@@ -230,7 +200,7 @@
     "linkedin": "#"
   },
   {
-    "id": 14,
+    "id": 12,
     "name": "Mr. Dinesh Barhate",
     "designation": "Sr. Consultant / Certified Energy Auditor",
     "academic": "BE Electrical, MBA, Certified Energy Auditor",
@@ -248,7 +218,7 @@
     "linkedin": "#"
   },
   {
-    "id": 15,
+    "id": 13,
     "name": "Mr. Dilip Dhakate",
     "designation": "Sr. Consultant / Certified Energy Auditor",
     "academic": "BE Mechanical, M.Tech, Certified Energy Auditor",
@@ -265,7 +235,7 @@
     "linkedin": "#"
   },
   {
-    "id": 16,
+    "id": 14,
     "name": "Mr. Asit Kumar Ray",
     "designation": "Technical Advisor",
     "academic": "Diploma in Electrical Engineering, BEE Certified Energy Manager",
@@ -282,21 +252,7 @@
     "linkedin": "#"
   },
   {
-    "id": 17,
-    "name": "Mr. Abhijit Khamari",
-    "designation": "Site Engineer",
-    "academic": "Diploma",
-    "experience": "11 Years (Field Expert)",
-    "expertise": [
-      "Power Grid Operations",
-      "Performance Improvement",
-      "Efficiency Analysis"
-    ],
-    "image": "/assets/aboutus/AboutUsTeam.png",
-    "linkedin": "#"
-  },
-  {
-    "id": 18,
+    "id": 15,
     "name": "Mr. Benudhar Biswal",
     "designation": "Finance & Power Research Expert",
     "academic": "CA, MBA Finance",
@@ -314,7 +270,7 @@
     "linkedin": "#"
   },
   {
-    "id": 19,
+    "id": 16,
     "name": "Mr. Abinash Mishra",
     "designation": "Power & Revenue Accounting Consultant",
     "academic": "CA, B.Com",
@@ -329,7 +285,7 @@
     "linkedin": "#"
   },
   {
-    "id": 20,
+    "id": 17,
     "name": "Mr. Pradip Kumar Kar",
     "designation": "Revenue & Power Distribution Expert",
     "academic": "Electrical, MBA",
@@ -341,6 +297,132 @@
       "Asset Management",
       "Engineering & Maintenance",
       "IT Implementation"
+    ],
+    "image": "/assets/aboutus/AboutUsTeam.png",
+    "linkedin": "#"
+  },
+  {
+   "id": 18,
+    "name": "Mr. D. S. Metange",
+    "designation": "HR Admin",
+    "academic": "M. Tech (Electronics and communication)",
+    "experience": "15 Years ",
+    "expertise": [
+      "Employee onboarding & offboarding",
+      "Maintaining employee records (digital & physical)",
+      "HR documentation (offer letters, contracts, ID cards)",
+      "Attendance, leave, and shift management",
+      "Updating HR databases / HRMS"
+    ],
+    "image": "/assets/aboutus/AboutUsTeam.png",
+    "linkedin": "https://in.linkedin.com/in/dattakrushna-metange-a15225191"
+  },
+  {
+   "id": 19,
+    "name": "Mrs. Smriti Ganorkar",
+    "designation": "Sr. Engineer",
+    "academic": "Engineer (IT)",
+    "experience": "5 Years ",
+    "expertise": [
+      "Database design & management",
+      "Network, server & cloud administration",
+      "Cybersecurity & data protection",
+      "IT infrastructure support & optimization"
+    ],
+    "image": "/assets/aboutus/AboutUsTeam.png",
+    "linkedin": "#"
+  },
+  {
+   "id": 20,
+    "name": "Mrs. Shruti Joshi",
+    "designation": "Data Analyst",
+    "academic": "MCM BSC Computer Science",
+    "experience": "3 Years ",
+    "expertise": [
+      "Data Cleaning & Preparation ",
+      "Data Analysis & Interpretation ",
+      "Statistical Analysis ",
+      "Data Visualization "
+    ],
+    "image": "/assets/aboutus/AboutUsTeam.png",
+    "linkedin": "https://www.linkedin.com/in/shruti-joshi-012b617a"
+  },
+  {
+   "id": 21,
+    "name": "Mr. Amol P. Galwe",
+    "designation": "Sr. Consultant",
+    "academic": "BE (Electronics and Power) ME (Electrical power system)",
+    "experience": "10 Years ",
+    "expertise": [
+      "Power System Analysis & Design ",
+      "Electrical Network Planning  ",
+      "Protection & Control Systems ",
+      "Power Quality & Reliability ",
+      "Standards & Compliance "
+    ],
+    "image": "/assets/aboutus/AboutUsTeam.png",
+    "linkedin": "#"
+  },
+  {
+   "id": 22,
+    "name": "Mr. Vedant Chichmalatpure",
+    "designation": "Site Engineer",
+    "academic": "B. Tech Electrical (Electronics and Power)",
+    "experience": "2 Years ",
+    "expertise": [
+      "Electrical installation & commissioning",
+      "Power distribution & load control ",
+      "Drawing & BOQ review",
+      "Fault troubleshooting & maintenance",
+      "Safety & standards compliance"
+    ],
+    "image": "/assets/aboutus/AboutUsTeam.png",
+    "linkedin": "https://www.linkedin.com/in/vedant26072002"
+  },
+  {
+   "id": 23,
+    "name": "Mr. Chaitanya Salunkhe",
+    "designation": "Site Engineer",
+    "academic": "B. Tech Electrical",
+    "experience": "2 Years ",
+    "expertise": [
+      "Electrical installation & commissioning",
+      "Power distribution & load control ",
+      "Drawing & BOQ review",
+      "Fault troubleshooting & maintenance",
+      "Electrical safety compliance"
+    ],
+    "image": "/assets/keypersons/Chaitanya Salunke.jpeg",
+    "linkedin": "- https://www.linkedin.com/in/salunkhe-chaitanya-470b65247/"
+  },
+  {
+   "id": 24,
+    "name": "Mr. Ashish Rithe",
+    "designation": "Site Engineer",
+    "academic": "BCA, ITI (Electrician)",
+    "experience": "6 Years ",
+    "expertise": [
+      "Electrical installation & commissioning",
+      "Power distribution & load control ",
+      "Drawing & BOQ review",
+      "Fault troubleshooting & maintenance",
+      "Electrical safety compliance"
+    ],
+    "image": "/assets/aboutus/AboutUsTeam.png",
+    "linkedin": "#"
+  },
+  {
+   "id": 25,
+    "name": "Mr. Darshan Mane",
+    "designation": "Site Engineer",
+    "academic": "BE (mechanical)",
+    "experience": "3 Years ",
+    "expertise": [
+      "Mechanical installation & commissioning",
+      "HVAC, piping & equipment supervision",
+      "Drawing, BOQ & layout review",
+      "Preventive maintenance & troubleshooting",
+      "Safety, quality & site compliance"
     ],
     "image": "/assets/aboutus/AboutUsTeam.png",
     "linkedin": "#"
