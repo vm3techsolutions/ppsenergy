@@ -66,7 +66,8 @@ export default function Header() {
 
   return (
     <>
-    <header className="w-full shadow-md bg-white px-6 md:px-16 py-4 flex items-center justify-between relative lg:px-20 menu-items">
+    {/* <header className="w-full shadow-md bg-white px-6 md:px-16 py-4 flex items-center justify-between relative lg:px-20 menu-items"> */}
+    <header className="sticky top-0 z-50 w-full bg-white shadow-md px-6 md:px-16 py-4 flex items-center justify-between lg:px-20 menu-items">
       
       {/* Logo */}
       <Link href="/">
@@ -137,19 +138,19 @@ export default function Header() {
       </div>
 
       {/* Mobile Menu Button */}
-      <button className="md:hidden p-2" onClick={() => setIsOpen(!isOpen)}>
+      <button className="md:hidden p-2 " onClick={() => setIsOpen(!isOpen)}>
         {isOpen ? <X size={28} /> : <Menu size={28} />}
       </button>
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="absolute top-full left-0 w-full bg-white shadow-md py-6 space-y-2 md:hidden z-50">
+        <div className="absolute top-full left-0 w-full bg-white shadow-md py-6 space-y-2 md:hidden z-50 ">
 
           {links.map((link) => (
-            <div key={link.label} className="w-full">
+            <div key={link.label} className="w-full team-members-modal-name">
 
               <div
-                className="flex justify-between px-6 py-2 cursor-pointer"
+                className="flex justify-between px-6 py-2 cursor-pointer team-members-modal-name"
                 onClick={() =>
                   link.submenu ? setOpenSubmenu(openSubmenu === link.label ? null : link.label) : setIsOpen(false)   }   >
                 <Link href={link.href}>{link.label}</Link>
@@ -163,13 +164,13 @@ export default function Header() {
                 <div className="pl-8">
                   {link.submenu.map((sublink) => (
                     <div key={sublink.label}>
-                      <Link href={sublink.href} className="block py-2 bulletPoints">{sublink.label}</Link>
+                      <Link href={sublink.href} className="block py-2 team-members-modal-name">{sublink.label}</Link>
 
                       {/* MOBILE SECOND LEVEL SUBMENU */}
                       {sublink.submenu && (
                         <div className="pl-6">
                           {sublink.submenu.map((child) => (
-                            <Link key={child.label} href={child.href} className="block py-2 text-sm bulletPoints">
+                            <Link key={child.label} href={child.href} className="block py-2 text-sm team-members-modal-name">
                               {child.label}
                             </Link>
                           ))}
@@ -182,9 +183,9 @@ export default function Header() {
             </div>
           ))}
 
-          <Link href="/contact-us" className="w-full px-6">
+          {/* <Link href="/contact-us" className="w-full px-6">
             <button className="mt-4 px-4 py-2 w-full button">Request Quote</button>
-          </Link>
+          </Link> */}
         </div>
       )}
 

@@ -58,7 +58,7 @@ export default function RequestAQuote() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2">
 
         <div className="flex flex-col text-left lg:mr-[30px]">
-          <h3 className="title text-[#889F2D] my-5">Request A Quote</h3>
+          <h3 className="title text-[#889F2D] my-5 text-center">Request A Quote</h3>
           <h2 className="heading mb-5 text-center lg:text-left">
             POWERING BUSINESSES <br /> TOWARDS NET ZERO!
           </h2>

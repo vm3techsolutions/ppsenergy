@@ -22,7 +22,7 @@
       "Rationalization of Agricultural Tariff",
       "Thesis submitted to Amravati University towards,  Rural Electrification and economics."
     ],
-     "image": "/assets/keypersons/keypersonFirst.jpeg",
+     "image": "/assets/keypersons/Mr. Ravi deshmukh.jpeg",
     "linkedin": "https://in.linkedin.com/in/adv-dr-ravi-deshmukh-323960a1"
   },
   {
@@ -183,6 +183,38 @@
   },
   {
     "id": 11,
+    "name": "Mr. Rakesh Mahajan",
+    "designation": "Sr. Consultant",
+    "academic": "BE (Electrical) MBA (HR) Ph. D. (Business Management)",
+    "experience": "30 Years ",
+    "expertise": [
+      "Strategic Business & Organizational Management",
+      "Human Resource Leadership & Talent Development",
+      "Technical & Engineering Insight",
+      "Process Improvement & Operational Excellence",
+      "Research-Driven Consulting & Analytics"
+    ],
+    "image": "/assets/keypersons/Mr. Rakesh Mahajan.png",
+    "linkedin": "#"
+  },
+  {
+    "id": 12,
+    "name": "Mr. Jayant Kulkarni ",
+    "designation": "Sr. Consultant",
+    "academic": "Diploma in computer application BSC (Maths)",
+    "experience": "30 Years ",
+    "expertise": [
+      "Data Analysis & Quantitative Problem Solving",
+      "IT Systems & Application Expertise",
+      "Power Utility & Energy Sector Experience",
+      "Process Optimization & Digital Transformation",
+      "Regulatory Compliance & Operational Reporting"
+    ],
+    "image": "/assets/keypersons/Mr. Jayant Kulkarni.png",
+    "linkedin": "#"
+  },
+  {
+    "id": 13,
     "name": "Mr. Dilip Kumar Behera",
     "designation": "Sr. Consultant",
     "academic": "B.Tech, MBA",
@@ -200,7 +232,7 @@
     "linkedin": "#"
   },
   {
-    "id": 12,
+    "id": 14,
     "name": "Mr. Dinesh Barhate",
     "designation": "Sr. Consultant / Certified Energy Auditor",
     "academic": "BE Electrical, MBA, Certified Energy Auditor",
@@ -218,7 +250,7 @@
     "linkedin": "#"
   },
   {
-    "id": 13,
+    "id": 15,
     "name": "Mr. Dilip Dhakate",
     "designation": "Sr. Consultant / Certified Energy Auditor",
     "academic": "BE Mechanical, M.Tech, Certified Energy Auditor",
@@ -235,7 +267,7 @@
     "linkedin": "#"
   },
   {
-    "id": 14,
+    "id": 16,
     "name": "Mr. Asit Kumar Ray",
     "designation": "Technical Advisor",
     "academic": "Diploma in Electrical Engineering, BEE Certified Energy Manager",
@@ -252,7 +284,7 @@
     "linkedin": "#"
   },
   {
-    "id": 15,
+    "id": 17,
     "name": "Mr. Benudhar Biswal",
     "designation": "Finance & Power Research Expert",
     "academic": "CA, MBA Finance",
@@ -270,7 +302,7 @@
     "linkedin": "#"
   },
   {
-    "id": 16,
+    "id": 18,
     "name": "Mr. Abinash Mishra",
     "designation": "Power & Revenue Accounting Consultant",
     "academic": "CA, B.Com",
@@ -285,7 +317,7 @@
     "linkedin": "#"
   },
   {
-    "id": 17,
+    "id": 19,
     "name": "Mr. Pradip Kumar Kar",
     "designation": "Revenue & Power Distribution Expert",
     "academic": "Electrical, MBA",
@@ -302,7 +334,7 @@
     "linkedin": "#"
   },
   {
-   "id": 18,
+   "id": 20,
     "name": "Mr. D. S. Metange",
     "designation": "HR Admin",
     "academic": "M. Tech (Electronics and communication)",
@@ -318,7 +350,7 @@
     "linkedin": "https://in.linkedin.com/in/dattakrushna-metange-a15225191"
   },
   {
-   "id": 19,
+   "id": 21,
     "name": "Mrs. Smriti Ganorkar",
     "designation": "Sr. Engineer",
     "academic": "Engineer (IT)",
@@ -329,11 +361,11 @@
       "Cybersecurity & data protection",
       "IT infrastructure support & optimization"
     ],
-    "image": "/assets/aboutus/AboutUsTeam.png",
+    "image": "/assets/aboutus/aoutTeamWorkingwoman.jpeg",
     "linkedin": "#"
   },
   {
-   "id": 20,
+   "id": 22,
     "name": "Mrs. Shruti Joshi",
     "designation": "Data Analyst",
     "academic": "MCM BSC Computer Science",
@@ -344,11 +376,11 @@
       "Statistical Analysis ",
       "Data Visualization "
     ],
-    "image": "/assets/aboutus/AboutUsTeam.png",
+    "image": "/assets/aboutus/aoutTeamWorkingwoman.jpeg",
     "linkedin": "https://www.linkedin.com/in/shruti-joshi-012b617a"
   },
   {
-   "id": 21,
+   "id": 23,
     "name": "Mr. Amol P. Galwe",
     "designation": "Sr. Consultant",
     "academic": "BE (Electronics and Power) ME (Electrical power system)",
@@ -364,7 +396,7 @@
     "linkedin": "#"
   },
   {
-   "id": 22,
+   "id": 24,
     "name": "Mr. Vedant Chichmalatpure",
     "designation": "Site Engineer",
     "academic": "B. Tech Electrical (Electronics and Power)",
@@ -380,7 +412,7 @@
     "linkedin": "https://www.linkedin.com/in/vedant26072002"
   },
   {
-   "id": 23,
+   "id": 25,
     "name": "Mr. Chaitanya Salunkhe",
     "designation": "Site Engineer",
     "academic": "B. Tech Electrical",
@@ -392,11 +424,11 @@
       "Fault troubleshooting & maintenance",
       "Electrical safety compliance"
     ],
-    "image": "/assets/keypersons/Chaitanya Salunke.jpeg",
+    "image": "/assets/aboutus/AboutUsTeam.png",
     "linkedin": "- https://www.linkedin.com/in/salunkhe-chaitanya-470b65247/"
   },
   {
-   "id": 24,
+   "id": 26,
     "name": "Mr. Ashish Rithe",
     "designation": "Site Engineer",
     "academic": "BCA, ITI (Electrician)",
@@ -412,7 +444,7 @@
     "linkedin": "#"
   },
   {
-   "id": 25,
+   "id": 27,
     "name": "Mr. Darshan Mane",
     "designation": "Site Engineer",
     "academic": "BE (mechanical)",
