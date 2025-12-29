@@ -1,0 +1,212 @@
+[
+    {
+        "id": 1,
+        "name": "Aequs Sez PVT LTD 22-23",
+        "logo": "/assets/clients/Aequs Sez PVT LTD 22-23.png"
+    },
+    {
+        "id": 2,
+        "name": "AMC",
+        "logo": "/assets/clients/AMC.png"
+    },
+    {
+        "id": 3,
+        "name": "APEDA",
+        "logo": "/assets/clients/APEDA.png"
+    },
+    {
+        "id": 4,
+        "name": "Asci",
+        "logo": "/assets/clients/Asci.png"
+    },
+    {
+        "id": 5,
+        "name": "Aurangabad City Water",
+        "logo": "/assets/clients/Aurangabad City Water.png"
+    },
+    {
+        "id": 6,
+        "name": "Bahrain National Gas Co",
+        "logo": "/assets/clients/Bahrain National Gas Co..png"
+    },
+    {
+        "id": 7,
+        "name": "Berkeley Lab",
+        "logo": "/assets/clients/Berkeley Lab.png"
+    },
+    {
+        "id": 8,
+        "name": "CRISP",
+        "logo": "/assets/clients/CRISP.png"
+    },
+    {
+        "id": 9,
+        "name": "CSERC",
+        "logo": "/assets/clients/CSERC.png"
+    },
+    {
+        "id": 10,
+        "name": "Cytel",
+        "logo": "/assets/clients/Cytel.png"
+    },
+    {
+        "id": 11,
+        "name": "DuFlon Industries Private Limited",
+        "logo": "/assets/clients/DuFlon Industries Private Limited.png"
+    },
+    {
+        "id": 12,
+        "name": "DVC",
+        "logo": "/assets/clients/DVC.png"
+    },
+    {
+        "id": 13,
+        "name": "EESL",
+        "logo": "/assets/clients/EESL.png"
+    },
+    {
+        "id": 14,
+        "name": "EY",
+        "logo": "/assets/clients/EY.png"
+    },
+    {
+        "id": 15,
+        "name": "Falcon Trading Co",
+        "logo": "/assets/clients/Falcon Trading Co...png"
+    },
+    {
+        "id": 16,
+        "name": "GESCOM",
+        "logo": "/assets/clients/GESCOM.png"
+    },
+    {
+        "id": 17,
+        "name": "HESCOM",
+        "logo": "/assets/clients/HESCOM.png"
+    },
+    {
+        "id": 18,
+        "name": "IGEA Railway",
+        "logo": "/assets/clients/IGEA Railway.png"
+    },
+    {
+        "id": 19,
+        "name": "IIFS",
+        "logo": "/assets/clients/IIFS.png"
+    },
+    {
+        "id": 20,
+        "name": "J.P. Morgan",
+        "logo": "/assets/clients/J.P. Morgan.png"
+    },
+     {
+        "id": 21,
+        "name": "JPC",
+        "logo": "/assets/clients/JPC.png"
+    },
+     {
+        "id": 22,
+        "name": "KPMG",
+        "logo": "/assets/clients/KPMG.png"
+    },
+     {
+        "id": 23,
+        "name": "KRC,Mumbai",
+        "logo": "/assets/clients/KRC,Mumbai.png"
+    },
+     {
+        "id": 24,
+        "name": "Lanco",
+        "logo": "/assets/clients/Lanco.png"
+    },
+     {
+        "id": 25,
+        "name": "Mahindra Rise",
+        "logo": "/assets/clients/Mahindra Rise.png"
+    },
+     {
+        "id": 26,
+        "name": "Mawana Sugars",
+        "logo": "/assets/clients/Mawana Sugars.png"
+    },
+     {
+        "id": 27,
+        "name": "Meda",
+        "logo": "/assets/clients/Meda.png"
+    },
+     {
+        "id": 28,
+        "name": "Meghraj",
+        "logo": "/assets/clients/Meghraj.png"
+    },
+     {
+        "id": 29,
+        "name": "MPPKVVCL",
+        "logo": "/assets/clients/MPPKVVCL.jpg"
+    },
+     {
+        "id": 30,
+        "name": "MSEDC",
+        "logo": "/assets/clients/MSEDCL.png"
+    },
+     {
+        "id": 31,
+        "name": "MVVNL",
+        "logo": "/assets/clients/MVVNL.png"
+    },
+     {
+        "id": 32,
+        "name": "Nashik Mahanagar Palika",
+        "logo": "/assets/clients/Nashik Mahanagar Palika.png"
+    },
+     {
+        "id": 33,
+        "name": "Ndmc",
+        "logo": "/assets/clients/Ndmc.png"
+    },
+     {
+        "id": 34,
+        "name": "NISST",
+        "logo": "/assets/clients/NISST.png"
+    },
+     {
+        "id": 35,
+        "name": "OPC",
+        "logo": "/assets/clients/OPC.png"
+    },
+     {
+        "id": 36,
+        "name": "Pimpri Chinchawad Mahanagar Palika Pimpari",
+        "logo": "/assets/clients/Pimpri Chinchawad Mahanagar Palika Pimpari.png"
+    },
+     {
+        "id": 37,
+        "name": "Sambhaji nagar MC",
+        "logo": "/assets/clients/Sambhaji nagar MC.png"
+    },
+     {
+        "id": 38,
+        "name": "Taj",
+        "logo": "/assets/clients/Taj.png"
+    },
+     {
+        "id": 39,
+        "name": "Tata Power",
+        "logo": "/assets/clients/Tata Power.png"
+    },
+     {
+        "id": 40,
+        "name": "ThyssenKrupp",
+        "logo": "/assets/clients/ThyssenKrupp.png"
+    },
+     {
+        "id": 41,
+        "name": "TPCODL",
+        "logo": "/assets/clients/TPCODL.png"
+    },
+     {
+        "id": 42,
+        "name": "TPWODL",
+        "logo": "/assets/clients/TPWODL.png"
+    }
+]
