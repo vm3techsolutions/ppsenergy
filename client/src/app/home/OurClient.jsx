@@ -105,10 +105,10 @@ export default function OurClient() {
   }, []);
 
   return (
-    <section className="common-section flex flex-col justify-center">
+    <section className="common-section flex flex-col justify-center lg:mt-[-75px] ">
       <div className="text-center mb-10">
         <h3 className="title text-[#889F2D]">Our Valued Client</h3>
-        <h2 className="center-section-heading">Empowering organizations that believe in <br /> sustainable progress</h2>
+        <h2 className="center-section-heading">Empowering organizations that believe in sustainable progress</h2>
       </div>
 
       {/* Client Carousel */}

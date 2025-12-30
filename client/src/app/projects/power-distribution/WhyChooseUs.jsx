@@ -23,7 +23,7 @@ export default function WhyChooseUs() {
 
   return (
     <section className="common-section ">
-      <h2 className="center-section-heading text-center">Why Clients Choose Us</h2>
+      <h2 className="center-section-heading text-center">Why clients choose us</h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-10">
 

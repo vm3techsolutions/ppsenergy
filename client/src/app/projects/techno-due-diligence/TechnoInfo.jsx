@@ -9,7 +9,7 @@ export default function TechnoInfo() {
     <section className='common-section'>
             <div className="text-center mb-10">
             {/* <h3 className="title text-[#889F2D]">Our Journey</h3> */}
-            <h2 className="center-section-heading">TECHNO-COMMERCIAL DUE DILIGENCE SERVICES
+            <h2 className="center-section-heading">Techno-Commercial Due Diligence Services
             </h2>
             </div>
     

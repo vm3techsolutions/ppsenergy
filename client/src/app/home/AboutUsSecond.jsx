@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function AboutUsSecond() {
   return (
-    <section className="common-section flex flex-col md:flex-row justify-center items-center gap-6 sm:gap-8 md:gap-12 px-4 sm:px-6 md:px-16 ">
+    <section className="common-section flex flex-col md:flex-row justify-center items-center gap-6 sm:gap-8 md:gap-12 px-4 sm:px-6 md:px-16 bg-[#fcfcfc]">
 
       {/* Text Section */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2  ">

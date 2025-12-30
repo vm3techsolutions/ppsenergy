@@ -63,7 +63,7 @@ export default function ProjectsMep() {
   return (
     <section className="common-section bg-[#f8f8f8] py-12 px-4">
       <h2 className="center-section-heading text-center">
-        OUR MEP DESIGN EXPERTISE SPANS ACROSS
+       Our MEP design expertise spans across
       </h2>
 
       <div className="mt-10">

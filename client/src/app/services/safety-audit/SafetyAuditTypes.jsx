@@ -70,8 +70,8 @@ export default function SafetyAuditTypes() {
   return (
     <section className="flex flex-col justify-center pt-[50px] pb-[50px] bg-[#F9FAFB]">
       <div className="text-center mb-12">
-        <h3 className="title text-[#889F2D] uppercase">Types of Safety Audits</h3>
-         <h2 className="center-section-heading">Types of Safety Audits we conduct</h2>
+        <h3 className="title text-[#889F2D] ">Types of Safety Audits</h3>
+         <h2 className="center-section-heading">Safety Audits we conduct</h2>
         <p className="content text-[#3D3D3D] max-w-3xl mx-auto mt-4">
           Our expert auditors perform a range of specialized safety audits designed to ensure compliance, reliability, and workplace safety across industries.
         </p>

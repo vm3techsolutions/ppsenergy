@@ -66,7 +66,7 @@ export default function ProjectsSolar() {
   return (
     <section className="common-section bg-[#f8f8f8] py-12 px-4">
       <h2 className="center-section-heading text-center">
-        SOLAR EPC, ROOFTOP & UTILITY-SCALE RENEWABLE PROJECTS
+      Solar EPC, rooftop & utility-scale renewable projects
       </h2>
 
       <div className="mt-10">

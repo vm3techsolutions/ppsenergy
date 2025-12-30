@@ -15,10 +15,10 @@ export default function RecentArticles() {
       }, []);
 
   return (
-   <section className='common-section flex flex-col justify-center '>
+   <section className='common-section flex flex-col justify-center bg-[#fcfcfc]'>
     <div className="text-center mb-10">
     <h3 className="title text-[#889F2D]">Recent Articles</h3>
-    <h2 className="center-section-heading">Thought leadership and knowledge for a <br/>sustainable future</h2>
+    <h2 className="center-section-heading">Thought leadership and knowledge for a sustainable future</h2>
     </div>
 
        {/* Recent Articles Grid */}

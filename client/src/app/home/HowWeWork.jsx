@@ -5,10 +5,10 @@ import { motion } from 'framer-motion';
 
 export default function HowWeWork() {
   return (
-  <section className='flex flex-col justify-center pt-[50px] pb-[50px]'>
+  <section className='flex flex-col justify-center pt-[50px] pb-[50px] bg-[#fcfcfc]'>
     <div className="text-center mb-10">
     <h3 className="title text-[#889F2D]">How We Work</h3>
-    <h2 className="center-section-heading">A proven approach to deliver efficiency <br/>and sustainability</h2>
+    <h2 className="center-section-heading">A proven approach to deliver efficiency and sustainability</h2>
     <p className="content text-[#3D3D3D]">PPS Energy's structured, transparent, and impact-driven approach </p>
     </div>
 

@@ -10,7 +10,6 @@ export default function RegulatoryCommision() {
             <div className="text-center mb-10">
             {/* <h3 className="title text-[#889F2D]">Our Journey</h3> */}
             <h2 className="center-section-heading">Regulatory Advisory & Compliance Projects
-            REGULATORY ADVISORY & COMPLIANCE PROJECTS
             </h2>
             </div>
     

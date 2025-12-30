@@ -12,7 +12,7 @@ export default function ProjectsEnergyAudit() {
   return (
     <section className="common-section bg-[#f8f8f8] py-12 px-4">
       <h2 className="center-section-heading text-center">
-        MAJOR UTILITY-LEVEL ENERGY AUDIT PROJECTS
+        Major utility-level energy audit projects
       </h2>
 
       <div className="mt-10">

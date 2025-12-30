@@ -52,11 +52,11 @@ export default function Footer() {
       <h3 className="text-[#ffffff] title">Get In Touch</h3>
 
       <div className='flex gap-4 mb-4 mt-4'>
-      <p>Address: 18, 3rd Floor, Ashirwad Building, Girish Society, Warje -411058</p>
+      <p>Address: 18, 3rd Floor, Ashirwad Building, Girish Society, Warje, Pune - 411058</p>
       </div>
 
       <div className=' mb-4 mt-2'>
-      <p><Link href="Phone: +91 12345 12345">Phone: +91 12345 12345</Link></p>
+      <p><Link href="Phone: +91 12345 12345">Phone: +91-20-25230134</Link></p>
       </div>
 
       <div className=' mb-4 mt-2 '>

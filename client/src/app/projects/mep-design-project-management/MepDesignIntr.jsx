@@ -9,7 +9,7 @@ export default function MepDesignIntr() {
        <section className='common-section'>
             <div className="text-center mb-10">
             {/* <h3 className="title text-[#889F2D]">Our Journey</h3> */}
-            <h2 className="center-section-heading">MEP DESIGN, ENGINEERING & PROJECT MANAGEMENT
+            <h2 className="center-section-heading">MEP design, engineering & project management
             </h2>
             </div>
     

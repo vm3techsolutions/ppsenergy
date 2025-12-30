@@ -10,7 +10,7 @@ export default function SolarEPCIntro() {
             <div className="text-center mb-10">
             {/* <h3 className="title text-[#889F2D]">Our Journey</h3> */}
             <h2 className="center-section-heading">
-            SOLAR EPC & RENEWABLE ENERGY PROJECTS
+           Solar EPC & renewable energy projects
             </h2>
             </div>
     

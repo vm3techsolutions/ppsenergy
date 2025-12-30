@@ -63,7 +63,7 @@ export default function ProjectsTechno() {
   return (
     <section className="common-section bg-[#f8f8f8] py-12 px-4">
       <h2 className="center-section-heading text-center">
-        TECHNICAL EVALUATION & INFRASTRUCTURE DUE-DILIGENCE PROJECTS
+        Technical evaluation & infrastructure due-diligence projects
       </h2>
 
       <div className="mt-10">

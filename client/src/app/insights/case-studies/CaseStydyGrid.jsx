@@ -17,7 +17,7 @@ export default function CaseStudiesPage() {
     <section className="common-section bg-[#F9FAFB]">
     <div className="text-center mb-12">
   <h3 className="title text-[#889F2D]">
-    REAL PROJECTS, REAL IMPACT
+   Real Project, Real Impact
   </h3>
   <p className="center-section-heading">
     Showcasing our successful solutions and measurable results in energy optimization, renewable integration, and industrial efficiency.

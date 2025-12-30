@@ -8,7 +8,7 @@ import { BiSolidMap } from "react-icons/bi";
 
 export default function MapAddress() {
   return (
-    <section className="common-section mt-[-50px] lg:mt-[-250px] ">
+    <section className="common-section lg:mt-[-50px] ">
       
       {/* Map */}
       <div className="w-full h-[350px] lg:h-[600px] ">

@@ -15,7 +15,7 @@ export default function MepIndustries() {
     },
     {
       title: "Hospitals & Healthcare Centers",
-      image: "/assets/industries/HospitalityRetailInfrastructure.jpeg",
+      image: "/assets/industries/Hospital.jpg",
     },
     {
       title: "Educational Institutions",
@@ -31,7 +31,7 @@ export default function MepIndustries() {
     },
     {
       title: "Hospitality & Retail Infrastructure",
-      image: "/assets/services/energyAudit/HospitalsAndHealthcareFacilities.png",
+      image: "/assets/industries/Hospitality.jpg",
     },
   ];
 

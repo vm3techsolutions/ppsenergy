@@ -67,7 +67,7 @@ export default function AMIProjects() {
   return (
     <section className="common-section bg-[#f8f8f8] py-12 px-4">
       <h2 className="center-section-heading text-center">
-        AMI & SMART METERING IMPLEMENTATION PROJECTS
+       AMI & Smart Metering implementation projects
       </h2>
 
       <div className="mt-10">

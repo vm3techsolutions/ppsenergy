@@ -9,7 +9,7 @@ export default function EnergyAuditProjectIntro() {
       <section className='common-section'>
             <div className="text-center mb-10">
             {/* <h3 className="title text-[#889F2D]">Our Journey</h3> */}
-            <h2 className="center-section-heading">STATEWIDE & UTILITY ENERGY AUDIT PROJECTS
+            <h2 className="center-section-heading">Statewide & Utility Energy Audit Projects
             </h2>
             </div>
     

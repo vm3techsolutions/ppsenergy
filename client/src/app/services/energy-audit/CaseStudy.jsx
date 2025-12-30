@@ -14,9 +14,9 @@ export default function CaseStudy() {
       {/* Case Study Text */}
       <div className='flex flex-col'>
         <div className='text-center'>
-            <h3 className='title text-[#7B0000]'>CLIENT OVERVIEW</h3>
+            <h3 className='team-members-name text-[#7B0000]'>Client Overview</h3>
             <p className='content'>Our client, a leading manufacturing facility with operations across India, was facing rising energy costs, inefficiencies in equipment usage,<br/> and increasing pressure to adopt sustainable practices. They approached us to conduct a comprehensive energy audit and deliver <br/> a strategy that balances cost savings with sustainability goals.</p>
-            <h3 className='title text-[#7B0000] mt-[25px] mb-[15px]'>THE CHALLENGE</h3>
+            <h3 className='team-members-name text-[#7B0000] mt-[25px] mb-[15px]'>The Challenge</h3>
         </div>
 
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 items-center section '>
@@ -63,7 +63,7 @@ export default function CaseStudy() {
   
   {/* Solutions Delivered */}
   <div>
-    <h3 className="title text-[#7B0000] mb-4">SOLUTIONS DELIVERED</h3>
+    <h3 className="team-members-name text-[#7B0000] mb-4">Solutions Delivered</h3>
     <ul className="content list-disc list-inside space-y-3">
       <li>Lighting Upgrade: Transitioned to 100% LED lighting.</li>
       <li>HVAC Optimization: Installed automated controls and variable frequency drives.</li>
@@ -75,7 +75,7 @@ export default function CaseStudy() {
 
   {/* Results & Impact */}
   <div>
-    <h3 className="title text-[#7B0000] mb-4">RESULTS & IMPACT</h3>
+    <h3 className="team-members-name text-[#7B0000] mb-4">Results & Impact</h3>
     <ul className="content list-disc list-inside space-y-3">
       <li> After implementation, the client experienced measurable results</li>
       <li>30% reduction in energy costs (≈ INR 1.2 Cr annually).</li>

@@ -86,7 +86,7 @@ export default function BlogDisplay() {
     <section className="common-section flex flex-col justify-center">
       <div className="text-center mb-10">
         <h3 className="title text-[#889F2D]">Recent Articles</h3>
-        <h2 className="center-section-heading">Thought leadership and knowledge for a <br />sustainable future
+        <h2 className="center-section-heading">Thought leadership and knowledge for a sustainable future
         </h2>
       </div>
 

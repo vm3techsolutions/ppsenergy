@@ -65,7 +65,7 @@ export default function KeyProjects() {
   return (
     <section className="common-section bg-[#f8f8f8] py-12 px-4">
       <h2 className="center-section-heading text-center">
-        OUR WORK WITH STATE ELECTRICITY REGULATORY COMISSIONS (SERCs)
+       Our work with State Electricity Regulatory Comissions (SERCs)
       </h2>
 
       <div className="mt-10">
