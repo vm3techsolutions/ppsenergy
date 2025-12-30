@@ -42,8 +42,7 @@ export default function ToolsPMC() {
       {/* Heading */}
       <div className="text-center mb-10">
         <h3 className="title text-[#889F2D]">Project Management Tools & Methodologies</h3>
-        <h2 className="center-section-heading ">LEVERAGING TECHNOLOGY & BEST PRACTICES
-  </h2>
+        <h2 className="center-section-heading ">Leveraging technology & best practices</h2>
         <p className="content text-[#3D3D3D] max-w-3xl mx-auto mt-3">
         We integrate advanced project management tools and globally recognized methodologies for better visibility, control, and efficiency.
         </p>

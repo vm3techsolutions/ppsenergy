@@ -8,10 +8,8 @@ export default function ComprehensiveEnergyAudit() {
     <section className='common-section'>
         <div className="text-center mb-10">
         {/* <h3 className="title text-[#889F2D]">Our Journey</h3> */}
-        <h2 className="center-section-heading">
-        COMPREHENSIVE ENERGY AUDIT SERVICES TO REDUCE<br/>
-        COSTS, IMPROVE EFFICIENCY AND DRIVE SUSTAINABILITY
-        </h2>
+        <h2 className="center-section-heading">Comprehensive energy audit services to reduce<br/>
+        costs, improve efficiency and drive sustainability</h2>
         </div>
 
        {/* Text Section */}

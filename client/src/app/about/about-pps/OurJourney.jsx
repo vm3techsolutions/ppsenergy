@@ -10,8 +10,7 @@ export default function OurJourney() {
     <section className='section-vertical-padding'>
         <div className="text-center mb-10 section">
         <h3 className="title text-[#889F2D]">Our Journey</h3>
-        <h2 className="center-section-heading">
-          EVERY MILESTONE IS A STEP TOWARDS A GREENER FUTURE
+        <h2 className="center-section-heading">Every milestone is a step towards a greener future
         </h2>
         </div>
 
@@ -25,19 +24,21 @@ export default function OurJourney() {
         height={205}
         src="/assets/aboutus/AboutUsOurJourney.png"
         alt="About Us"
-        className="w-full h-[350px] lg:h-[550px] object-cover "/>
+        className="w-full h-[350px] lg:h-[650px] object-cover "/>
         </div>
 
 {/* Text Area  */}
-      <div className='flex flex-col  lg:pr-[80px]  ml-2'>
+      <div className='flex flex-col  lg:pr-20  ml-2'>
          <div>
           <p className='content'>
-            Our story began with a simple idea: to transform how the world consumes energy. Over the years, we have grown into a multi-faceted energy services provider, bridging the gap between conventional power and renewable innovation. <br/><br/>
-          From our first energy audit project to large-scale solar and wind installations, every step of our journey has been fueled by a vision of progress and sustainability. Today, we are proud to have delivered solutions that power industries, reduce emissions, and make energy more efficient.
+           Our story began with a simple idea: to transform how the world consumes energy. Over the years, we have evolved into a multifaceted energy services provider, bridging the gap between conventional power and renewable innovation. With a strong focus on energy efficiency, production efficiency, and process optimization, we help organizations enhance performance, reduce operational costs, and achieve sustainable growth.
+
+<br/><br/>
+          From our first energy audit project to large-scale solar installations, every step of our journey has been fueled by a vision of progress and sustainability. Today, we are proud to have delivered solutions that power industries, reduce emissions, and make energy more efficient.
           </p>
         </div>
 
-        <h3 className="title text-[#889F2D] my-[10px] lg:my-[25px] ">Milestones at a Glance:</h3>
+        <h3 className="title text-[#889F2D] my-2.5 lg:my-[25px] ">Milestones at a Glance:</h3>
 
  <motion.div
           initial={{ opacity: 0, x: -40 }}

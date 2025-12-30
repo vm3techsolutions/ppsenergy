@@ -10,7 +10,7 @@ export default function AboutUsFirst() {
     {/* Heading */} 
       <div className="mb-10">
       <h3 className="title text-[#889F2D] ">About Us</h3>
-      <h2 className="center-section-heading"> DRIVEN BY INNOVATION, COMMITTED TO SUSTAINABILITY</h2>
+      <h2 className="center-section-heading"> Driven by innovation, committed to sustainability</h2>
       <p className="content text-[#3D3D3D]">The strategic organization especially formulated for serving Energy and Power sectors, with proven experience</p>
       </div>
 

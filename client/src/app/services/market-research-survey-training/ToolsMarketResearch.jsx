@@ -9,7 +9,7 @@ export default function ToolsMarketResearch() {
    <section className='common-section  '>
                 <div className="text-center mb-15">
                 <h3 className="title text-[#889F2D]">Data-Driven Precision</h3>
-                <h2 className="center-section-heading">SMART TOOLS. PROVEN METHODOLOGIES.</h2>
+                <h2 className="center-section-heading">Smart tools, proven methodologies</h2>
                 <p className='content text-[#3D3D3D] '>We leverage the latest research and analysis tools to ensure accuracy and depth in every project.</p>
                 </div>
         

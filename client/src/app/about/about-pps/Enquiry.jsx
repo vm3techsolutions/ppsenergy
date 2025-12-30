@@ -7,8 +7,7 @@ export default function Enquiry() {
     <section className='common-section flex flex-col justify-center items-center bg-[#f8f8f8]'>
         <div className="text-center mb-10">
         <h3 className="title text-[#889F2D]">Enquiry</h3>
-        <h2 className="center-section-heading">
-          LET’S BUILD A CLEANER FUTURE TOGETHER
+        <h2 className="center-section-heading">Let's build a cleaner future together
         </h2>
         <p className="content text-[#3D3D3D]">
          Energy powers growth. Clean energy powers sustainability. We combine innovation, expertise, and commitment to transform your energy goals into reality.

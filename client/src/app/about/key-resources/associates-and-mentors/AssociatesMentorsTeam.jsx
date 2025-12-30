@@ -21,7 +21,7 @@ export default function AssociatesMentorsTeam() {
     <section className="common-section bg-[#f8f8f8]">
       <div className="text-center mb-4">
         <h3 className="title text-[#889F2D]">Our Key Persons</h3>
-        <h2 className="center-section-heading">EXPERIENCED MINDS POWERING PROGRESS</h2>
+        <h2 className="center-section-heading">Experienced minds powering progress</h2>
         <p className="content text-[#3D3D3D]">
           PPS Energy Solutions have qualified and experienced professionals who are in Energy/Power Sector for more than 20 Years.
         </p>

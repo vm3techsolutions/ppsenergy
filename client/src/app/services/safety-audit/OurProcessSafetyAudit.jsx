@@ -8,7 +8,7 @@ export default function OurProcessSafetyAudit() {
     <section className='flex flex-col justify-center pt-[50px] pb-[50px]'>
         <div className="text-center mb-10">
         <h3 className="title text-[#889F2D]">How We Work</h3>
-        <h2 className="center-section-heading"> SYSTEMATIC APPROACH FOR RELIABLE RESULTS</h2>
+        <h2 className="center-section-heading">Systematic approach for reliable results</h2>
         {/* <p className="content text-[#3D3D3D]">We follow a structured, transparent, and data-driven approach to ensure measurable outcomes for every client. </p> */}
         </div>
     

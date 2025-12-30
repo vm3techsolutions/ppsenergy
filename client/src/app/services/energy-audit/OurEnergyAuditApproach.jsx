@@ -9,9 +9,7 @@ export default function OurEnergyAuditApproach() {
 
         <div className="text-center mb-10">
         <h3 className="title text-[#889F2D]">Our Energy Audit Approach</h3>
-        <h2 className="center-section-heading">
-        ENERGY AUDITING APPROACH & METHODOLOGY
-        </h2>
+        <h2 className="center-section-heading">Energy auditing approach & methodology</h2>
         </div>
 
       {/* Second Section */}

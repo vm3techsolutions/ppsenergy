@@ -24,10 +24,8 @@ export default function IndustriesWeServe() {
   return (
     <section className="common-section  bg-[#F9FAFB]">
       <div className="text-center mb-10">
-        <h3 className="title text-[#889F2D]">Industries We Serve</h3>
-        <h2 className="center-section-heading">
-          OUR ENERGY AUDIT EXPERTISE SPANS ACROSS
-        </h2>
+        <h3 className="title text-[#889F2D]">Clients We Serve</h3>
+        <h2 className="center-section-heading">Our energy audit expertise spans across</h2>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center text-[#ffffff]">

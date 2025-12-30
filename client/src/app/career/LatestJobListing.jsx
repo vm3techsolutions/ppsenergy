@@ -15,7 +15,7 @@ export default function LatestJobListing() {
     <section className='common-section'>
         <div className="text-center mb-10">
         {/* <h3 className="title text-[#889F2D]"></h3> */}
-        <h2 className="center-section-heading">Latest Job Listing</h2>
+        <h2 className="center-section-heading">Latest job listing</h2>
       </div>
 
    
@@ -31,8 +31,8 @@ export default function LatestJobListing() {
               </div>
 
               <div className='lg:flex justify-between content'>
-                <p className='content text-[#000000]'>Location: {item.job_experience}</p>
-                <p className='content text-[#000000]'>Experience: {item.job_location}</p>
+                <p className='content text-[#000000]'>Location: {item.job_location}</p>
+                <p className='content text-[#000000]'>Experience: {item.job_experience}</p>
                 <p className='content text-[#000000] mr-5'>Payement: {item.job_payment}</p>
 
               </div>

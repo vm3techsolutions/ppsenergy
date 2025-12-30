@@ -9,7 +9,7 @@ export default function IntroductionSafetyAudit() {
       <section className='common-section'>
     <div className="text-center mb-10">
       <h2 className="center-section-heading text-center ">
-    ABOUT SAFETY AUDIT SERVICES
+    About Safety Audit services
       </h2>
     </div>
 

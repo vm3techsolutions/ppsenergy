@@ -33,7 +33,7 @@ export default function Testimonials() {
   {/* Section Title */}
   <div className="text-center mb-10 ">
   <h3 className="title text-[#889F2D]">Testimonials</h3>
-  <h2 className="center-section-heading">VOICES OF TRUST, STORIES OF TRANSFORMATION</h2>
+  <h2 className="center-section-heading">Voices of trust, stories of transformation</h2>
   </div>
 
   {/* Full Background Wrapper */}

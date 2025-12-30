@@ -32,8 +32,8 @@ export default function IndustriesWeServerPowerConsultancy() {
   return (
     <section className="common-section">
           <div className="text-center mb-10">
-            <h3 className="title text-[#889F2D]">Industries We Serve</h3>
-            <h2 className="center-section-heading">POWERING DIVERSE SECTORS WITH <br />TAILORED SOLUTIONS </h2>
+            <h3 className="title text-[#889F2D]">Clients We Serve</h3>
+            <h2 className="center-section-heading">Powering diverse sectors with <br />tailored solutions </h2>
              <p className="content text-[#3D3D3D]">Our consultancy services cater to a wide range of industries where energy efficiency and reliability are critical.</p>
           </div>
     

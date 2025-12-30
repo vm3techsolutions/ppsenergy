@@ -8,7 +8,7 @@ export default function ApproachPMC() {
  <section className='flex flex-col justify-center pt-[50px] pb-[50px] '>
          <div className="text-center mb-10">
          <h3 className="title text-[#889F2D]">Our PMC Approach</h3>
-         <h2 className="center-section-heading"> A STRATEGIC APPROACH FOR RELIABLE <br /> PROJET DELIVERY </h2>
+         <h2 className="center-section-heading"> A strategic approach for reliable  <br /> project delivery </h2>
          {/* <p className="content text-[#3D3D3D]">We follow a structured, transparent, and data-driven approach to ensure measurable outcomes for every client. </p> */}
          </div>
      

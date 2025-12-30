@@ -8,7 +8,7 @@ export default function HowWeWork() {
   <section className='flex flex-col justify-center pt-[50px] pb-[50px]'>
     <div className="text-center mb-10">
     <h3 className="title text-[#889F2D]">How We Work</h3>
-    <h2 className="center-section-heading">A PROVEN APPROACH TO DELIVER EFFICIENCY <br/>AND SUSTAINABILITY </h2>
+    <h2 className="center-section-heading">A proven approach to deliver efficiency <br/>and sustainability</h2>
     <p className="content text-[#3D3D3D]">PPS Energy's structured, transparent, and impact-driven approach </p>
     </div>
 

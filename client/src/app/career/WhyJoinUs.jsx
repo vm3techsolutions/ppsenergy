@@ -10,7 +10,9 @@ export default function WhyJoinUs() {
     "Work With Purpose",
     "Learn From Industry Experts",
     "Advance Your Career Faster",
-    "Be Part of the Green Future"
+    "Be Part of the Green Future",
+    "Collaborative Work Environment",
+    "Future-Focused Industry"
   ];
 
   return (
@@ -19,7 +21,7 @@ export default function WhyJoinUs() {
       <div className="text-center mb-10">
         <h3 className="title text-[#889F2D]">Why Join Us</h3>
         <h2 className="center-section-heading">
-          Build Your Career in Energy Efficiency and Sustainability
+          Build your career in energy efficiency and sustainability
         </h2>
       </div>
 
@@ -33,7 +35,7 @@ export default function WhyJoinUs() {
               alt="Professional working on laptop"
               width={500}
               height={400}
-              className="w-full h-[350px] lg:h-[450px] rounded-bl-[10px] rounded-tr-[40px] rounded-br-[120px] shadow-lg object-cover border-b-15 border-r-15 border-[#889f2d]"
+              className="w-full h-[350px] lg:h-[500px] rounded-bl-[10px] rounded-tr-[40px] rounded-br-[120px] shadow-lg object-cover border-b-15 border-r-15 border-[#889f2d]"
             />
           </div>
         </div>

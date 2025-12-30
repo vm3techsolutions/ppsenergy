@@ -9,7 +9,7 @@ export default function WhyChooseUsPowerConsultancy() {
    <section className='common-section flex flex-col justify-center'>
         <div className="text-center mb-10">
         <h3 className="title text-[#889F2D]">Why Choose Us</h3>
-        <h2 className="center-section-heading">WHY CHOOSE PPS ENERGY SOLUTIONS AS <br />YOUR POWER PARTNER</h2>
+        <h2 className="center-section-heading">Why choose PPS Energy Solutions as <br />your power partner </h2>
         <p className="content text-[#3D3D3D]">We combine engineering excellence with real-world experience to deliver results that matter.</p>
         </div>
 {/* Grid Boxes Designing */}

@@ -8,7 +8,7 @@ export default function IntroPMC() {
   return (
    <section className='common-section'>
     <div className="text-center mb-10">
-      <h2 className="center-section-heading text-center ">ABOUT OUR PROJECT MANAGEMENT <br />CONSULTANCY SERVICES
+      <h2 className="center-section-heading text-center ">About our Project Management  <br />Consultancy services
       </h2>
     </div>
 

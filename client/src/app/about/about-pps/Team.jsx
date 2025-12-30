@@ -9,7 +9,7 @@ export default function Team() {
         <div className="text-center mb-4">
         <h3 className="title text-[#889F2D]">Team</h3>
         <h2 className="center-section-heading">
-          MEET THE EXPERTS
+          Meet the experts
         </h2>
 
       </div>

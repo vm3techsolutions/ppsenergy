@@ -9,7 +9,7 @@ export default function ValueAdditionAndBenifitsMep() {
       <section className='common-section  bg-[#F9FAFB]'>
              <div className="text-center mb-15">
              <h3 className="title text-[#889F2D]">Value Addition & Benefits</h3>
-             <h2 className="center-section-heading">WHY OUR MEP SERVICES STAND OUT</h2>
+             <h2 className="center-section-heading">Why our MEP services stand out</h2>
              </div>
      
             <div className="grid grid-cols-1 md:grid-cols-3 items-start gap-10">

@@ -122,9 +122,7 @@ export default function ProjectHighlights() {
     <section className="flex flex-col justify-center">
       <div className="common-section text-center">
         <h3 className="title text-[#889F2D]">Projects Highlights</h3>
-        <h2 className="center-section-heading">
-          PROVEN RESULTS, POWERING BUSINESSES
-        </h2>
+        <h2 className="center-section-heading">Proven results, powering businesses </h2>
       </div>
 
       <div className="w-full mt-[-25px]">

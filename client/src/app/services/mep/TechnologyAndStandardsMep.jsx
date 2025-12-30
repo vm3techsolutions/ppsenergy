@@ -44,8 +44,7 @@ export default function TechnologiesStandards() {
         <h3 className="title text-[#889F2D]">
          Technologies & Standards
         </h3>
-        <h2 className="center-section-heading">
-          ADVANCED TOOLS & COMPLIANCE STANDARDS
+        <h2 className="center-section-heading">Advances tools & compliance standards
         </h2>
         <p className="content text-[#3D3D3D]">
           We leverage the latest engineering software and adhere to global standards for design accuracy and safety assurance.

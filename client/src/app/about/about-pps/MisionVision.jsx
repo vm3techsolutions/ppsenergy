@@ -8,7 +8,7 @@ export default function MisionVision() {
         <div className="text-center mb-10 section ">
         <h3 className="title text-[#889F2D]">Our Mission & Vision</h3>
         <h2 className="center-section-heading">
-          DRIVING PURPOSE, SHAPING FUTURE
+          Optimizing energy, shaping the future 
         </h2>
       </div>
 

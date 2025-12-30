@@ -10,7 +10,7 @@ export default function MepIntroduction() {
     <div className="text-center mb-10">
 
       <h2 className="center-section-heading text-center ">
-      ABOUT OUR MEP SERVICES
+      About our MEP Services
       </h2>
     </div>
 

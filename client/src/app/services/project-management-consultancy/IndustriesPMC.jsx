@@ -41,8 +41,8 @@ export default function IndustriesPMC() {
   return (
        <section className="common-section  bg-[#F9FAFB]">
                           <div className="text-center mb-10">
-                            <h3 className="title text-[#889F2D]">Industries We Serve</h3>
-                            <h2 className="center-section-heading"> TRUSTED PMC EXPERTISE ACROSS SECTORS</h2>
+                            <h3 className="title text-[#889F2D]">Clients We Serve</h3>
+                            <h2 className="center-section-heading"> Trusted PMC expertise across sectors</h2>
                              <p className="content text-[#3D3D3D]">We provide Project Management Consultancy services to a wide range of industries, including:</p>
                           </div>
                 

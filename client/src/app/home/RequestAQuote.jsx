@@ -58,10 +58,8 @@ export default function RequestAQuote() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2">
 
         <div className="flex flex-col text-left lg:mr-[30px]">
-          <h3 className="title text-[#889F2D] my-5 text-center">Request A Quote</h3>
-          <h2 className="heading mb-5 text-center lg:text-left">
-            POWERING BUSINESSES <br /> TOWARDS NET ZERO!
-          </h2>
+          <h3 className="title text-[#889F2D] my-5 lg:text-left text-center">Request A Quote</h3>
+          <h2 className="heading mb-5 text-center lg:text-left">Powering businesses <br /> towards net zero</h2>
 
           <p className="content text-[#3D3D3D] pt-6 text-left">
             We, PPS Energy Solutions Private Limited (PPSES), Pune, are the strategic organization for serving Energy and Power sectors...
@@ -71,7 +69,7 @@ export default function RequestAQuote() {
         {/* ⭐ FORM STARTS HERE */}
         <div className="z-10">
           <form onSubmit={handleSubmit} className="p-8 bg-[#889F2D] text-white rounded-b-[10px] mt-5">
-            <h2 className="mb-8 heading text-center">Get Your Quote Today!</h2>
+            <h2 className="mb-8 heading text-center">Get your quote today!</h2>
 
             {/* ⭐ Display messages */}
             {successMsg && <p className="bulletPoints text-[#ffffff] text-center mb-4">{successMsg}</p>}
