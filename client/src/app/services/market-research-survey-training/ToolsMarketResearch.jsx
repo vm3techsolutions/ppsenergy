@@ -17,7 +17,7 @@ export default function ToolsMarketResearch() {
               
    {/* 1st Box section */}
                  
-               <div className='grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-1 gap-y-4 lg:gap-y-20 lg:mr-[50px] gap-2'>
+               <div className='grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-1 gap-y-6 lg:gap-y-30 lg:mr-[50px] gap-2'>
    
    {/* Box-1 */}
    
@@ -30,7 +30,7 @@ export default function ToolsMarketResearch() {
                <div className="flex items-start gap-3 sm:gap-4 text-left">
                <div className="shrink-0 flex items-center justify-center bg-[#889F2D] text-white font-semibold rounded-full w-8 h-8 sm:w-10 sm:h-10 text-base sm:text-lg">1</div>
                <h2 className='process-bullet-section-desc'>
-        <b className='process-bullet-section-heading text-[#7b0000]'>Digital survey platforms</b> <br />
+        <b className='process-bullet-section-heading text-[#7b0000]'>Digital and physical surveys </b> <br />
         (Google Forms, SurveyMonkey, Qualtrics)</h2>
                </div>
                </motion.div>    
@@ -48,16 +48,7 @@ export default function ToolsMarketResearch() {
                </div>
                </motion.div> 
    
-                <motion.div
-                        initial={{ opacity: 0, y: -20 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.6 }}>
-               <div className="flex items-start gap-3 sm:gap-4 text-left">
-               <div className="shrink-0 flex items-center justify-center bg-[#889F2D] text-white font-semibold rounded-full w-8 h-8 sm:w-10 sm:h-10 text-base sm:text-lg">3</div>
-            <h2 className='process-bullet-section-desc'>
-        <b className='process-bullet-section-heading text-[#7b0000]'>Focus group discussions and in-depth interviews</b> </h2>
-               </div>
-               </motion.div>
+       
                
               </div>
                   
@@ -75,7 +66,7 @@ export default function ToolsMarketResearch() {
               
    {/* Vision Box */}
                    
-               <div className='grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-1 gap-y-4 lg:gap-y-20 lg:ml-[50px] gap-2'>
+               <div className='grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-1 gap-y-6 lg:gap-y-30 lg:ml-[50px] gap-2'>
    
    {/* Box-2 */}
                 <motion.div
@@ -83,7 +74,7 @@ export default function ToolsMarketResearch() {
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6 }}>
                <div className="flex items-start gap-3 sm:gap-4 text-left">
-               <div className="shrink-0 flex items-center justify-center bg-[#889F2D] text-white font-semibold rounded-full w-8 h-8 sm:w-10 sm:h-10 text-base sm:text-lg">4</div>
+               <div className="shrink-0 flex items-center justify-center bg-[#889F2D] text-white font-semibold rounded-full w-8 h-8 sm:w-10 sm:h-10 text-base sm:text-lg">3</div>
                <h2 className='process-bullet-section-desc'>
         <b className='process-bullet-section-heading text-[#7b0000]'>Data visualization dashboards and interactive reports</b> </h2>
                </div>
@@ -95,7 +86,7 @@ export default function ToolsMarketResearch() {
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6 }}>
                        <div className="flex items-start gap-3 sm:gap-4 text-left">
-               <div className="shrink-0 flex items-center justify-center bg-[#889F2D] text-white font-semibold rounded-full w-8 h-8 sm:w-10 sm:h-10 text-base sm:text-lg">5</div>
+               <div className="shrink-0 flex items-center justify-center bg-[#889F2D] text-white font-semibold rounded-full w-8 h-8 sm:w-10 sm:h-10 text-base sm:text-lg">4</div>
          <h2 className='process-bullet-section-desc'>
         <b className='process-bullet-section-heading text-[#7b0000]'>Standards Followed:</b> <br />
         ISO 20252 (Market, Opinion and Social Research) <br />

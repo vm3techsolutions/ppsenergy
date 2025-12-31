@@ -83,8 +83,8 @@ export default function EnergyAuditBenifits() {
 
             <div className="flex items-start gap-3 sm:gap-4 text-left">
             <div className="shrink-0 flex items-center justify-center bg-[#889F2D] text-white font-semibold rounded-full w-8 h-8 sm:w-10 sm:h-10 text-base sm:text-lg">4</div>
-            <h3 className="content text-[#3d3d3d] "> <b className='title text-[#7B0000] '>Better ROI:- </b><br />
-            Energy-saving investments often pay back within months.</h3>
+            <h3 className="content text-[#3d3d3d] "> <b className='title text-[#7B0000] '>Smooth Operations:- </b><br />
+           Reduces unexpected equipment breakdowns</h3>
             </div>
 
             </motion.div>

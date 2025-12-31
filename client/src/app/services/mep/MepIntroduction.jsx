@@ -20,16 +20,16 @@ export default function MepIntroduction() {
  <div>
       {/* Description */}
           <p className="content text-[#3D3D3D]  text-left ">
-           At <b>PPS Energy Solutions</b>, we specialize in providing comprehensive MEP (Mechanical, Electrical, and Plumbing) engineering services that form the backbone of modern infrastructure. Our multidisciplinary expertise ensures that every system — from HVAC to electrical distribution and water supply — is designed and executed with precision, efficiency, and sustainability in mind.<br/>
-           Our MEP solutions combine innovative design, advanced engineering tools, and on-site expertise to deliver optimized performance and reduced lifecycle costs.  </p>
+           At <span className="font-semibold text-[#889F2D]">PPS Energy Solutions</span>, we specialize in providing comprehensive MEP (Mechanical, Electrical, and Plumbing) engineering services. MEP services refer to the essential systems that make a building functional, safe, and comfortable.</p><br />
+
+           
 
               {/* Highlights */}
           <ul className="space-y-3 content text-[#3D3D3D]  mt-4">
             {[
-              "Integrated design and execution",
-              "Energy-efficient systems",
-              "Code-compliant installations",
-              "Scalable and cost-effective solutions",
+              "Mechanical services include heating, ventilation, air conditioning (HVAC), and fire-fighting systems.",
+              "Electrical services cover power supply, lighting, backup systems, and communication networks",
+              "Plumbing services include water supply, drainage, sanitation, and gas systems."
             ].map((item, index) => (
               <li key={index} className="flex items-start space-x-3">
                 <CheckCircle className="text-[#889F2D] w-5 h-5 mt-1 shrink-0" />
@@ -37,6 +37,8 @@ export default function MepIntroduction() {
               </li>
             ))}
           </ul>
+
+          <p className="content text-[#3D3D3D]  text-left lg:mt-5 ">Together, MEP services ensure efficient operation, safety, comfort, and proper maintenance of buildings and facilities.</p>
 
  </div>
 

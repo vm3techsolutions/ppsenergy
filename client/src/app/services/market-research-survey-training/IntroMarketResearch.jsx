@@ -19,7 +19,7 @@ export default function IntroMarketResearch() {
  <div>
       {/* Description */}
           <p className="content text-[#3D3D3D]  text-left ">
-           In today’s competitive business environment, informed decision-making is the key to success. At <b className=''>PPS Energy Solutions</b>, we provide comprehensive Market Research, Survey, and Training solutions that help organizations understand their customers, measure performance, and enhance team capabilities. <br /><br />
+           In today’s competitive business environment, informed decision-making is the key to success. At <span className="font-semibold text-[#889F2D]">PPS Energy Solutions</span> we provide comprehensive Market Research, Survey, and Training solutions that help organizations understand their customers, measure performance, and enhance team capabilities. <br /><br />
            Our approach blends analytical expertise, field intelligence, and practical training to deliver actionable insights and sustainable business growth.
            </p>
 

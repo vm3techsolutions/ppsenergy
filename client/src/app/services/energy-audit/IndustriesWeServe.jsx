@@ -22,7 +22,7 @@ export default function IndustriesWeServe() {
   ];
 
   return (
-    <section className="common-section  bg-[#F9FAFB]">
+    <section className="common-section  ">
       <div className="text-center mb-10">
         <h3 className="title text-[#889F2D]">Clients We Serve</h3>
         <h2 className="center-section-heading">Our energy audit expertise spans across</h2>

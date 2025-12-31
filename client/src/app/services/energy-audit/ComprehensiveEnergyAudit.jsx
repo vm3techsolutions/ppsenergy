@@ -17,8 +17,8 @@ export default function ComprehensiveEnergyAudit() {
         {/* <div className="text-center md:text-left lg:mr-[100px]"> */}
           
           <p className="content text-[#3D3D3D]  text-left  lg:mr-[100px] ">
-            An Energy Audit is a systematic assessment of your facility’s energy use to identify areas of wastage, inefficiency, and potential savings. Our experts analyze your energy consumption patterns and recommend actionable solutions that help reduce costs, increase operational efficiency, and improve environmental sustainability.<br/><br/>
-            The essential foundation required to identify energy-saving opportunities is to analyse the current situation. An energy audit is key to the energy management system. The energy audit is designed to determine why, when, where and how energy is used in the industry.
+            An energy audit is a structured review of how energy is used in a facility to identify wastage, inefficiencies, and opportunities for cost savings. Our experts analyze your energy consumption patterns and recommend actionable solutions that help reduce costs, increase operational efficiency, and improve environmental sustainability.<br/><br/>
+            Energy audit supports environmental sustainability by reducing energy consumption and emissions, and it assists organizations in planning effective energy-saving measures while ensuring better compliance with energy regulations.
           </p>
        
     

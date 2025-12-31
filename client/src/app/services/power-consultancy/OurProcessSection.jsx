@@ -9,7 +9,7 @@ export default function OurProcessSection() {
     <section className='flex flex-col justify-center pt-[50px] pb-[50px] bg-[#F9FAFB]'>
         <div className="text-center mb-10">
         <h3 className="title text-[#889F2D]">How We Work</h3>
-        <h2 className="center-section-heading">How we work - from analysis to action</h2>
+        <h2 className="center-section-heading">From analysis to action</h2>
         <p className="content text-[#3D3D3D]">We follow a structured, transparent, and data-driven approach to ensure measurable outcomes for every client. </p>
         </div>
     

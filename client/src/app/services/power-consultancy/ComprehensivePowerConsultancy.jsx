@@ -17,16 +17,17 @@ export default function ComprehensivePowerConsultancy() {
  <div>
       {/* Description */}
           <p className="content text-[#3D3D3D]  text-left ">
-            At <span className="font-semibold text-[#889F2D]">PPS Energy Solutions</span>, 
-            we specialize in delivering end-to-end power consultancy solutions 
-            designed to help industries, businesses, and infrastructure projects 
-            optimize their energy systems. From feasibility studies and load 
-            assessments to project implementation and energy audits, our expertise 
-            ensures that every unit of power you use drives maximum value.
 
-         
+            At <span className="font-semibold text-[#889F2D]">PPS Energy Solutions</span>, we specialize in delivering end-to-end power consultancy solutions designed to help industries, businesses, and infrastructure projects optimize their energy systems
 
+            <br /><br />
+            Power consultancy helps in planning electrical systems, reducing energy expenses, avoiding power failures, and ensuring safe and smooth operation of power distribution systems
+
+            <br /><br />
+            We help DISCOMs, TRANSCOMs, and GENCOs improve energy efficiency and operations with our reliable and effective energy solutions. 
           </p>
+
+
               {/* Highlights */}
           <ul className="space-y-3 content text-[#3D3D3D]  mt-4">
             {[

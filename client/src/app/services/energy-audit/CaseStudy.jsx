@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function CaseStudy() {
   return (
-    <section className='common-section '>
+    <section className='common-section bg-[#F9FAFB]'>
         <div className="text-center mb-10">
         <h3 className="title text-[#889F2D]">Case Study</h3>
         <h2 className="center-section-heading">

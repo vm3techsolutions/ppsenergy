@@ -19,7 +19,9 @@ export default function IntroductionSafetyAudit() {
  <div>
       {/* Description */}
           <p className="content text-[#3D3D3D]  text-left ">
-            Safety Audits are systematic evaluations of workplace safety standards, policies, and procedures. Our team of certified safety engineers and auditors conduct detailed assessments to ensure your operations meet national and international safety standards. We not only identify potential hazards but also help in creating practical, sustainable safety solutions that enhance employee well-being and operational efficiency.
+          A safety audit is a systematic examination of workplace practices, equipment, and systems to ensure that safety standards and regulations are being followed. It helps identify potential hazards, unsafe conditions, and risks that could lead to accidents or injuries. The audit also recommends corrective actions to improve safety, protect employees, and create a safer working environment.  
+          <br />  <br />
+          Our team of certified safety engineers and auditors conduct detailed assessments to ensure your operations meet national and international safety standards
 
          
 

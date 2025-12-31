@@ -72,7 +72,7 @@ export default function Header() {
       {/* Logo */}
       <Link href="/">
         <Image
-          src="/assets/home/PPSLogo.jpeg"
+          src="/assets/home/PPSEnergyTrademarkLogoNewOne.png"
           alt="Logo"
           width={150}
           height={38}

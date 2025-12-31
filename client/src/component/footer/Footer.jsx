@@ -14,7 +14,7 @@ export default function Footer() {
 
         <Link href="/">
         <Image
-          src="/assets/home/PPSLogo.jpeg"
+          src="/assets/home/PPSEnergyTrademarkLogoNewOne.png"
           alt="Logo"
           width={170}
           height={42}

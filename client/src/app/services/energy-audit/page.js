@@ -6,6 +6,7 @@ import OurEnergyAuditApproach from './OurEnergyAuditApproach'
 import EnergyAuditBenifits from './EnergyAuditBenifits'
 import IndustriesWeServe from './IndustriesWeServe'
 import CaseStudy from './CaseStudy'
+import TypesEnergyAudit from './TypesEnergyAudit'
 // import EnergyAuditBottomBanner from './EnergyAuditBottomBanner'
 
 export default function page() {
@@ -15,6 +16,7 @@ export default function page() {
     <ComprehensiveEnergyAudit/>
     <OurEnergyAuditApproach/>
     <EnergyAuditBenifits/>
+    <TypesEnergyAudit/>
     <IndustriesWeServe/>
     <CaseStudy/>
     {/* <EnergyAuditBottomBanner/> */}

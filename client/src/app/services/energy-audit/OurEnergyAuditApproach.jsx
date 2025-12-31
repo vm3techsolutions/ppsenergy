@@ -77,7 +77,9 @@ export default function OurEnergyAuditApproach() {
         <div className="text-center md:text-left">
           
           <p className="content text-[#3D3D3D]  text-left text-sm sm:text-base md:text-lg">
-            Our certified and experienced auditors systematically collect and analyse the significant energy flows and losses by visiting your site and interview your facility manager, inspect your lighting, air conditioning, heating and ventilation equipment, controls, refrigeration, air compressors, water consuming equipment, and anything else that is using energy. <br/><br/>Depending on the type of the audit, the auditor may take measurements of temperatures, pressures, light levels, power draw, and other things.
+            An energy audit follows a clear and simple step-by-step approach to understand how energy is used and how it can be saved. Our certified and experienced auditors systematically collect and analyse the significant energy flows and losses by visiting your site and interview your facility manager, inspect your lighting, air conditioning, heating and ventilation equipment, controls, refrigeration, air compressors, water consuming equipment, and anything else that is using energy.
+            <br/><br/>
+            After this, measurements and data analysis are done to understand actual energy consumption and efficiency levels. Based on this analysis, areas of energy wastage are identified and practical energy-saving opportunities are listed. Each recommendation is then evaluated for cost, savings, and payback period. Finally, a clear report is prepared with findings, savings potential, and simple action steps for implementation and improvement.
           </p>
         </div>
 

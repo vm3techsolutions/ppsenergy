@@ -16,7 +16,7 @@ export default function ValueAdditionAndBenifitsMep() {
            
 {/* 1st Box section */}
               
-            <div className='grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-1 gap-y-4 lg:gap-y-20 lg:mr-[50px] gap-2'>
+            <div className='grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-1 gap-y-4 lg:gap-y-30 lg:mr-[50px] gap-2'>
 
 {/* Box-1 */}
 
@@ -26,7 +26,7 @@ export default function ValueAdditionAndBenifitsMep() {
                      initial={{ opacity: 0, y: -20 }}
                      whileInView={{ opacity: 1, y: 0 }}
                      transition={{ duration: 0.6 }}>  
-            <div className="flex items-start gap-3 sm:gap-4 text-left">
+            <div className="flex items-start gap-3 sm:gap-4 text-left pt-5">
             <div className="shrink-0 flex items-center justify-center bg-[#889F2D] text-white font-semibold rounded-full w-8 h-8 sm:w-10 sm:h-10 text-base sm:text-lg">1</div>
             <h3 className="title text-[#7B0000] "> End-to-end MEP design, execution, and maintenance under one roof</h3>
             </div>
@@ -42,17 +42,6 @@ export default function ValueAdditionAndBenifitsMep() {
             <h3 className="title text-[#7B0000] ">Focus on sustainability and energy efficiency</h3>
             </div>
             </motion.div> 
-
-             <motion.div
-                     initial={{ opacity: 0, y: -20 }}
-                     whileInView={{ opacity: 1, y: 0 }}
-                     transition={{ duration: 0.6 }}>
-            <div className="flex items-start gap-3 sm:gap-4 text-left">
-            <div className="shrink-0 flex items-center justify-center bg-[#889F2D] text-white font-semibold rounded-full w-8 h-8 sm:w-10 sm:h-10 text-base sm:text-lg">3</div>
-            <h3 className="title text-[#7B0000] ">Multi-disciplinary coordination for reduced project delays</h3>
-            </div>
-            </motion.div>
-            
            </div>
                
            
@@ -69,15 +58,15 @@ export default function ValueAdditionAndBenifitsMep() {
            
 {/* Vision Box */}
                 
-            <div className='grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-1 gap-y-4 lg:gap-y-20 lg:ml-[50px] gap-2'>
+            <div className='grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-1 gap-y-4 lg:gap-y-30 lg:ml-[50px] gap-2'>
 
 {/* Box-2 */}
              <motion.div
                      initial={{ opacity: 0, y: -20 }}
                      whileInView={{ opacity: 1, y: 0 }}
                      transition={{ duration: 0.6 }}>
-            <div className="flex items-start gap-3 sm:gap-4 text-left">
-            <div className="shrink-0 flex items-center justify-center bg-[#889F2D] text-white font-semibold rounded-full w-8 h-8 sm:w-10 sm:h-10 text-base sm:text-lg">4</div>
+            <div className="flex items-start gap-3 sm:gap-4 text-left pt-5">
+            <div className="shrink-0 flex items-center justify-center bg-[#889F2D] text-white font-semibold rounded-full w-8 h-8 sm:w-10 sm:h-10 text-base sm:text-lg">3</div>
             <h3 className="title text-[#7B0000] ">Proven expertise across complex industrial and commercial projects</h3>
             </div>
             </motion.div>
@@ -88,7 +77,7 @@ export default function ValueAdditionAndBenifitsMep() {
                      whileInView={{ opacity: 1, y: 0 }}
                      transition={{ duration: 0.6 }}>
                     <div className="flex items-start gap-3 sm:gap-4 text-left">
-            <div className="shrink-0 flex items-center justify-center bg-[#889F2D] text-white font-semibold rounded-full w-8 h-8 sm:w-10 sm:h-10 text-base sm:text-lg">5</div>
+            <div className="shrink-0 flex items-center justify-center bg-[#889F2D] text-white font-semibold rounded-full w-8 h-8 sm:w-10 sm:h-10 text-base sm:text-lg">4</div>
             <h3 className="title text-[#7B0000] ">Detailed documentation and transparent project reporting</h3>
             </div>
               </motion.div>
