@@ -15,7 +15,7 @@ export default function AboutUsSecond() {
            Welcome to PPS Energy Solutions
           </h2>
           <p className="content text-[#3D3D3D]  text-left text-sm sm:text-base md:text-lg mt-2.5 lg:mr-20">
-            We, PPS Energy Solutions Private Limited (PPSES) Pune are the strategic organization especially formulated for serving Energy and Power sectors, with proven experience of 3 Million Hours in power regulatory, Energy Audit, MEP, Research and Training in India and abroad.<br/><br/>
+            We, PPS Energy Solutions Private Limited (PPSES) Pune are the strategic organization especially formulated for serving Energy and Power sectors, with proven experience of 3 Million Hours in power regulatory, Energy Audit, MEP, Research and Training, Techno Legal Services  in India and abroad.<br/><br/>
             We are one of the accredited and empanelled energy auditing firms, engaged in Mandatory Energy Audit (MEA) and Measurement & Verification (M&V) under BEE (PAT) Scheme.<br/><br/>
             Our team comprises of Accredited Energy Auditors, Certified Energy Auditors/Manager, Sector Experts, Safety auditors, Distribution and Transmission experts with rich consulting experiences. This makes us one of the most preferred advisory Organization in Energy and Power sector.
           </p>
@@ -29,7 +29,7 @@ export default function AboutUsSecond() {
         <Image
         width={678}
         height={574}
-        src="/assets/home/HomeAboutUs.png"
+        src="/assets/aboutus/AboutUsBellowImage.jpg"
         alt="About Us"
         className="w-full max-w-md md:max-w-full h-[400px] lg:h-[600px] rounded-[20px] shadow-lg object-cover mt-10 lg:mt-0 border-b-12  border-[#889F2D]"/>
       </div>
