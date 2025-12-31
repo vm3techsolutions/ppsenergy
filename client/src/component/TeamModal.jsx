@@ -24,25 +24,7 @@ export default function TeamModal({ member, onClose }) {
         </button>
 
         {/* Profile Header */}
-        <div className="flex flex-col items-center text-center">
-          <Image
-            width={200}
-            height={200}
-            src={member.image}
-            alt={member.name}
-            className="h-[130px] w-[130px]  rounded-full border object-cover shadow-md" />
-
-          <h2 className="team-members-name text-[#7B0000] mt-4">{member.name}</h2>
-          <p className="text-[#889F2D] team-members-designation mb-2">
-            {member.designation}
-          </p>
-
-          {/* {member.linkedin && (
-            <Link href={member.linkedin} target="_blank">
-              <FaLinkedinIn className="text-[#0077b5] text-3xl hover:scale-110 transition-transform" />
-            </Link>
-          )} */}
-        </div>
+       
 
         {/* Details Section */}
         <div className="text-gray-700 mt-6 space-y-4 bulletPoints">
