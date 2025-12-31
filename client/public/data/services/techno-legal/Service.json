@@ -1,0 +1,44 @@
+[
+    {
+      "id" : "1",
+      "image" : "/assets/services/legalServices/LegalDrafting&DocumentationService1.jpg",
+      "title": "Legal Drafting & Documentation",
+      "points": [
+        "Drafting of agreements, contracts, notices & replies",
+        "Vetting and reviewing legal & tender documents",
+        "Drafting affidavits, petitions, applications"
+      ]
+    },
+    {
+      "id" : "2",
+      "image" : "/assets/services/legalServices/RegulatoryRepresentationService2.jpg",
+      "title": "Regulatory Representation",
+      "points": [
+        "Filing & pleading before MERC, APTEL, CERC, District & High Courts",
+        "Representation in hearings & regulatory proceedings",
+        "Support for compliance cases and appeals"
+      ]
+    },
+    {
+      "id" : "3",
+      "image" : "/assets/services/legalServices/Policy&AdvisorySupportService3.jpg",
+      "title": "Policy & Advisory Support",
+      "points": [
+        "Review of policies, regulations & circulars",
+        "Legal opinions and risk assessments",
+        "Regulatory updates and interpretation support"
+      ]
+    },
+    {
+      "id" : "4",
+      "image" : "/assets/services/legalServices/TechnoLegalServices4.jpg",
+      "title": "Techno-Legal Services",
+      "points": [
+        "Technical documentation & DPR/BOQ support",
+        "Regulatory compliance analysis",
+        "Drafting technical submissions and reports"
+      ]
+    }
+]
+
+

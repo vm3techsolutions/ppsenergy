@@ -22,9 +22,9 @@ export default function OurJourney() {
         <Image
         width={260}
         height={205}
-        src="/assets/aboutus/AboutUsOurJourney.png"
+        src="/assets/aboutus/BelowBannerAboutUsSection.jpg"
         alt="About Us"
-        className="w-full h-[350px] lg:h-[850px] object-cover "/>
+        className="w-full h-[350px] lg:h-[850px] object-cover rounded-r-[10px]"/>
         </div>
 
 {/* Text Area  */}

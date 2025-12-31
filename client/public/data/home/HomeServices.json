@@ -46,5 +46,13 @@
         "service_title" : "Project Management Consultancy",
         "service_description" : "At PPS Energy Solutions, we provide end-to-end Project Management Consultancy (PMC) services that bring together planning, engineering, execution, and control — ensuring your projects are delivered on time, within budget, and to the highest quality standards.",
         "service_link" : "/services/project-management-consultancy"
+    },
+
+    {
+        "service_id" : "7",
+        "service_image" : "/assets/services/legalServices/LegalServiceBanner.png",
+        "service_title" : "Techno Legal Services",
+        "service_description" : "PPS Energy Solutions provides legal, regulatory, and techno-legal services for the Energy & Power sector. With 15+ years of expertise, we assist government bodies, utilities, and industries in documentation, litigation support, and compliance-related matters",
+        "service_link" : "/services/legal-and-techno-legal-services"
     }
 ]

@@ -109,9 +109,9 @@ export default function KeyPersonsTeam() {
 <div
   key={member.id}
   onClick={() => setSelected(member)}
-  className="cursor-pointer relative flex flex-col justify-between h-full py-1 px-3"
+  className="cursor-pointer relative flex flex-col justify-between h-full py-1 "
 >
-  <div className="flex flex-col items-center grow text-center">
+  <div className="flex flex-col items-center  text-center">
   
 
     <h3 className="team-members-name mt-4 text-[#7B0000]">

@@ -47,7 +47,7 @@ export default function HomeBanner() {
   ];
 
   return (
-    <section className="relative w-full h-[300px] sm:h-[400px] md:h-[520px] lg:h-[700px]">
+    <section className="relative w-full h-[300px] sm:h-[400px] md:h-[520px] lg:h-[650px]">
       <Swiper
         modules={[Autoplay, Pagination, Navigation]}
         loop

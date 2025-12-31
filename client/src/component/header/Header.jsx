@@ -22,7 +22,8 @@ export default function Header() {
         { href: "/services/safety-audit", label: "SAFETY AUDIT" },
         { href: "/services/mep", label: "MEP" },
         { href: "/services/market-research-survey-training", label: "MARKET RESEARCH, SURVEY & TRAINING" },
-        { href: "/services/project-management-consultancy", label: "PROJECT MANAGEMENT CONSULTANCY" }
+        { href: "/services/project-management-consultancy", label: "PROJECT MANAGEMENT CONSULTANCY" },
+        { href: "/services/legal-and-techno-legal-services", label: "LEGAL & TECHNO-LEGAL SERVICES" }
       ]
     },
 

@@ -1,0 +1,97 @@
+[
+    {
+    "id": 1,
+    "name": "Adv. Dr. Ravi G. Deshmukh",
+    "designation": "Director (Head)",
+    "academic": "Ph.D. (Rural Electrification), MBA (Power), M-Tech, Accredited Energy Auditor",
+    "experience": "24 Years (Technolegal, Regulatory & Electrical Expert, Energy & Power Sector)",
+    "expertise": [
+      "Energy Management",
+      "Renewable Energy",
+      "Steel, Cement, Water Pumping Stations",
+      "Manufacturing, Co-Generation, Pharma",
+      "Multistoried Commercial Buildings",
+      "Electrical Distribution Companies"
+    ],
+    "publications": [
+      "Research paper on Optimization of Rural Electrification Methods 'a comparative analysis of Grid Extension vs. Distributed generation' is published in the Proceedings of Advance Energy Research Conference held in December 2006 at 11T Bombay. The Same Paper is selected by international journal 'Energy for Sustainable Development'.",
+      "Research Paper on 'Modelling of Power loss in Joints of Power Distribution Systems' primed for Prayas (Energy Group) Pune.",
+      "A technical write up on 'Rural Electrification - an overview' published in April issue of e- magazine of Maha discom.",
+      "Project Abandonment Analysis",
+      "Rationalization of Agricultural Tariff",
+      "Thesis submitted to Amravati University towards,  Rural Electrification and economics."
+    ],
+     "image": "/assets/keypersons/Mr. Ravi deshmukh.jpeg",
+    "linkedin": "https://in.linkedin.com/in/adv-dr-ravi-deshmukh-323960a1"
+  },
+  {
+    "id": 2,
+    "name": "Adv. Muktai Bhagwat",
+    "designation": "Legal Advisor",
+    "academic": "Law, B.S.L., LL.B, LL.M (Business & Administrative Laws)",
+    "experience": "10 Years (Legal Expert)",
+    "expertise": [
+      "Legal Drafting",
+      "Law of Contract",
+      "Arbitration & Conciliation",
+      "Electricity Laws",
+      "Administrative Law",
+      "Independent Advocate",
+      "Conveyancing"
+    ],
+     "image": "/assets/keypersons/Muktai Bhagvat.png",
+    "linkedin": "#"
+  },
+  {
+    "id": 3,
+    "name": "Adv. Amit Nalawade",
+    "designation": "Legal Consultant",
+    "academic": "Diploma, B.S.L., LL.B, LL.M",
+    "experience": "15 Years (Legal Expert)",
+    "expertise": [
+      "Legal Consultation",
+      "Advocacy"
+    ],
+    "image": "/assets/aboutus/AboutUsTeam.png",
+    "linkedin": "#"
+  },
+  {
+    "id": 4,
+    "name": "Adv. Shruti Iyer",
+    "designation": "Legal Consultant",
+    "academic": "LLM (AOR)",
+    "experience": "12 Years ",
+    "expertise": [
+      "Legal Consultation",
+      "Advocacy"
+    ],
+    "image": "/assets/aboutus/aoutTeamWorkingwoman.jpeg",
+    "linkedin": "#"
+  },
+  {
+    "id": 5,
+    "name": "Adv. K. Anand",
+    "designation": "Legal Consultant",
+    "academic": "LLM (AOR)",
+    "experience": "12 Years ",
+    "expertise": [
+      "Legal Consultation",
+      "Advocacy"
+    ],
+    "image": "/assets/aboutus/AboutUsTeam.png",
+    "linkedin": "#"
+  },
+  {
+    "id": 6,
+    "name": "Adv. Pratik Kothari",
+    "designation": "Legal Consultant",
+    "academic": "LLM",
+    "experience": "14 Years ",
+    "expertise": [
+      "Legal Consultation",
+      "Advocacy"
+    ],
+    "image": "/assets/aboutus/AboutUsTeam.png",
+    "linkedin": "#"
+  }
+]
