@@ -33,7 +33,7 @@ export default function LatestJobListing() {
               <div className='lg:flex justify-between content'>
                 <p className='content text-[#000000]'>Location: {item.job_location}</p>
                 <p className='content text-[#000000]'>Experience: {item.job_experience}</p>
-                <p className='content text-[#000000] mr-5'>Payement: {item.job_payment}</p>
+                <p className='content text-[#000000] mr-5'>Payment: {item.job_payment}</p>
 
               </div>
               
