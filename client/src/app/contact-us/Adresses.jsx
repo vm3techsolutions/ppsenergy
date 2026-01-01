@@ -22,7 +22,7 @@ export default function Adresses() {
             whileHover={{ scale: 1.05 }}
             className="transition-all h-full" >
             <div className="flex flex-col justify-between items-center p-8 sm:p-10 h-full shadow-lg rounded-b-[10px] hover:shadow-[0_0_15px_#889F2D] transition-shadow duration-300">
-              <FaEnvelope className="text-[#7B0000] text-5xl sm:text-[65px] p-3 rounded-[5px] hover:shadow-2xl transition-shadow duration-300"/>
+              <FaPhone className="text-[#7B0000] text-5xl sm:text-[65px] p-3 rounded-[5px] hover:shadow-2xl transition-shadow duration-300"/>
               <div className="text-center mt-4">
                 <p className="content"><span className="contact-heading">Office Phone :</span> +91-20-25230134</p>
                 <p className="content"><span className="contact-heading">Dr. Ravi Deshmukh :</span> +91-8308327696</p>
@@ -38,7 +38,7 @@ export default function Adresses() {
             whileHover={{ scale: 1.05 }}
             className="transition-all h-full">
             <div className="flex flex-col justify-between items-center p-8 sm:p-10 h-full shadow-lg rounded-b-[10px] hover:shadow-[0_0_15px_#889F2D] transition-shadow duration-300">
-              <FaPhone className="text-[#7B0000] text-5xl sm:text-[65px] p-3 rounded-[5px] hover:shadow-2xl transition-shadow duration-300"/>
+              <FaEnvelope className="text-[#7B0000] text-5xl sm:text-[65px] p-3 rounded-[5px] hover:shadow-2xl transition-shadow duration-300"/>
               <div className="text-center mt-4">
                 <p className="content"><span className="contact-heading">Office Email Id :</span> office@ppsenergy.in</p>
                 <p className="content"><span className="contact-heading">Dr. Ravi Deshmukh :</span> ravi@ppsenergy.in</p>
