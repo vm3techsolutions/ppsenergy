@@ -20,7 +20,7 @@ export default function ServicesMarketResearch() {
        <section className="common-section flex flex-col justify-center bg-[#F9FAFB]">
       <div className="text-center mb-10">
         <h3 className="title text-[#889F2D]">Scope of Services</h3>
-        <h2 className="center-section-heading">Comprehensive Market Research, Survey & Training solutions</h2>
+        <h2 className="center-section-heading">Comprehensive Survey & Training solutions</h2>
         
       </div>
 

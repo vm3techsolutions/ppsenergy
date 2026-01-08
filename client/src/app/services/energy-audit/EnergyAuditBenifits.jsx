@@ -51,7 +51,7 @@ export default function EnergyAuditBenifits() {
             {/* Center Image */}
             <div className="flex justify-center items-center">
               <Image
-                src="/assets/services/energyAudit/EnergyAuditBenifitsImage.png"
+                src="/assets/services/energyAudit/updatedBenifits.jpeg"
                 alt="Team working"
                 width={500}
                 height={500}

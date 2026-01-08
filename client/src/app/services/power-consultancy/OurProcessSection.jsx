@@ -17,7 +17,7 @@ export default function OurProcessSection() {
           <Image
           width={600}
           height={574}
-          src="/assets/services/powerConsultancy/howWeWorks.jpeg"
+          src="/assets/services/powerConsultancy/HowWeWorkPowerConsultancy.jpeg"
           alt="About Us"
           className="w-[700px] h-[300px] lg:h-[600px]  rounded-r-[20px] shadow-lg object-cover opacity-100 "/>
         

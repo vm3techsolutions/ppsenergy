@@ -9,7 +9,7 @@ export default function IntroMarketResearch() {
      <section className='common-section'>
     <div className="text-center mb-10">
 
-      <h2 className="center-section-heading text-center ">About our Market Research, Survey & Training services
+      <h2 className="center-section-heading text-center ">About our Survey & Training Services
       </h2>
     </div>
 

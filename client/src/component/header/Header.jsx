@@ -18,12 +18,13 @@ export default function Header() {
       label: "SERVICES",
       submenu: [
         { href: "/services/energy-audit", label: "ENERGY AUDIT" },
-        { href: "/services/power-consultancy", label: "POWER CONSULTANCY" },
+        { href: "/services/power-consultancy", label: "POWER (T&D) CONSULTANCY" },
         { href: "/services/safety-audit", label: "SAFETY AUDIT" },
-        { href: "/services/mep", label: "MEP" },
-        { href: "/services/market-research-survey-training", label: "MARKET RESEARCH, SURVEY & TRAINING" },
+        { href: "/services/techno-legal-services", label: "TECHNO-LEGAL SERVICES" },
+        { href: "/services/survey-and-training-services", label: "SURVEY & TRAINING SERVICES" },
         { href: "/services/project-management-consultancy", label: "PROJECT MANAGEMENT CONSULTANCY" },
-        { href: "/services/legal-and-techno-legal-services", label: "LEGAL & TECHNO-LEGAL SERVICES" }
+        { href: "/services/mep", label: "MEP" },
+       
       ]
     },
 
@@ -67,7 +68,7 @@ export default function Header() {
 
   return (
     <>
-    {/* <header className="w-full shadow-md bg-white px-6 md:px-16 py-4 flex items-center justify-between relative lg:px-20 menu-items"> */}
+   
     <header className="sticky top-0 z-50 w-full bg-white shadow-md px-6 md:px-16 py-4 flex items-center justify-between lg:px-20 menu-items">
       
       {/* Logo */}

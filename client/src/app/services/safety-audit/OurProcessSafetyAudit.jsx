@@ -16,7 +16,7 @@ export default function OurProcessSafetyAudit() {
           <Image
           width={600}
           height={574}
-          src="/assets/services/safetyAudit/howWeWork.jpeg"
+          src="/assets/services/safetyAudit/UpdatedHowWeWok.jpeg"
           alt="About Us"
           className="w-[700px] h-[300px] lg:h-[700px]  rounded-r-[20px] shadow-lg object-cover opacity-100 "/>
         
