@@ -1,0 +1,57 @@
+[
+{
+"id": 1,
+"title": "MEA (Mandatory Energy Audit)",
+"short_description": "Mandatory energy audit for designated consumers as per BEE regulations focusing on detailed energy flow assessment and cost-saving measures.",
+"full_description": "MEA (Mandatory Energy Audit) in India requires designated consumers (large energy-intensive industries like cement, steel, textiles, etc., and DISCOMs) to conduct regular, detailed energy audits by accredited auditors as per Bureau of Energy Efficiency (BEE) regulations, reporting on energy use, identifying savings, and implementing action plans, primarily under the Perform, Achieve and Trade (PAT) scheme, to improve energy efficiency and meet national conservation goals. These audits, often every three years, verify, monitor, and analyze energy flows with cost-benefit analysis and form the foundation for energy management strategies.",
+"full_description2":"We specialize in mandatory energy audit services. Our expert team conducts comprehensive, data-driven energy audits for designated consumers and industrial establishments, ensuring full regulatory compliance while identifying practical opportunities for energy conservation. Through detailed analysis of electrical, thermal, and process systems, we help industries reduce energy consumption, optimize operating costs, and meet statutory obligations with confidence and accuracy.",
+"image": "/assets/certifications/mea.jpg"
+},
+{
+"id": 2,
+"title": "PAT (Perform, Achieve & Trade)",
+"short_description": "Energy efficiency scheme for reducing energy usage in large industries through target-based cycles.",
+"full_description": "The BEE PAT (Perform, Achieve & Trade) scheme is an energy efficiency program started by the Bureau of Energy Efficiency to reduce energy consumption in large, energy-intensive industries. Under this scheme, big energy users called Designated Consumers (such as power plants, cement, steel, textile, paper, and fertilizer industries) are given specific energy-saving targets for a fixed period called a PAT cycle, which usually lasts three years. The target is decided based on the industry’s past energy use and production level, with the aim of improving overall energy efficiency and reducing energy costs.",
+"full_description2": "During the PAT cycle, industries carry out energy audits and efficiency improvements to meet their targets. At the end of the cycle, the actual energy savings are measured and verified. If an industry saves more energy than its target, it receives Energy Saving Certificates (ESCerts), which can be sold in the market. If it fails to meet the target, it must buy ESCerts or pay a penalty. In this way, the PAT scheme encourages energy saving through both performance and trading, benefiting industries, the economy, and the environment.",
+"highlights": [
+"Reduces energy cost",
+"Improves industrial efficiency",
+"Reduces carbon emissions",
+"Encourages modern technology",
+"Creates energy-saving business opportunities"
+],
+"image": "/assets/certifications/pat.jpg"
+},
+{
+"id": 3,
+"title": "CCTS (Carbon Credit Trading Scheme)",
+"short_description": "Market-based mechanism to reduce greenhouse gas emissions through cap-and-trade system.",
+"full_description": "A Carbon Credit Trading Scheme is a market-based mechanism designed to reduce greenhouse gas (GHG) emissions, especially carbon dioxide (CO₂). In this system, governments or regulators set a limit (cap) on the total amount of emissions allowed for industries or countries. Each carbon credit represents the permission to emit 1 metric tonne of CO₂ (or equivalent GHG). Companies that emit less than their allowed limit earn surplus carbon credits, while companies that emit more than the limit must buy credits to cover their excess emissions.",
+"full_description2": "Technically, the scheme works on the principle of “cap and trade.” Emission limits are allocated based on sector, technology, or historical emissions. Industries reduce emissions by improving energy efficiency, using renewable energy, or adopting cleaner processes. Emission reductions are measured, reported, and verified (MRV) by approved agencies before credits are issued. These credits are then traded on regulated or voluntary carbon markets, creating a financial incentive to cut emissions. In simple terms, polluters pay, and efficient companies earn, which helps reduce overall carbon emissions in a cost-effective and transparent way.",
+"image": "/assets/certifications/ccts.jpg"
+},
+{
+"id": 4,
+"title": "RCO (Renewable Consumption Obligation)",
+"short_description": "Policy requiring industries to consume a fixed percentage of renewable power.",
+"full_description": "A Renewable Consumption Obligation (RCO) is a mandatory policy, particularly in India, requiring designated large electricity consumers (like industries, Discoms) to source a specific percentage of their total power from renewable sources (solar, wind, hydro) to support clean energy goals, evolving from the older Renewable Purchase Obligation (RPO) by focusing on actual consumption and offering compliance through direct use, Renewable Energy Certificates (RECs), or buyouts, with penalties for non-compliance under the Energy Conservation Act, 2001.",
+"full_description2": "We specialize in Renewable Consumption Obligation (RCO) compliance services, supporting industries and establishments in assessing applicability, planning renewable sourcing strategies, REC procurement, documentation, and regulatory reporting. Our technical expertise ensures accurate compliance, optimized renewable integration, and seamless fulfillment of statutory requirements while supporting long-term sustainability and cost efficiency.",
+"image": "/assets/certifications/rco.jpg"
+},
+{
+"id": 5,
+"title": "Green Steel Certification",
+"short_description": "Certification for steel produced using low-carbon and sustainable production methods.",
+"full_description": "Green Steel Certification is a formal system used to verify and label steel produced with low carbon emissions compared to conventional steel. Technically, it evaluates the carbon intensity of steel production, usually measured as tonnes of CO₂ emitted per tonne of crude steel (tCO₂/tcs). Steel made using cleaner technologies—such as renewable energy, hydrogen-based direct reduced iron (DRI), electric arc furnaces (EAF), energy-efficient processes, and high scrap usage—qualifies as green steel when its emissions are below defined benchmark limits.",
+"full_description2": "The certification process involves life cycle assessment (LCA) of steel production, covering emissions from raw material processing, ironmaking, steelmaking, and energy consumption. Independent accredited agencies verify data through measurement, reporting, and verification (MRV) protocols. Based on verified emission levels, steel is graded or labeled as low-carbon or green steel, as per national or international standards (such as emerging frameworks under ISO and national green taxonomy systems). In simple terms, green steel certification confirms that steel is produced with significantly lower carbon emissions, making it suitable for climate-compliant infrastructure, exports, and carbon-reduction commitments.",
+"image": "/assets/certifications/green-steel.jpg"
+},
+{
+"id": 6,
+"title": "ADEETIE",
+"short_description": "Support for deploying energy-efficient technologies in industries.",
+"full_description": "Assistance in Deploying Energy Efficient Technologies in Industries & Establishments refers to technical and financial support provided by government agencies or institutions to help industries reduce energy consumption by adopting proven, high-efficiency technologies. Technically, this assistance focuses on replacing old, inefficient systems—such as motors, boilers, compressors, lighting, HVAC, and process equipment—with energy-efficient alternatives that have lower Specific Energy Consumption (SEC) and better performance.",
+"full_description2": "The support is provided through energy audits, feasibility studies, technology demonstration projects, subsidies, soft loans, performance-linked incentives, and capacity building. Energy savings are estimated using standard measurement and verification (M&V) protocols to ensure real and sustained reductions in energy use. In simple terms, this assistance helps industries identify the right technology, reduce upfront investment costs, ensure verified energy savings, and achieve lower operating costs while meeting energy efficiency and climate goals.",
+"image": "/assets/certifications/adeetie.jpg"
+}
+]

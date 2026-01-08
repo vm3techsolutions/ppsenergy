@@ -11,6 +11,7 @@ import Testimonials from './home/Testimonials';
 import RecentArticles from './home/RecentArticles';
 import OurClient from './home/OurClient';
 import RequestAQuote from './home/RequestAQuote';
+import HomeCertification from './home/HomeCertification';
 // import Test from './home/Test';
 
 
@@ -20,9 +21,11 @@ export default function Home() {
   return (
     <>
     <HomeBanner/>
+    <HomeCertification/>
+    <HomeServices/>
     <AboutUsFirst/>
     <AboutUsSecond/>
-    <HomeServices/>
+    
     <HowWeWork/>
     <WhyChooseUs/>
     <ProjectHighlights/>

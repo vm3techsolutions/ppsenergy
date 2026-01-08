@@ -27,7 +27,7 @@ export default function Header() {
        
       ]
     },
-
+   { href: "/certification", label: "CERTIFICATION" },
     { href: "/projects", label: "PROJECTS" },
 
      {
@@ -69,7 +69,7 @@ export default function Header() {
   return (
     <>
    
-    <header className="sticky top-0 z-50 w-full bg-white shadow-md px-6 md:px-16 py-4 flex items-center justify-between lg:px-20 menu-items">
+    <header className="sticky top-0 z-50 w-full bg-white shadow-md px-6 md:px-16 py-4 flex items-center justify-between lg:px-10 menu-items">
       
       {/* Logo */}
       <Link href="/">
@@ -82,7 +82,7 @@ export default function Header() {
       </Link>
 
       {/* Desktop Nav */}
-      <nav className="hidden md:flex space-x-6 ">
+      <nav className="hidden md:flex space-x-3 ">
         {links.map((link) => (
           <div key={link.label} className="relative group ">
 
