@@ -89,7 +89,7 @@ export default function HomeServices() {
                 className="flex flex-col bg-white rounded-b-[10px] shadow-lg overflow-hidden hover:shadow-[0_0_25px_#889F2D] transition-shadow duration-300"
               >
                 {/* Image */}
-                <div className="group overflow-hidden">
+                {/* <div className="group overflow-hidden">
                   <Image
                     src={item.image}
                     alt={item.title}
@@ -97,7 +97,7 @@ export default function HomeServices() {
                     height={500}
                     className="w-full h-[250px] object-cover transition-transform duration-300 group-hover:scale-110"
                   />
-                </div>
+                </div> */}
 
                 {/* Content */}
                 <div className="flex flex-col grow px-4 py-4 text-left">

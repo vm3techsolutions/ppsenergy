@@ -27,13 +27,13 @@ export default function Certifications() {
             key={item.id}
             className="bg-white rounded-lg shadow-lg p-5 flex flex-col hover:shadow-[0_0_15px_#889F2D] transition duration-300"
           >
-            <Image
+            {/* <Image
               src={item.image}
               alt={item.title}
               width={500}
               height={300}
               className="w-full h-[220px] object-cover rounded-lg mb-4"
-            />
+            /> */}
 
             <h3 className="team-members-name text-[#889F2D] mb-2">{item.title}</h3>
 
