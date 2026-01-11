@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 
 export default function OurJourney() {
   return (
-    <section className='section-vertical-padding'>
+    <section className='section my-[25px] lg:mt-[75px]'>
         <div className="text-center mb-10 section">
         <h3 className="title text-[#889F2D]">Our Journey</h3>
         <h2 className="center-section-heading">Every milestone is a step towards a greener future
@@ -18,13 +18,14 @@ export default function OurJourney() {
  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-10 ">
 
 {/* Image  */}
-      <div className="relative w-full h-auto overflow-hidden rounded-r-[10px]">
+      <div className="relative w-full rounded-r-[10px]">
   <Image
-    src="/assets/aboutus/BelowBannerAboutUsSection.jpg"
-    alt="About Us"
-    fill
-    className="object-cover"
-  />
+          src="/assets/aboutus/AboutPPSJourneySection.png"
+          alt="About Us"
+          width={448}
+          height={444}
+          className="w-full h-[400px] lg:h-[400px] rounded-[20px] shadow-lg border-b-12 border-[#889F2D]"
+        />
 </div>
 
 

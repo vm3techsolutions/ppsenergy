@@ -13,12 +13,12 @@ export default function Milestones() {
 
   return (
      <section className='common-section flex flex-col justify-center items-center '>
-      <h3 className="title text-[#889F2D] mb-6">Milestones at a Glance</h3>
+      <h3 className="center-section-heading  mb-6">Milestones at a Glance</h3>
 
       {/* center line */}
       <div className="absolute left-1/2 top-0 transform -translate-x-1/2 "></div>
 
-      <div className="space-y-10">
+      <div className="space-y-10 team-members-name">
         {milestoneData.map((item, index) => (
           <motion.div
             key={index}
@@ -39,7 +39,7 @@ export default function Milestones() {
             </div>
 
             {/* timeline dot */}
-            <div className="absolute top-1/2 left-1/2 w-5 h-5 bg-[#7B0000] border-4 border-white rounded-full transform -translate-x-1/2 -translate-y-1/2"></div>
+            <div className="absolute top-1/2 left-1/2 w-5 h-5 bg-[#889F2D] border-4 border-white rounded-full transform -translate-x-1/2 -translate-y-1/2"></div>
           </motion.div>
         ))}
       </div>

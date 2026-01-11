@@ -1,24 +1,77 @@
 [
   {
     "id": 1,
-    "name": "Mr. H S Moorthy",
-    "designation": "Sr. Consultant / Sector Expert",
-    "academic": "AMIE (Elect. / Mech.), Management (XLRI), Certified Energy Auditor",
-    "experience": "35 Years",
+    "name": "Adv. Amit Nalawade",
+    "designation": "Legal Consultant",
+    "academic": "Diploma, B.S.L., LL.B, LL.M",
+    "experience": "15 Years (Legal Expert)",
     "expertise": [
-      "Steel Industry",
-      "Cement Industry",
-      "Water Pumping Stations",
-      "Manufacturing",
-      "Co-Generation",
-      "Pharma Industry",
-      "Commercial Buildings"
+      "Legal Consultation",
+      "Advocacy"
     ],
     "image": "/assets/aboutus/AboutUsTeam.png",
     "linkedin": "#"
   },
   {
     "id": 2,
+    "name": "Adv. Shruti Iyer",
+    "designation": "Legal Consultant",
+    "academic": "LLM (AOR)",
+    "experience": "12 Years ",
+    "expertise": [
+      "Legal Consultation",
+      "Advocacy"
+    ],
+    "image": "/assets/aboutus/aoutTeamWorkingwoman.jpeg",
+    "linkedin": "#"
+  },
+  {
+    "id": 3,
+    "name": "Adv. K. Anand",
+    "designation": "Legal Consultant",
+    "academic": "LLM (AOR)",
+    "experience": "12 Years ",
+    "expertise": [
+      "Legal Consultation",
+      "Advocacy"
+    ],
+    "image": "/assets/aboutus/AboutUsTeam.png",
+    "linkedin": "#"
+  },
+  {
+    "id": 4,
+    "name": "Adv. Pratik Kothari",
+    "designation": "Legal Consultant",
+    "academic": "LLM",
+    "experience": "14 Years ",
+    "expertise": [
+      "Legal Consultation",
+      "Advocacy"
+    ],
+    "image": "/assets/aboutus/AboutUsTeam.png",
+    "linkedin": "#"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Shekhar Kelapure",
+    "designation": "Sr. Consultant",
+    "academic": "BE Electrical, M.Tech, Ph.D, Certified Energy Auditor",
+    "experience": "28 Years (Power System Expert)",
+    "expertise": [
+      "Energy Distribution Companies",
+      "Advanced Metering Framework",
+      "SCADA Network Deployment",
+      "Power Distribution Improvement",
+      "Power Grid Operations",
+      "Renewable Expert",
+      "Energy Audit",
+      "Research Scientist"
+    ],
+    "image": "/assets/aboutus/AboutUsTeam.png",
+    "linkedin": "#"
+  },
+  {
+    "id": 6,
     "name": "Mr. Pramod Kembhavi",
     "designation": "Certified Auditor",
     "academic": "PG Mechanical, Accredited Energy Auditor",
@@ -37,54 +90,156 @@
     "image": "/assets/aboutus/AboutUsTeam.png",
     "linkedin": "#"
   },
-  {
-    "id": 3,
-    "name": "Adv. Amit Nalawade",
-    "designation": "Legal Consultant",
-    "academic": "Diploma, B.S.L., LL.B, LL.M",
-    "experience": "15 Years (Legal Expert)",
+    {
+    "id": 7,
+    "name": "Mr. Ashok K. Deshmukh",
+    "designation": "Sr. Consultant",
+    "academic": "ME Electrical",
+    "experience": "35 Years (Regulatory & Electrical Expert)",
     "expertise": [
-      "Legal Consultation",
-      "Advocacy"
+      "Multistoried Commercial Buildings",
+      "Electrical Distribution Companies",
+      "Third Party Energy Audits",
+      "Tariff Determination",
+      "Electricity Transmission Expert"
+    ],
+     "image": "/assets/aboutus/AboutUsTeam.png",
+    "linkedin": "#"
+  },
+   {
+    "id": 8,
+    "name": "Mr. H S Moorthy",
+    "designation": "Sr. Consultant / Sector Expert",
+    "academic": "AMIE (Elect. / Mech.), Management (XLRI), Certified Energy Auditor",
+    "experience": "35 Years",
+    "expertise": [
+      "Steel Industry",
+      "Cement Industry",
+      "Water Pumping Stations",
+      "Manufacturing",
+      "Co-Generation",
+      "Pharma Industry",
+      "Commercial Buildings"
     ],
     "image": "/assets/aboutus/AboutUsTeam.png",
     "linkedin": "#"
   },
   {
-    "id": 4,
-    "name": "Adv. Shruti Iyer",
-    "designation": "Legal Consultant",
-    "academic": "LLM (AOR)",
-    "experience": "12 Years ",
+    "id": 9,
+    "name": "Mr. Dilip Kumar Behera",
+    "designation": "Sr. Consultant",
+    "academic": "B.Tech, MBA",
+    "experience": "20 Years (Power Distribution Expert)",
     "expertise": [
-      "Legal Consultation",
-      "Advocacy"
-    ],
-    "image": "/assets/aboutus/aoutTeamWorkingwoman.jpeg",
-    "linkedin": "#"
-  },
-  {
-    "id": 5,
-    "name": "Adv. K. Anand",
-    "designation": "Legal Consultant",
-    "academic": "LLM (AOR)",
-    "experience": "12 Years ",
-    "expertise": [
-      "Legal Consultation",
-      "Advocacy"
+      "Gas Based Power Projects",
+      "Load Forecasting",
+      "Network Planning",
+      "Prepaid Metering",
+      "Financial Modeling for Solar",
+      "Energy Audit",
+      "Thermal Power Projects"
     ],
     "image": "/assets/aboutus/AboutUsTeam.png",
     "linkedin": "#"
   },
   {
-    "id": 6,
-    "name": "Adv. Pratik Kothari",
-    "designation": "Legal Consultant",
-    "academic": "LLM",
-    "experience": "14 Years ",
+    "id": 10,
+    "name": "Mr. Dinesh Barhate",
+    "designation": "Sr. Consultant / Certified Energy Auditor",
+    "academic": "BE Electrical, MBA, Certified Energy Auditor",
+    "experience": "20 Years (Energy & Power Sector)",
     "expertise": [
-      "Legal Consultation",
-      "Advocacy"
+      "Power Distribution Network",
+      "Power Substations",
+      "Sales Growth & Budgeting",
+      "Safety Training",
+      "Network Maintenance",
+      "Revenue Audit",
+      "Energy Audit"
+    ],
+    "image": "/assets/aboutus/AboutUsTeam.png",
+    "linkedin": "#"
+  },
+   {
+    "id": 11,
+    "name": "Mr. Dilip Dhakate",
+    "designation": "Sr. Consultant / Certified Energy Auditor",
+    "academic": "BE Mechanical, M.Tech, Certified Energy Auditor",
+    "experience": "37 Years (Energy/Power Sector)",
+    "expertise": [
+      "Power Distribution Companies",
+      "Network Maintenance",
+      "Operations & Maintenance",
+      "DPR Preparation",
+      "Performance Monitoring",
+      "Energy Audit"
+    ],
+    "image": "/assets/aboutus/AboutUsTeam.png",
+    "linkedin": "#"
+  },
+   {
+    "id": 12,
+    "name": "Mr. Asit Kumar Ray",
+    "designation": "Technical Advisor",
+    "academic": "Diploma in Electrical Engineering, BEE Certified Energy Manager",
+    "experience": "25 Years (Technical Advisor)",
+    "expertise": [
+      "Distribution Substations",
+      "Safety Training",
+      "Distribution System Maintenance",
+      "Energy Management",
+      "Capex/Opex Planning",
+      "Substation Design & Upgradation"
+    ],
+     "image": "/assets/aboutus/AboutUsTeam.png",
+    "linkedin": "#"
+  },
+  {
+    "id": 13,
+    "name": "Mr. Benudhar Biswal",
+    "designation": "Finance & Power Research Expert",
+    "academic": "CA, MBA Finance",
+    "experience": "25 Years (Finance Expert)",
+    "expertise": [
+      "Finance & Commerce",
+      "Distribution Company Operations",
+      "Power Plant Financial Analysis",
+      "Revenue Efficiency",
+      "Capital Structure Optimization",
+      "Asset Evaluation",
+      "Liquidation Strategy"
+    ],
+    "image": "/assets/aboutus/AboutUsTeam.png",
+    "linkedin": "#"
+  },
+  {
+    "id": 14,
+    "name": "Mr. Abinash Mishra",
+    "designation": "Power & Revenue Accounting Consultant",
+    "academic": "CA, B.Com",
+    "experience": "18 Years (Revenue Expert)",
+    "expertise": [
+      "Revenue Accounting",
+      "Power Sector Operations",
+      "Cost Capitalization",
+      "Inventory Accounting"
+    ],
+    "image": "/assets/aboutus/AboutUsTeam.png",
+    "linkedin": "#"
+  },
+    {
+    "id": 15,
+    "name": "Mr. Pradip Kumar Kar",
+    "designation": "Revenue & Power Distribution Expert",
+    "academic": "Electrical, MBA",
+    "experience": "29 Years (Distribution Expert)",
+    "expertise": [
+      "Distribution Companies",
+      "Cost Benefit Analysis",
+      "Revenue Management",
+      "Asset Management",
+      "Engineering & Maintenance",
+      "IT Implementation"
     ],
     "image": "/assets/aboutus/AboutUsTeam.png",
     "linkedin": "#"

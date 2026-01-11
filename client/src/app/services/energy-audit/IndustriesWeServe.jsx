@@ -4,20 +4,20 @@ import Image from "next/image";
 export default function IndustriesWeServe() {
   const industries = [
     {
-      title: "Manufacturing & Industrial Plants",
-      image: "/assets/services/energyAudit/ManufacturingAndIndustrialPlants.png",
+      title: "Railways",
+      image: "/assets/services/energyAudit/RailwaysEnergyAudit.jpg",
     },
     {
-      title: "Commercial Buildings & Offices",
-      image: "/assets/services/energyAudit/CommercialBuildingsAndOffices.png",
+      title: "Airports",
+      image: "/assets/services/energyAudit/AirportsEnergyAudit.jpg",
     },
     {
-      title: "Hotels & Hospitality",
-      image: "/assets/services/energyAudit/HotelsAndHospitality.png",
+      title: "Small & Medium Enterprises (SME)",
+      image: "/assets/services/energyAudit/SMEEnergyAudit.jpg",
     },
     {
-      title: "Hospitals & Healthcare Facilities",
-      image: "/assets/services/energyAudit/HospitalsAndHealthcareFacilities.png",
+      title: "Street Lighting & Pumping",
+      image: "/assets/services/energyAudit/StreetLightandPumpingEnergyAudit.jpg",
     },
   ];
 

@@ -55,13 +55,12 @@ export default function HomeServices() {
   }
 
   return (
-    <section className="common-section flex flex-col justify-center relative">
+    <section className="common-section flex flex-col justify-center relative ">
       <div className="text-center mb-10">
-        <h3 className="title text-[#889F2D]">Certification</h3>
-        {/* <h2 className="center-section-heading">Comprehensive energy strategies</h2>
-        <p className="content text-[#3D3D3D]">
-          Comprehensive energy strategies are totally customized for your efficiency and business growth
-        </p> */}
+       <h3 className="title text-[#889F2D]">Our Specialization</h3>
+        <h2 className="center-section-heading">
+          Leading Certifications & Compliance Services
+        </h2>
       </div>
 
       {/* Slider Area */}
@@ -101,7 +100,7 @@ export default function HomeServices() {
 
                 {/* Content */}
                 <div className="flex flex-col grow px-4 py-4 text-left">
-                  <h3 className="team-members-name text-[#889F2D] mb-3 border-b border-[#889F2D] pb-2">
+                  <h3 className="team-members-name text-[#7b0000] mb-3 border-b border-[#7b0000] pb-2">
                     {item.title}
                   </h3>
 
