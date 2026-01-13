@@ -31,7 +31,7 @@ export default function WhyJoinUs() {
         <div className="relative w-full">
           <div className="relative rounded-4xl overflow-hidden">
             <Image
-              src="/assets/career/WhyJoinUs.jpg"
+              src="/assets/gallery/GalleryImg7.jpg"
               alt="Professional working on laptop"
               width={500}
               height={400}
