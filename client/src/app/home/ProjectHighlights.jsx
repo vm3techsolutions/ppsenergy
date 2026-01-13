@@ -119,7 +119,7 @@ export default function ProjectHighlights() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <section className="flex flex-col justify-center bg-[#fcfcfc]">
+    <section className="flex flex-col justify-center ">
       <div className="common-section text-center">
         <h3 className="title text-[#889F2D]">Projects Highlights</h3>
         <h2 className="center-section-heading">Proven results, powering businesses </h2>

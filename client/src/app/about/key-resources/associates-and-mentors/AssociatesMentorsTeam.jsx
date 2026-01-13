@@ -1,11 +1,7 @@
-
 "use client";
 
 import React, { useEffect, useState } from "react";
 import TeamModal from "../../../../component/TeamModal.jsx";
-import { FaLinkedinIn, FaArrowRight } from "react-icons/fa";
-import Image from "next/image";
-import Link from "next/link";
 
 export default function AssociatesMentorsTeam() {
   const [team, setTeam] = useState([]);
@@ -27,53 +23,56 @@ export default function AssociatesMentorsTeam() {
         </p>
       </div>
 
-      {/* First 4 fixed columns */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mt-10">
-        {team.slice(0, 4).map((member) => (
-          <TeamCard key={member.id} member={member} setSelected={setSelected} />
-        ))}
-      </div>
 
-      {/* If extra members exist, center them */}
-      {team.length > 4 && (
-        <div className="flex justify-center gap-10 mt-10 flex-wrap">
-          {team.slice(4).map((member) => (
-            <div key={member.id} className="w-full sm:w-[45%] lg:w-[23%]">
-              <TeamCard member={member} setSelected={setSelected} />
-            </div>
-          ))}
-        </div>
-      )}
+{/* First Row - 4 members */}
+<h3 className="dual-section-heading mt-16 mb-2 text-[#000000]">Legal</h3>
+<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+  {team.slice(0, 4).map((member) => (
+    <div
+      key={member.id}
+      onClick={() => setSelected(member)}
+      className="cursor-pointer relative flex flex-col justify-between h-full py-1 "
+    >
+      <div className="flex flex-col items-center text-center">
+        <h3 className="team-members-name mt-4 text-[#7B0000]">
+          {member.name}
+        </h3>
+
+        <p className="content-section text-center mt-2">
+          {member.designation}
+        </p>
+
+        <button className="buttonTeam my-5">View More</button>
+      </div>
+    </div>
+  ))}
+</div>
+
+{/* Second Row - remaining 4 members */}
+<h3 className="dual-section-heading mt-10 mb-2 text-[#000000]">Energy & Power</h3>
+<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 ">
+  {team.slice(4).map((member) => (
+    <div
+      key={member.id}
+      onClick={() => setSelected(member)}
+      className="cursor-pointer relative flex flex-col justify-between h-full py-1 "
+    >
+      <div className="flex flex-col items-center text-center">
+        <h3 className="team-members-name mt-4 text-[#7B0000]">
+          {member.name}
+        </h3>
+
+        <p className="content-section text-center mt-2">
+          {member.designation}
+        </p>
+
+        <button className="buttonTeam my-5">View More</button>
+      </div>
+    </div>
+  ))}
+</div>
 
       {selected && <TeamModal member={selected} onClose={() => setSelected(null)} />}
     </section>
   );
 }
-
-// ---------------- Card component (unchanged) ----------------
-
-const TeamCard = ({ member, setSelected }) => (
-  <div
-    key={member.id}
-    onClick={() => setSelected(member)}
-    className="cursor-pointer relative flex flex-col justify-between h-full py-1 px-3"
-  >
-    <div className="flex flex-col items-center grow text-center">
-      {/* <Image
-        width={260}
-        height={205}
-        src={member.image}
-        alt={member.name}
-        className="w-full h-[275px] lg:object-cover object-contain object-top mt-2 transition-transform"
-      /> */}
-
-      <h3 className="team-members-name mt-4 text-[#7B0000]">{member.name}</h3>
-      <p className="content-section text-center mt-2">
-        {member.designation}
-      </p>
-      <button className="buttonTeam my-5">View More</button>
-    </div>
-
- 
-  </div>
-);

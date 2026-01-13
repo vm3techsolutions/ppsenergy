@@ -46,7 +46,7 @@ export default function EmpanelmentPoints() {
   return (
     <section className="common-section">
       <div className="text-center mb-10">
-        <h3 className="title text-[#889F2D]">Empanelments</h3>
+        <h3 className="title text-[#889F2D]">Enlist clients and Empanelments</h3>
 
         <h2 className="center-section-heading">
           Recognitions & Associations
@@ -55,7 +55,7 @@ export default function EmpanelmentPoints() {
         <p className="mt-4 mb-10 content">
           PPS Energy Solutions is presently empaneled with various Government and Non-Government 
           organizations across India and overseas for providing services in the Energy and 
-          Power sector. Our empanelments include regulatory commissions, research institutions, 
+          Power sector. Our Enlist clients and Empanelments include regulatory commissions, research institutions, 
           energy development agencies, industries, and global power utilities.
         </p>
       </div>

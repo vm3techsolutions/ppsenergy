@@ -44,7 +44,7 @@ export default function Header() {
           ]
         },
          { href: "/about/our-clients", label: "OUR CLIENTS" },
-          { href: "/about/empanelments", label: "EMPANELMENTS" },
+          { href: "/about/empanelments", label: "Enlist clients and Empanelments" },
       ]
     },
 

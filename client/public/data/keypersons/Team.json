@@ -64,75 +64,11 @@
    "image": "/assets/keypersons/Madan-Bhowmick.jpg",
     "linkedin": "https://in.linkedin.com/in/dr-madan-bhowmick-6a3042107"
   },
+  
+
+ 
   {
     "id": 4,
-    "name": "Dr. Shekhar Kelapure",
-    "designation": "Sr. Consultant",
-    "academic": "BE Electrical, M.Tech, Ph.D, Certified Energy Auditor",
-    "experience": "28 Years (Power System Expert)",
-    "expertise": [
-      "Energy Distribution Companies",
-      "Advanced Metering Framework",
-      "SCADA Network Deployment",
-      "Power Distribution Improvement",
-      "Power Grid Operations",
-      "Renewable Expert",
-      "Energy Audit",
-      "Research Scientist"
-    ],
-    "image": "/assets/aboutus/AboutUsTeam.png",
-    "linkedin": "#"
-  },
-  {
-    "id": 5,
-    "name": "Mr. Ashok K. Deshmukh",
-    "designation": "Sr. Consultant",
-    "academic": "ME Electrical",
-    "experience": "35 Years (Regulatory & Electrical Expert)",
-    "expertise": [
-      "Multistoried Commercial Buildings",
-      "Electrical Distribution Companies",
-      "Third Party Energy Audits",
-      "Tariff Determination",
-      "Electricity Transmission Expert"
-    ],
-     "image": "/assets/aboutus/AboutUsTeam.png",
-    "linkedin": "#"
-  },
-  {
-    "id": 6,
-    "name": "Mr. Shashikant B. Puranik",
-    "designation": "Sector Expert",
-    "academic": "BE Electrical",
-    "experience": "35 Years (Regulatory & Electrical Expert)",
-    "expertise": [
-      "Transmission & Distribution Companies",
-      "Energy Audits",
-      "Project Quality Inspection",
-      "Expert Reviews",
-      "Capacity Building Training"
-    ],
-    "image": "/assets/aboutus/AboutUsTeam.png",
-    "linkedin": "#"
-  },
-  {
-    "id": 7,
-    "name": "Mr. Sandeep Mahadeokar",
-    "designation": "Sr. Consultant",
-    "academic": "BE Electrical, Diploma, MA",
-    "experience": "35 Years (Transmission/Distribution Expert)",
-    "expertise": [
-      "Substation In-charge",
-      "Material Supply & Erection",
-      "Testing & Commissioning",
-      "Substation Establishment",
-      "Energy Audit"
-    ],
-     "image": "/assets/aboutus/AboutUsTeam.png",
-    "linkedin": "#"
-  },
-  {
-    "id": 8,
     "name": "Mr. Prasad Bhosale",
     "designation": "Sr. Manager / Data Analyst Expert",
     "academic": "BE Electrical, MBA",
@@ -148,41 +84,9 @@
      "image": "/assets/keypersons/Prasad Bhosle.jpeg",
     "linkedin": "https://in.linkedin.com/in/bbprasad"
   },
+  
   {
-    "id": 9,
-    "name": "Mr. Hemant Kadu",
-    "designation": "Sr. Consultant",
-    "academic": "Diploma in Electrical Engineering",
-    "experience": "17 Years",
-    "expertise": [
-      "Building Audit Expert",
-      "Distribution Companies",
-      "Project Execution",
-      "Quality Inspection",
-      "Boundary Metering"
-    ],
-   "image": "/assets/keypersons/Hemant N Kadu.jpg",
-    "linkedin": "https://www.linkedin.com/in/hemant-dell-43732319/"
-  },
-  {
-    "id": 10,
-    "name": "Mr. Vinayak Apte",
-    "designation": "Sr. Consultant / Building Energy Audit Expert",
-    "academic": "BE Electrical Engineering",
-    "experience": "14 Years (Building Energy Audit)",
-    "expertise": [
-      "Commercial Buildings",
-      "Electrical Systems",
-      "Investment Grade Energy Audits",
-      "Walk-through Audits",
-      "Power Quality Audit",
-      "Thermography"
-    ],
-    "image": "/assets/keypersons/Vinayak apte.jpeg",
-    "linkedin": "https://in.linkedin.com/in/adv-dr-ravi-deshmukh-323960a1"
-  },
-  {
-    "id": 11,
+    "id": 5,
     "name": "Mr. Rakesh Mahajan",
     "designation": "Manager Operations",
     "academic": "BE (Electrical) MBA (HR) Ph. D. (Business Management)",
@@ -198,7 +102,23 @@
     "linkedin": "#"
   },
   {
-    "id": 12,
+    "id": 6,
+    "name": "Mr. Hemant Kadu",
+    "designation": "Sr. Consultant",
+    "academic": "Diploma in Electrical Engineering",
+    "experience": "17 Years",
+    "expertise": [
+      "Building Audit Expert",
+      "Distribution Companies",
+      "Project Execution",
+      "Quality Inspection",
+      "Boundary Metering"
+    ],
+   "image": "/assets/keypersons/Hemant N Kadu.jpg",
+    "linkedin": "https://www.linkedin.com/in/hemant-dell-43732319/"
+  },
+  {
+    "id": 7,
     "name": "Mr. Jayant Kulkarni ",
     "designation": "Manager BD",
     "academic": "Diploma in computer application BSC (Maths)",
@@ -211,252 +131,6 @@
       "Regulatory Compliance & Operational Reporting"
     ],
     "image": "/assets/keypersons/Mr. Jayant Kulkarni.png",
-    "linkedin": "#"
-  },
-  {
-    "id": 13,
-    "name": "Mr. Dilip Kumar Behera",
-    "designation": "Sr. Consultant",
-    "academic": "B.Tech, MBA",
-    "experience": "20 Years (Power Distribution Expert)",
-    "expertise": [
-      "Gas Based Power Projects",
-      "Load Forecasting",
-      "Network Planning",
-      "Prepaid Metering",
-      "Financial Modeling for Solar",
-      "Energy Audit",
-      "Thermal Power Projects"
-    ],
-    "image": "/assets/aboutus/AboutUsTeam.png",
-    "linkedin": "#"
-  },
-  {
-    "id": 14,
-    "name": "Mr. Dinesh Barhate",
-    "designation": "Sr. Consultant / Certified Energy Auditor",
-    "academic": "BE Electrical, MBA, Certified Energy Auditor",
-    "experience": "20 Years (Energy & Power Sector)",
-    "expertise": [
-      "Power Distribution Network",
-      "Power Substations",
-      "Sales Growth & Budgeting",
-      "Safety Training",
-      "Network Maintenance",
-      "Revenue Audit",
-      "Energy Audit"
-    ],
-    "image": "/assets/aboutus/AboutUsTeam.png",
-    "linkedin": "#"
-  },
-  {
-    "id": 15,
-    "name": "Mr. Dilip Dhakate",
-    "designation": "Sr. Consultant / Certified Energy Auditor",
-    "academic": "BE Mechanical, M.Tech, Certified Energy Auditor",
-    "experience": "37 Years (Energy/Power Sector)",
-    "expertise": [
-      "Power Distribution Companies",
-      "Network Maintenance",
-      "Operations & Maintenance",
-      "DPR Preparation",
-      "Performance Monitoring",
-      "Energy Audit"
-    ],
-    "image": "/assets/aboutus/AboutUsTeam.png",
-    "linkedin": "#"
-  },
-  {
-    "id": 16,
-    "name": "Mr. Asit Kumar Ray",
-    "designation": "Technical Advisor",
-    "academic": "Diploma in Electrical Engineering, BEE Certified Energy Manager",
-    "experience": "25 Years (Technical Advisor)",
-    "expertise": [
-      "Distribution Substations",
-      "Safety Training",
-      "Distribution System Maintenance",
-      "Energy Management",
-      "Capex/Opex Planning",
-      "Substation Design & Upgradation"
-    ],
-     "image": "/assets/aboutus/AboutUsTeam.png",
-    "linkedin": "#"
-  },
-  {
-    "id": 17,
-    "name": "Mr. Benudhar Biswal",
-    "designation": "Finance & Power Research Expert",
-    "academic": "CA, MBA Finance",
-    "experience": "25 Years (Finance Expert)",
-    "expertise": [
-      "Finance & Commerce",
-      "Distribution Company Operations",
-      "Power Plant Financial Analysis",
-      "Revenue Efficiency",
-      "Capital Structure Optimization",
-      "Asset Evaluation",
-      "Liquidation Strategy"
-    ],
-    "image": "/assets/aboutus/AboutUsTeam.png",
-    "linkedin": "#"
-  },
-  {
-    "id": 18,
-    "name": "Mr. Abinash Mishra",
-    "designation": "Power & Revenue Accounting Consultant",
-    "academic": "CA, B.Com",
-    "experience": "18 Years (Revenue Expert)",
-    "expertise": [
-      "Revenue Accounting",
-      "Power Sector Operations",
-      "Cost Capitalization",
-      "Inventory Accounting"
-    ],
-    "image": "/assets/aboutus/AboutUsTeam.png",
-    "linkedin": "#"
-  },
-  {
-    "id": 19,
-    "name": "Mr. Pradip Kumar Kar",
-    "designation": "Revenue & Power Distribution Expert",
-    "academic": "Electrical, MBA",
-    "experience": "29 Years (Distribution Expert)",
-    "expertise": [
-      "Distribution Companies",
-      "Cost Benefit Analysis",
-      "Revenue Management",
-      "Asset Management",
-      "Engineering & Maintenance",
-      "IT Implementation"
-    ],
-    "image": "/assets/aboutus/AboutUsTeam.png",
-    "linkedin": "#"
-  },
-  {
-   "id": 20,
-    "name": "Mr. D. S. Metange",
-    "designation": "HR Admin",
-    "academic": "M. Tech (Electronics and communication)",
-    "experience": "15 Years ",
-    "expertise": [
-      "Employee onboarding & offboarding",
-      "Maintaining employee records (digital & physical)",
-      "HR documentation (offer letters, contracts, ID cards)",
-      "Attendance, leave, and shift management",
-      "Updating HR databases / HRMS"
-    ],
-    "image": "/assets/aboutus/AboutUsTeam.png",
-    "linkedin": "https://in.linkedin.com/in/dattakrushna-metange-a15225191"
-  },
-  {
-   "id": 21,
-    "name": "Mrs. Smriti Ganorkar",
-    "designation": "Sr. Engineer",
-    "academic": "Engineer (IT)",
-    "experience": "5 Years ",
-    "expertise": [
-      "Database design & management",
-      "Network, server & cloud administration",
-      "Cybersecurity & data protection",
-      "IT infrastructure support & optimization"
-    ],
-    "image": "/assets/aboutus/aoutTeamWorkingwoman.jpeg",
-    "linkedin": "#"
-  },
-  {
-   "id": 22,
-    "name": "Mrs. Shruti Joshi",
-    "designation": "Data Analyst",
-    "academic": "MCM BSC Computer Science",
-    "experience": "3 Years ",
-    "expertise": [
-      "Data Cleaning & Preparation ",
-      "Data Analysis & Interpretation ",
-      "Statistical Analysis ",
-      "Data Visualization "
-    ],
-    "image": "/assets/aboutus/aoutTeamWorkingwoman.jpeg",
-    "linkedin": "https://www.linkedin.com/in/shruti-joshi-012b617a"
-  },
-  {
-   "id": 23,
-    "name": "Mr. Amol P. Galwe",
-    "designation": "Sr. Consultant",
-    "academic": "BE (Electronics and Power) ME (Electrical power system)",
-    "experience": "10 Years ",
-    "expertise": [
-      "Power System Analysis & Design ",
-      "Electrical Network Planning  ",
-      "Protection & Control Systems ",
-      "Power Quality & Reliability ",
-      "Standards & Compliance "
-    ],
-    "image": "/assets/aboutus/AboutUsTeam.png",
-    "linkedin": "#"
-  },
-  {
-   "id": 24,
-    "name": "Mr. Vedant Chichmalatpure",
-    "designation": "Site Engineer",
-    "academic": "B. Tech Electrical (Electronics and Power)",
-    "experience": "2 Years ",
-    "expertise": [
-      "Electrical installation & commissioning",
-      "Power distribution & load control ",
-      "Drawing & BOQ review",
-      "Fault troubleshooting & maintenance",
-      "Safety & standards compliance"
-    ],
-    "image": "/assets/aboutus/AboutUsTeam.png",
-    "linkedin": "https://www.linkedin.com/in/vedant26072002"
-  },
-  {
-   "id": 25,
-    "name": "Mr. Chaitanya Salunkhe",
-    "designation": "Site Engineer",
-    "academic": "B. Tech Electrical",
-    "experience": "2 Years ",
-    "expertise": [
-      "Electrical installation & commissioning",
-      "Power distribution & load control ",
-      "Drawing & BOQ review",
-      "Fault troubleshooting & maintenance",
-      "Electrical safety compliance"
-    ],
-    "image": "/assets/aboutus/AboutUsTeam.png",
-    "linkedin": "- https://www.linkedin.com/in/salunkhe-chaitanya-470b65247/"
-  },
-  {
-   "id": 26,
-    "name": "Mr. Ashish Rithe",
-    "designation": "Site Engineer",
-    "academic": "BCA, ITI (Electrician)",
-    "experience": "6 Years ",
-    "expertise": [
-      "Electrical installation & commissioning",
-      "Power distribution & load control ",
-      "Drawing & BOQ review",
-      "Fault troubleshooting & maintenance",
-      "Electrical safety compliance"
-    ],
-    "image": "/assets/aboutus/AboutUsTeam.png",
-    "linkedin": "#"
-  },
-  {
-   "id": 27,
-    "name": "Mr. Darshan Mane",
-    "designation": "Site Engineer",
-    "academic": "BE (mechanical)",
-    "experience": "3 Years ",
-    "expertise": [
-      "Mechanical installation & commissioning",
-      "HVAC, piping & equipment supervision",
-      "Drawing, BOQ & layout review",
-      "Preventive maintenance & troubleshooting",
-      "Safety, quality & site compliance"
-    ],
-    "image": "/assets/aboutus/AboutUsTeam.png",
     "linkedin": "#"
   }
 ]

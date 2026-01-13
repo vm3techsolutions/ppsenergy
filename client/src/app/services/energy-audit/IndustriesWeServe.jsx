@@ -19,6 +19,23 @@ export default function IndustriesWeServe() {
       title: "Hospitals & Healthcare Facilities",
       image: "/assets/services/energyAudit/HospitalsAndHealthcareFacilities.png",
     },
+    {
+      
+      title: "Railways",
+      image: "/assets/services/energyAudit/RailwaysEnergyAudit.jpg",
+    },
+    {
+      title: "Airports",
+      image: "/assets/services/energyAudit/AirportsEnergyAudit.jpg",
+    },
+    {
+      title: "Small & Medium Enterprises (SME)",
+      image: "/assets/services/energyAudit/SMEEnergyAudit.jpg",
+    },
+    {
+      title: "water pumping stations and corporation streetlights",
+      image: "/assets/services/energyAudit/StreetLightandPumpingEnergyAudit.jpg",
+    },
   ];
 
   return (
