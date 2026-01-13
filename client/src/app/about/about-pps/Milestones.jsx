@@ -16,7 +16,7 @@ export default function Milestones() {
       <h3 className="title text-[#889F2D] mb-6">Milestones at a Glance</h3>
 
       {/* center line */}
-      <div className="absolute left-1/2 top-0 transform -translate-x-1/2 "></div>
+      <div className="absolute left-1/2 top-0 transform -translate-x-1/2"></div>
 
       <div className="space-y-10">
         {milestoneData.map((item, index) => (
