@@ -25,7 +25,11 @@ export default function Adresses() {
               <FaPhone className="text-[#7B0000] text-5xl sm:text-[65px] p-3 rounded-[5px] hover:shadow-2xl transition-shadow duration-300"/>
               <div className="text-center mt-4">
                 <p className="content"><span className="contact-heading">Office Phone :</span> +91-20-25230134</p>
+
+                <p className="content"><span className="contact-heading"></span> +91 9022458712</p>
+
                 <p className="content"><span className="contact-heading">Dr. Ravi Deshmukh :</span> +91-8308327696</p>
+                
               </div>
             </div>
           </motion.div>

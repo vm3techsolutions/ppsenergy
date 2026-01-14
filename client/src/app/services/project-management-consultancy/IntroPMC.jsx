@@ -18,7 +18,7 @@ export default function IntroPMC() {
  <div>
       {/* Description */}
           <p className="content text-[#3D3D3D]  text-left ">
-           At PPS Energy Solutions, we provide end-to-end Project Management Consultancy (PMC) services that bring together planning, engineering, execution, and control — ensuring that every project is completed safely, on time, and within budget. <br /><br />
+           At <span className="font-semibold text-[#889F2D]">PPS Energy Solutions</span>, we provide end-to-end Project Management Consultancy (PMC) services that bring together planning, engineering, execution, and control — ensuring that every project is completed safely, on time, and within budget. <br /><br />
            Our experienced team acts as an extension of your organization, offering technical expertise, strategic oversight, and practical guidance across every phase of the project lifecycle.
            </p>
 

@@ -38,6 +38,64 @@
 //   );
 // }
 
+
+
+// "use client";
+// import React from "react";
+// import Image from "next/image";
+// import Link from "next/link";
+
+// export default function AboutUsSecond() {
+//   return (
+//     <section className="common-section flex flex-col md:flex-row items-center gap- px-4 sm:px-6 md:px-16 bg-[#fcfcfc]">
+
+//       {/* Text Section */}
+//       <div className="md:w-9/20 text-center md:text-left">
+//         <h3 className="title text-[#889F2D] text-center">About Us</h3>
+
+//         <h2 className="dual-section-heading text-lg sm:text-xl md:text-2xl text-center">
+//           Welcome to PPS Energy Solutions
+//         </h2>
+
+//         <p className="content text-[#3D3D3D] text-left text-sm sm:text-base md:text-lg mt-2.5 lg:mr-20">
+//           We, PPS Energy Solutions Private Limited (PPSES) Pune are the strategic
+//           organization especially formulated for serving Energy and Power
+//           sectors, with proven experience of 3 Million Hours in power regulatory,
+//           Energy Audit, MEP, Research and Training, Techno Legal Services in India
+//           and abroad.
+//           <br /><br />
+//           We are one of the accredited and empanelled energy auditing firms,
+//           engaged in Mandatory Energy Audit (MEA) and Measurement & Verification
+//           (M&V) under BEE (PAT) Scheme.
+//           <br /><br />
+//           Our team comprises of Accredited Energy Auditors, Certified Energy
+//           Auditors/Manager, Sector Experts, Safety auditors, Distribution and
+//           Transmission experts with rich consulting experiences. This makes us
+//           one of the most preferred advisory Organization in Energy and Power
+//           sector.
+//         </p>
+
+//         <Link href="/about/about-pps">
+//           <button className="button mt-6 lg:mt-10">Know More</button>
+//         </Link>
+//       </div>
+
+//       {/* Image Section */}
+//       <div className="md:w-11/20 w-full">
+//         <Image
+//           src="/assets/home/HomeAboutSection.png"
+//           alt="About Us"
+//           width={678}
+//           height={574}
+//           className="w-full h-[400px] lg:h-[600px] rounded-[20px] shadow-lg border-b-12 border-[#889F2D]"
+//         />
+//       </div>
+
+//     </section>
+//   );
+// }
+
+
 "use client";
 import React from "react";
 import Image from "next/image";
@@ -45,17 +103,17 @@ import Link from "next/link";
 
 export default function AboutUsSecond() {
   return (
-    <section className="common-section flex flex-col md:flex-row items-center gap- px-4 sm:px-6 md:px-16 bg-[#fcfcfc]">
+    <section className="common-section flex flex-col md:flex-row items-center gap-8 px-4 sm:px-6 md:px-16 bg-[#fcfcfc] py-10">
 
       {/* Text Section */}
-      <div className="md:w-9/20 text-center md:text-left">
-        <h3 className="title text-[#889F2D] text-center">About Us</h3>
+      <div className="md:w-1/2 w-full text-center md:text-left">
+     <h3 className="title text-[#889F2D] text-center">About Us</h3>
 
-        <h2 className="dual-section-heading text-lg sm:text-xl md:text-2xl text-center">
+        <h2 className="dual-section-heading text-lg sm:text-xl md:text-2xl text-center md:text-left">
           Welcome to PPS Energy Solutions
         </h2>
 
-        <p className="content text-[#3D3D3D] text-left text-sm sm:text-base md:text-lg mt-2.5 lg:mr-20">
+        <p className="content text-[#3D3D3D] text-sm sm:text-base md:text-lg mt-3">
           We, PPS Energy Solutions Private Limited (PPSES) Pune are the strategic
           organization especially formulated for serving Energy and Power
           sectors, with proven experience of 3 Million Hours in power regulatory,
@@ -79,13 +137,13 @@ export default function AboutUsSecond() {
       </div>
 
       {/* Image Section */}
-      <div className="md:w-11/20 w-full">
+      <div className="md:w-1/2 w-full flex justify-center">
         <Image
           src="/assets/home/HomeAboutSection.png"
           alt="About Us"
           width={678}
           height={574}
-          className="w-full h-[400px] lg:h-[600px] rounded-[20px] shadow-lg border-b-12 border-[#889F2D]"
+          className="w-full h-auto max-w-[600px] rounded-[20px] shadow-lg border-b-8 border-[#889F2D] object-cover"
         />
       </div>
 

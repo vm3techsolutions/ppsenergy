@@ -33,8 +33,8 @@ export default function IndustriesWeServe() {
       image: "/assets/services/energyAudit/SMEEnergyAudit.jpg",
     },
     {
-      title: "water pumping stations and corporation streetlights",
-      image: "/assets/services/energyAudit/StreetLightandPumpingEnergyAudit.jpg",
+      title: "Water Pumping Stations & Corporation Streetlights",
+      image: "/assets/services/energyAudit/WaterPumpingStations.jpeg",
     },
   ];
 

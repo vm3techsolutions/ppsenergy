@@ -28,6 +28,7 @@ export default function Footer() {
       <div className="flex flex-col  lg:ml-10">
         <h3 className="text-[#ffffff]  title">Quick Links</h3>
         <ul className="list-none  text-white text-base space-y-2 mt-4">
+          <li><Link href="/certification">Certification</Link></li>
         <li><Link href="/projects">Project</Link></li>
         <li><Link href="/about/about-pps">About Us</Link></li>
         <li><Link href="/insights/case-studies">Insights</Link></li>
@@ -57,10 +58,12 @@ export default function Footer() {
 
       <div className=' mb-4 mt-2'>
       <p><Link href="Phone: +91 12345 12345">Phone: +91-20-25230134</Link></p>
+       <p className='ml-14'><Link href="Phone: +91 9022458712 ">  +91 9022458712 </Link></p>
       </div>
 
       <div className=' mb-4 mt-2 '>
       <p><Link href="Email: salesppsenergy@gmail.com">Email: salesppsenergy@gmail.com</Link></p>
+      <p className='ml-12'><Link href="Email: office@ppsenergy.in"> office@ppsenergy.in</Link></p>
       </div>
       </div>
 
