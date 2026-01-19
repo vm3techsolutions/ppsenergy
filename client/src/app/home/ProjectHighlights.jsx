@@ -100,9 +100,9 @@ export default function ProjectHighlights() {
     "/assets/projects/RegulatoryCompliancesBanner.jpg",
     "/assets/projects/TECHNOCOMMERCIALBanner.jpg",
     "/assets/projects/EnergyAuditProjectBanner.jpg",
-    "/assets/projects/AMIBannerImage.jpg",
-    "/assets/projects/Project6BG.png",
-    "/assets/services/pmc/pmcInfo.jpeg"
+    "/assets/projects/amimeetering.jpeg",
+    "/assets/projects/SolarProjectBanneruPDATED.jpg",
+    "/assets/projects/Mepbg.jpeg"
   ];
 
   // Matching links for ALL 10 images

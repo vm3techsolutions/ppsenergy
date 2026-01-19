@@ -111,7 +111,7 @@ export default function Certifications() {
     <section className="common-section relative">
       {/* Heading */}
       <div className="text-center mb-12">
-        <h3 className="title text-[#889F2D]">Our Specialization</h3>
+        <h3 className="title text-[#889F2D]">Certifications</h3>
         <h2 className="center-section-heading">
           Leading Certifications & Compliance Services
         </h2>

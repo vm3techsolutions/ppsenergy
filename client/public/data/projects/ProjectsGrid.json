@@ -32,21 +32,21 @@
             "id": 5,
             "name": "AMI / Metering / Feeder Projects",
             "description": "AMI, Smart Metering & Feeder Automation",
-            "image" : "/assets/projects/AMIBannerImage.jpg",
+            "image" : "/assets/projects/amimeetering.jpeg",
             "link": "/projects/ami-metering-feeder"
         },
         {
             "id": 6,
             "name": "Solar EPC Projects",
             "description": "Solar EPC & Renewable Energy Projects",
-            "image" : "/assets/projects/Project6BG.png",
+            "image" : "/assets/projects/SolarProjectBanneruPDATED.jpg",
             "link": "/projects/solar-epc"
         },
         {
             "id": 7,
             "name": "MEP Design & Project Management",
             "description": "MEP Design, Engineering & Project Management",
-            "image" : "/assets/services/pmc/pmcInfo.jpeg",
+            "image" : "/assets/projects/Mepbg.jpeg",
             "link": "/projects/mep-design-project-management"
         }
     ]

@@ -6,7 +6,7 @@ export default function CareerBanner() {
       <div className="absolute inset-0 bg-black/70 flex items-center justify-center">
         <div className="text-center text-white px-4">
           <h1 className="mb-6 heading">
-            Our Specialization
+           Certifications
           </h1>
 
           <div className="text-lg center-section-heading mt-14">
