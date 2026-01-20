@@ -63,11 +63,11 @@ export default function BenifitsPMC() {
     {/* Center Image */}
                <div className="flex flex-col justify-center items-center ">
                <Image
-               src="/assets/services/pmc/BenefitsBannerPMC.png"
+               src="/assets/services/pmc/PMCBenifit.png"
                alt="Team working"
                width={500}
                height={500}
-               className="rounded-[150px] w-full object-cover lg:h-[500px]" />
+               className="rounded-[50px] w-full object-cover lg:h-[500px]" />
                     
                </div>
               

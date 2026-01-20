@@ -48,7 +48,7 @@ export default function ValueAdditionAndBenifitsMep() {
  {/* Center Image */}
             <div className="flex flex-col justify-center items-center ">
             <Image
-            src="/assets/services/energyAudit/EnergyAuditBenifits.png"
+            src="/assets/services/mep/MepBenifit.png"
             alt="Team working"
             width={500}
             height={500}
